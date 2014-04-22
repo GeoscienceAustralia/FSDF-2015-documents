@@ -12,47 +12,46 @@
 				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
 				<UML:Package name="Rail" xmi.id="EAPK_1D876B30_4ED9_4a13_AA19_44868E70D0A9" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 					<UML:ModelElement.stereotype>
-						<UML:Stereotype xmi.idref="EAID_F78A3EEF_A928_43a6_8582_CE1D3EDE7277"/>
+						<UML:Stereotype xmi.idref="EAID_76C83B23_0C49_4724_9A2D_EBFC2BCC9621"/>
 					</UML:ModelElement.stereotype>
 					<UML:ModelElement.taggedValue>
 						<UML:TaggedValue tag="parent" value="EAPK_32C66A0C_5873_47b0_B51C_40410E1DD7DC"/>
 						<UML:TaggedValue tag="created" value="2014-02-19 13:56:51"/>
-						<UML:TaggedValue tag="modified" value="2014-02-19 13:57:20"/>
+						<UML:TaggedValue tag="modified" value="2014-04-22 13:53:57"/>
 						<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 						<UML:TaggedValue tag="xmlpath" value="Transport\Rail.xml"/>
-						<UML:TaggedValue tag="lastloaddate" value="2014-02-19 13:57:14"/>
+						<UML:TaggedValue tag="lastloaddate" value="2014-04-22 13:43:05"/>
 						<UML:TaggedValue tag="lastsavedate" value="2014-02-19 13:57:14"/>
 						<UML:TaggedValue tag="version" value="1.0"/>
 						<UML:TaggedValue tag="isprotected" value="FALSE"/>
 						<UML:TaggedValue tag="usedtd" value="FALSE"/>
-						<UML:TaggedValue tag="owner" value="cox075"/>
 						<UML:TaggedValue tag="xmiver" value="Enterprise Architect XMI/UML 1.3"/>
 						<UML:TaggedValue tag="logxml" value="FALSE"/>
 						<UML:TaggedValue tag="tpos" value="0"/>
-						<UML:TaggedValue tag="packageFlags" value="CRC=0;Recurse=0;VCCFG=FSDF;"/>
+						<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=FSDF;CRC=0;"/>
 						<UML:TaggedValue tag="batchsave" value="0"/>
 						<UML:TaggedValue tag="batchload" value="0"/>
 						<UML:TaggedValue tag="phase" value="1.0"/>
 						<UML:TaggedValue tag="status" value="Proposed"/>
 						<UML:TaggedValue tag="author" value="mroy"/>
 						<UML:TaggedValue tag="complexity" value="1"/>
-						<UML:TaggedValue tag="stereotype" value="Application Schema"/>
+						<UML:TaggedValue tag="stereotype" value="ApplicationSchema"/>
 						<UML:TaggedValue tag="ea_stype" value="Public"/>
 						<UML:TaggedValue tag="tpos" value="0"/>
 						<UML:TaggedValue tag="gentype" value="Java"/>
 					</UML:ModelElement.taggedValue>
 					<UML:Namespace.ownedElement/>
 				</UML:Package>
-				<UML:Stereotype xmi.id="EAID_F78A3EEF_A928_43a6_8582_CE1D3EDE7277" name="Application Schema" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_76C83B23_0C49_4724_9A2D_EBFC2BCC9621" name="ApplicationSchema" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
 			</UML:Namespace.ownedElement>
 		</UML:Model>
-		<UML:TaggedValue tag="gmlProfileSchema" xmi.id="EAID_48460EC2_F0D5_95f0_BE4E_7BBE4D941F6C" value="#NOTES#Description: URL of the schema location of a GML profile (optional)&#xA;" modelElement="MX_EAID_1D876B30_4ED9_4a13_AA19_44868E70D0A9"/>
-		<UML:TaggedValue tag="targetNamespace" xmi.id="EAID_393CD814_DFE7_5fdf_AE06_BF9D0892F8F7" value="FIXME#NOTES#Default: FIXME&#xA;Description: Target XML namespace of the application schema&#xA;" modelElement="MX_EAID_1D876B30_4ED9_4a13_AA19_44868E70D0A9"/>
-		<UML:TaggedValue tag="version" xmi.id="EAID_6F40CEE6_B3D9_2eb3_8D8E_4EBCEC47FFFC" value="FIXME#NOTES#Default: FIXME&#xA;Description: Current version of the application schema&#xA;" modelElement="MX_EAID_1D876B30_4ED9_4a13_AA19_44868E70D0A9"/>
-		<UML:TaggedValue tag="xmlns" xmi.id="EAID_08B91BD2_2805_f328_9B24_73E543D4750F" value="FIXME#NOTES#Default: FIXME&#xA;Description: Namespace prefix to be used as short form of the target namespace&#xA;" modelElement="MX_EAID_1D876B30_4ED9_4a13_AA19_44868E70D0A9"/>
-		<UML:TaggedValue tag="xsdDocument" xmi.id="EAID_6E79370E_C161_abc1_BC73_89AEA8B06CE3" value="FIXME#NOTES#Default: FIXME&#xA;Description: Name of an XML Schema document to create representing the content of this package&#xA;" modelElement="MX_EAID_1D876B30_4ED9_4a13_AA19_44868E70D0A9"/>
+		<UML:TaggedValue tag="gmlProfileSchema" xmi.id="EAID_48460EC2_0C6F_f40c_BE73_B1BD87E9E00A" value="#NOTES#Description: URL of the XSD location of a GML profile&#xA;" modelElement="MX_EAID_1D876B30_4ED9_4a13_AA19_44868E70D0A9"/>
+		<UML:TaggedValue tag="targetNamespace" xmi.id="EAID_393CD814_F041_3bf0_91ED_338EF2DC4E88" value="FIXME#NOTES#Description: Target namespace URI of the Application Schema&#xA;" modelElement="MX_EAID_1D876B30_4ED9_4a13_AA19_44868E70D0A9"/>
+		<UML:TaggedValue tag="version" xmi.id="EAID_6F40CEE6_0A33_550a_960B_C9D993EADD03" value="FIXME#NOTES#Description: Version of the Application Schema&#xA;" modelElement="MX_EAID_1D876B30_4ED9_4a13_AA19_44868E70D0A9"/>
+		<UML:TaggedValue tag="xmlns" xmi.id="EAID_08B91BD2_1FDF_fc1f_8097_B166BB8CA21A" value="FIXME#NOTES#Description: Namespace prefix (or) the abbreviated short form  of the target namespace&#xA;" modelElement="MX_EAID_1D876B30_4ED9_4a13_AA19_44868E70D0A9"/>
+		<UML:TaggedValue tag="xsdDocument" xmi.id="EAID_6E79370E_B4BB_69b4_AB86_A427E1FB6CF4" value="FIXME#NOTES#Description: Valid file name or relative file name of the XSD file to create for representing the contents of the package&#xA;" modelElement="MX_EAID_1D876B30_4ED9_4a13_AA19_44868E70D0A9"/>
 		<UML:TaggedValue tag="xsdEncodingRule" xmi.id="EAID_BCD3CBEE_BBA1_07bb_A6A8_61254E286DBF" value="iso19136_2007#NOTES#Values: iso19136_2007,iso19139_2007,iso19136_2007_INSPIRE_Extensions&#xA;Default: iso19136_2007&#xA;Description: XML Schema encoding rule to apply&#xA;" modelElement="MX_EAID_1D876B30_4ED9_4a13_AA19_44868E70D0A9"/>
 	</XMI.content>
 	<XMI.difference/>
