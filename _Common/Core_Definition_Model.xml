@@ -12,7 +12,7 @@
 				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
 				<UML:Package name="Core Definition Model" xmi.id="EAPK_56927824_526C_4643_B637_B4159E230394" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 					<UML:ModelElement.stereotype>
-						<UML:Stereotype xmi.idref="EAID_1BDA7898_7CA8_4ba0_891C_2B6EE15F9DF5"/>
+						<UML:Stereotype xmi.idref="EAID_3FCC82E0_0031_4178_844D_8717F5F73956"/>
 					</UML:ModelElement.stereotype>
 					<UML:ModelElement.taggedValue>
 						<UML:TaggedValue tag="documentation" value="The AreaHierarchy (AH) package contains common behavior model for any nested hierarchy of areas.  The model addresses issues of navigation and cross referencing between hierarchies and the scoping of topology to versions of hierarchies.&#xA;The hierarchy describes the topological relationships, not the (potentially multiple) alternative geometric descriptions of objects (see package AreaRepresentation)."/>
@@ -865,7 +865,7 @@
 						</UML:Dependency>
 						<UML:Package name="GeometryRepresentation" xmi.id="EAPK_F921DBEF_D104_4dc1_8269_CBE1DABA0AB7" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_E12C0575_BE52_4a6c_8798_766275E0330B"/>
+								<UML:Stereotype xmi.idref="EAID_0894A24B_78C0_4849_822C_A1278C36C38F"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="documentation" value="-- Definition --&#xA;The GeometryRepresentation is the geographical representation of any recorded (versioned) topological unit.  This model provides for multiple geometry representations of an area object independent of its definition, i.e., while a jurisdictional entity remains unchanged (to ensure its spatial relationship with other units), its geographical representation may change over."/>
@@ -1174,7 +1174,7 @@
 						</UML:Package>
 						<UML:Package name="SpatialRelationships" xmi.id="EAPK_8D949D61_F3E9_4bc0_82EC_010B288B22BD" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_E12C0575_BE52_4a6c_8798_766275E0330B"/>
+								<UML:Stereotype xmi.idref="EAID_0894A24B_78C0_4849_822C_A1278C36C38F"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="documentation" value="This model provides a pattern for describing spatial relationships between objects whose definitions (and hence conceptual models) are not directly related.&#xA;&#xA;-- Definition --&#xA;The SpatialRelationship package realizes cross relationships between different spatial domains/packages at potentially diffrent hierarchy levels"/>
@@ -1631,7 +1631,7 @@
 						</UML:Package>
 						<UML:Package name="Unit Definition" xmi.id="EAPK_57A77AE4_7B10_48b8_8C4B_00A43434F708" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_E12C0575_BE52_4a6c_8798_766275E0330B"/>
+								<UML:Stereotype xmi.idref="EAID_0894A24B_78C0_4849_822C_A1278C36C38F"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="documentation" value="-- Definition --&#xA;The UD sub-package contains logical definition and common behavior for any nested hierarchy of units  The model addresses issues of navigation and cross referencing between hierarchies and the scoping of topology to versions of hierarchies. UD describes the topological relationships, not the (potentially multiple) alternative geometric descriptions of objects (see package AD / AR)."/>
@@ -3183,7 +3183,7 @@
 						</UML:Package>
 						<UML:Package name="VersionDefinition" xmi.id="EAPK_755E17B1_0B4C_49cd_A3E8_BE5B91A645A9" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_E12C0575_BE52_4a6c_8798_766275E0330B"/>
+								<UML:Stereotype xmi.idref="EAID_0894A24B_78C0_4849_822C_A1278C36C38F"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="documentation" value="-- Definition --&#xA;VersionDefinition relates to the area model entities, which are defined by the definition process, e.g., transaction processes related to these model entities such as creation, change, deletion etc.  The VersionDefinition can be seen as a common model of metadata to support tracing object definition and source of normative geometry representation where relevant."/>
@@ -3603,10 +3603,10 @@
 						</UML:Package>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
-				<UML:Stereotype xmi.id="EAID_1BDA7898_7CA8_4ba0_891C_2B6EE15F9DF5" name="ApplicationSchema" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_3FCC82E0_0031_4178_844D_8717F5F73956" name="ApplicationSchema" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
-				<UML:Stereotype xmi.id="EAID_E12C0575_BE52_4a6c_8798_766275E0330B" name="Leaf" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_0894A24B_78C0_4849_822C_A1278C36C38F" name="Leaf" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
 				<UML:DataType xmi.id="eaxmiid0" name="GM_Object" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
