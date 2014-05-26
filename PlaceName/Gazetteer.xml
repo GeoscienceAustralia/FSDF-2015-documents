@@ -12,7 +12,7 @@
 				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
 				<UML:Package name="FSDFGazetteer" xmi.id="EAPK_4FE4B4AC_23C1_4804_8B96_0DD2A5EC0B07" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 					<UML:ModelElement.stereotype>
-						<UML:Stereotype xmi.idref="EAID_BB540D84_4149_4dd9_8AF4_172E99BDC359"/>
+						<UML:Stereotype xmi.idref="EAID_AEAD738F_D3EC_4a40_B399_2465CBF74359"/>
 					</UML:ModelElement.stereotype>
 					<UML:ModelElement.taggedValue>
 						<UML:TaggedValue tag="parent" value="EAPK_E6746D67_B30F_409d_AB09_5DD0C648FFE5"/>
@@ -1949,7 +1949,7 @@
 						</UML:Dependency>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
-				<UML:Stereotype xmi.id="EAID_BB540D84_4149_4dd9_8AF4_172E99BDC359" name="Application Schema" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_AEAD738F_D3EC_4a40_B399_2465CBF74359" name="Application Schema" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
 				<UML:DataType xmi.id="eaxmiid0" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
