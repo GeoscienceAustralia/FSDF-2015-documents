@@ -64,6 +64,7 @@
 						</UML:Comment>
 						<UML:Comment xmi.id="EAID_3127AF92_4EC2_4e90_9634_5BA4B83A2636" visibility="public" namespace="EAPK_D95428E8_F4BE_46bf_850B_7596AF1491C9">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="INSPIRE Annex I data specification for &quot;Geographic Names&quot; defines a model for NamedPlace which has&#xA;- one InspireID&#xA;- one or more names&#xA;- one geometry&#xA;- one or more type classifiers&#xA;- optionally, an indication of the map scales (resolution) for which the feature should be viewed&#xA;- optionally, &lt;b&gt;links to related feature instances included in other data themes &lt;/b&gt;&#xA;- lifecycle information&#xA;The 'GeographicName' datatype supports a range of linguistic and localization propeties. &#xA;&#xA;This model is not related in any explicit way to the ISO standards. &#xA;However, it does introduce the notion that a NamedPlace (or Gazetteer entry) provides a simplified view of feature(s) that appear with additional properties in a thematic dataset. &#xA;This places the gazetteer as a lowest common denominator index of identified features, the details of which may be expressed in more specialized datasets. &#xA;&#xA;Since FSDF proposes a comprehensive suite of datamodels, this requirement is useful and should be reflected in the FSDF Gazetteer model. "/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Note"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
@@ -71,7 +72,7 @@
 								<UML:TaggedValue tag="isActive" value="false"/>
 								<UML:TaggedValue tag="package" value="EAPK_D95428E8_F4BE_46bf_850B_7596AF1491C9"/>
 								<UML:TaggedValue tag="date_created" value="2014-05-28 20:20:28"/>
-								<UML:TaggedValue tag="date_modified" value="2014-05-28 20:20:39"/>
+								<UML:TaggedValue tag="date_modified" value="2014-05-29 13:25:16"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="Requirements"/>
@@ -124,6 +125,7 @@
 										<UML:Stereotype name="Functional"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="INSPIRE Annex I data specification for &quot;Geographic Names&quot; defines a model for NamedPlace which has&#xA;- one InspireID&#xA;- one or more names&#xA;- one geometry&#xA;- one or more type classifiers&#xA;- optionally, an indication of the map scales (resolution) for which the feature should be viewed&#xA;- optionally, &lt;b&gt;links to related feature instances included in other data themes &lt;/b&gt;&#xA;- lifecycle information&#xA;The 'GeographicName' datatype supports a range of linguistic and localization propeties. &#xA;&#xA;This model is not related in any explicit way to the ISO standards. &#xA;However, it does introduce the notion that a NamedPlace (or Gazetteer entry) provides a simplified view of feature(s) that appear with additional properties in a thematic dataset. &#xA;This places the gazetteer as a lowest common denominator index of identified features, the details of which may be expressed in more specialized datasets. &#xA;&#xA;Since FSDF proposes a comprehensive suite of datamodels, this requirement is useful and should be reflected in the FSDF Gazetteer model. "/>
 										<UML:TaggedValue tag="isAbstract" value="false"/>
 										<UML:TaggedValue tag="isSpecification" value="false"/>
 										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
@@ -132,7 +134,7 @@
 										<UML:TaggedValue tag="isActive" value="false"/>
 										<UML:TaggedValue tag="package" value="EAPK_D95428E8_F4BE_46bf_850B_7596AF1491C9"/>
 										<UML:TaggedValue tag="date_created" value="2014-05-28 15:37:54"/>
-										<UML:TaggedValue tag="date_modified" value="2014-05-28 15:39:29"/>
+										<UML:TaggedValue tag="date_modified" value="2014-05-29 11:58:50"/>
 										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package_name" value="Requirements"/>
@@ -218,6 +220,7 @@
 										<UML:Stereotype name="Functional"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="SIRF defines a CommonGazetteer model, with a GazetteerEntry class which is inspired by the ISO 19112 requirements, with key properties:&#xA;- URI Identifier&#xA;- optional preferred name&#xA;- a link to one source feature&#xA;- a location-type (i.e. feature-type) that classifies the GazetteerEntry&#xA;- a spatial extent, or a representative point location, or both&#xA;- optional multiple alternate names&#xA;and is &lt;b&gt;part of a single gazetteer&lt;/b&gt;. &#xA;&#xA;The &lt;b&gt;Name class supports classification of the name by status and type&lt;/b&gt;. &#xA;&#xA;Links to related features and classifiers (country, source-type, location-type) use URIs that are required to conform to the requirements of a LID. This is because SIRF is particularly concerned with &lt;b&gt;deployment in a persistent linked-data &lt;/b&gt;framework. &#xA;&#xA;The FSDF Place Names model should consider whethr any of these specific requirements apply. The mapping-model should record the correspondences where appropriate. &#xA;&#xA;"/>
 										<UML:TaggedValue tag="isAbstract" value="false"/>
 										<UML:TaggedValue tag="isSpecification" value="false"/>
 										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
@@ -226,7 +229,7 @@
 										<UML:TaggedValue tag="isActive" value="false"/>
 										<UML:TaggedValue tag="package" value="EAPK_D95428E8_F4BE_46bf_850B_7596AF1491C9"/>
 										<UML:TaggedValue tag="date_created" value="2014-05-28 15:39:33"/>
-										<UML:TaggedValue tag="date_modified" value="2014-05-28 15:39:42"/>
+										<UML:TaggedValue tag="date_modified" value="2014-05-29 12:11:45"/>
 										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package_name" value="Requirements"/>
@@ -312,6 +315,7 @@
 										<UML:Stereotype name="Functional"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="A joint W3C/OGC actiivty is developing a Point Of Interest (POI) standard. POI is a slightly different use-case from Gazetteer, &#xA;(i) geometry is limited to points&#xA;(ii) no requirement for any particular authorization (such as Gazetting)&#xA;(iii) there may be some free-form descriptive information about the POI included. &#xA;&#xA;The &lt;b&gt;POI representation is generally simpler than most other models, and may be considered a minimal 'view'&lt;/b&gt;. &#xA;&#xA;The FSDF Gazetteer model needs to be mapped to W3C POI as a potential implementation. "/>
 										<UML:TaggedValue tag="isAbstract" value="false"/>
 										<UML:TaggedValue tag="isSpecification" value="false"/>
 										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
@@ -320,7 +324,7 @@
 										<UML:TaggedValue tag="isActive" value="false"/>
 										<UML:TaggedValue tag="package" value="EAPK_D95428E8_F4BE_46bf_850B_7596AF1491C9"/>
 										<UML:TaggedValue tag="date_created" value="2014-05-27 20:38:05"/>
-										<UML:TaggedValue tag="date_modified" value="2014-05-28 15:43:12"/>
+										<UML:TaggedValue tag="date_modified" value="2014-05-29 13:24:26"/>
 										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package_name" value="Requirements"/>
@@ -343,6 +347,7 @@
 										<UML:Stereotype name="Functional"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="The CGNA WFS-G Gazetteer service may provide input to a data-store or transient representation structured according to the FSDF Gazetteer model. &#xA;&#xA;The WFS-G --&amp;gt; FSDF Gazetteer mapping must provide for lossless capture of all WFS-G classes, attributes and association roles. "/>
 										<UML:TaggedValue tag="isAbstract" value="false"/>
 										<UML:TaggedValue tag="isSpecification" value="false"/>
 										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
@@ -351,7 +356,7 @@
 										<UML:TaggedValue tag="isActive" value="false"/>
 										<UML:TaggedValue tag="package" value="EAPK_D95428E8_F4BE_46bf_850B_7596AF1491C9"/>
 										<UML:TaggedValue tag="date_created" value="2014-05-27 20:43:24"/>
-										<UML:TaggedValue tag="date_modified" value="2014-05-27 20:44:39"/>
+										<UML:TaggedValue tag="date_modified" value="2014-05-29 13:22:07"/>
 										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package_name" value="Requirements"/>
@@ -374,7 +379,7 @@
 										<UML:Stereotype name="Functional"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="documentation" value="Use ISO 19103 UML profile, and ISO 19136 stereotypes and tagged values, in order to enable GML schema generation and ISO 19150 RDF encoding."/>
+										<UML:TaggedValue tag="documentation" value="The UML profile must support generation of GML and OWL representations. &#xA;&#xA;In practice, this means that it should use the ISO 19103 UML profile, and ISO 19136 stereotypes and tagged values. "/>
 										<UML:TaggedValue tag="isAbstract" value="false"/>
 										<UML:TaggedValue tag="isSpecification" value="false"/>
 										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
@@ -383,7 +388,7 @@
 										<UML:TaggedValue tag="isActive" value="false"/>
 										<UML:TaggedValue tag="package" value="EAPK_D95428E8_F4BE_46bf_850B_7596AF1491C9"/>
 										<UML:TaggedValue tag="date_created" value="2014-05-27 20:39:10"/>
-										<UML:TaggedValue tag="date_modified" value="2014-05-28 20:19:32"/>
+										<UML:TaggedValue tag="date_modified" value="2014-05-29 13:19:36"/>
 										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package_name" value="Requirements"/>
@@ -519,6 +524,7 @@
 						</UML:Dependency>
 						<UML:Comment xmi.id="EAID_3DFD6978_42D3_4f7a_A9EA_BAB04F6C422F" visibility="public" namespace="EAPK_D95428E8_F4BE_46bf_850B_7596AF1491C9">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="The CGNA WFS-G Gazetteer service may provide input to a data-store or transient representation structured according to the FSDF Gazetteer model. &#xA;&#xA;The WFS-G --&amp;gt; FSDF Gazetteer mapping must provide for lossless capture of all WFS-G classes, attributes and association roles. "/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Note"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
@@ -526,7 +532,7 @@
 								<UML:TaggedValue tag="isActive" value="false"/>
 								<UML:TaggedValue tag="package" value="EAPK_D95428E8_F4BE_46bf_850B_7596AF1491C9"/>
 								<UML:TaggedValue tag="date_created" value="2014-05-28 20:21:44"/>
-								<UML:TaggedValue tag="date_modified" value="2014-05-28 20:21:51"/>
+								<UML:TaggedValue tag="date_modified" value="2014-05-29 13:25:16"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="Requirements"/>
@@ -543,6 +549,7 @@
 						</UML:Comment>
 						<UML:Comment xmi.id="EAID_588E8805_89C3_47a5_8742_9E55B383A484" visibility="public" namespace="EAPK_D95428E8_F4BE_46bf_850B_7596AF1491C9">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="SIRF defines a CommonGazetteer model, with a GazetteerEntry class which is inspired by the ISO 19112 requirements, with key properties:&#xA;- URI Identifier&#xA;- optional preferred name&#xA;- a link to one source feature&#xA;- a location-type (i.e. feature-type) that classifies the GazetteerEntry&#xA;- a spatial extent, or a representative point location, or both&#xA;- optional multiple alternate names&#xA;and is &lt;b&gt;part of a single gazetteer&lt;/b&gt;. &#xA;&#xA;The &lt;b&gt;Name class supports classification of the name by status and type&lt;/b&gt;. &#xA;&#xA;Links to related features and classifiers (country, source-type, location-type) use URIs that are required to conform to the requirements of a LID. This is because SIRF is particularly concerned with &lt;b&gt;deployment in a persistent linked-data &lt;/b&gt;framework. &#xA;&#xA;The FSDF Place Names model should consider whethr any of these specific requirements apply. The mapping-model should record the correspondences where appropriate. &#xA;&#xA;"/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Note"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
@@ -550,7 +557,7 @@
 								<UML:TaggedValue tag="isActive" value="false"/>
 								<UML:TaggedValue tag="package" value="EAPK_D95428E8_F4BE_46bf_850B_7596AF1491C9"/>
 								<UML:TaggedValue tag="date_created" value="2014-05-28 20:20:43"/>
-								<UML:TaggedValue tag="date_modified" value="2014-05-28 20:21:05"/>
+								<UML:TaggedValue tag="date_modified" value="2014-05-29 13:25:16"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="Requirements"/>
@@ -637,12 +644,12 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="55394"/>
+								<UML:TaggedValue tag="ea_localid" value="55569"/>
 								<UML:TaggedValue tag="ea_sourceName" value="FSDF-Gazetteer to ISO 19112"/>
 								<UML:TaggedValue tag="ea_targetName" value="Align with ISO19112"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Package"/>
 								<UML:TaggedValue tag="ea_targetType" value="Requirement"/>
-								<UML:TaggedValue tag="ea_sourceID" value="50770"/>
+								<UML:TaggedValue tag="ea_sourceID" value="50921"/>
 								<UML:TaggedValue tag="ea_targetID" value="50870"/>
 								<UML:TaggedValue tag="src_visibility" value="Public"/>
 								<UML:TaggedValue tag="src_aggregation" value="0"/>
@@ -740,6 +747,7 @@
 						</UML:Generalization>
 						<UML:Comment xmi.id="EAID_810F05C3_DBB0_43b2_A730_CD88C2885A22" visibility="public" namespace="EAPK_D95428E8_F4BE_46bf_850B_7596AF1491C9">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="A joint W3C/OGC actiivty is developing a Point Of Interest (POI) standard. POI is a slightly different use-case from Gazetteer, &#xA;(i) geometry is limited to points&#xA;(ii) no requirement for any particular authorization (such as Gazetting)&#xA;(iii) there may be some free-form descriptive information about the POI included. &#xA;&#xA;The &lt;b&gt;POI representation is generally simpler than most other models, and may be considered a minimal 'view'&lt;/b&gt;. &#xA;&#xA;The FSDF Gazetteer model needs to be mapped to W3C POI as a potential implementation. "/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Note"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
@@ -747,7 +755,7 @@
 								<UML:TaggedValue tag="isActive" value="false"/>
 								<UML:TaggedValue tag="package" value="EAPK_D95428E8_F4BE_46bf_850B_7596AF1491C9"/>
 								<UML:TaggedValue tag="date_created" value="2014-05-28 20:20:04"/>
-								<UML:TaggedValue tag="date_modified" value="2014-05-28 20:20:22"/>
+								<UML:TaggedValue tag="date_modified" value="2014-05-29 13:25:16"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="Requirements"/>
@@ -764,7 +772,7 @@
 						</UML:Comment>
 						<UML:Comment xmi.id="EAID_8D10868A_C77E_4421_B05D_6DD4CCA6AD27" visibility="public" namespace="EAPK_D95428E8_F4BE_46bf_850B_7596AF1491C9">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="documentation" value="Use ISO 19103 UML profile, and ISO 19136 stereotypes and tagged values, in order to enable GML schema generation and ISO 19150 RDF encoding."/>
+								<UML:TaggedValue tag="documentation" value="The UML profile must support generation of GML and OWL representations. &#xA;&#xA;In practice, this means that it should use the ISO 19103 UML profile, and ISO 19136 stereotypes and tagged values. "/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Note"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
@@ -772,7 +780,7 @@
 								<UML:TaggedValue tag="isActive" value="false"/>
 								<UML:TaggedValue tag="package" value="EAPK_D95428E8_F4BE_46bf_850B_7596AF1491C9"/>
 								<UML:TaggedValue tag="date_created" value="2014-05-28 20:19:44"/>
-								<UML:TaggedValue tag="date_modified" value="2014-05-28 20:19:55"/>
+								<UML:TaggedValue tag="date_modified" value="2014-05-29 13:25:16"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="Requirements"/>
@@ -934,12 +942,12 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="55397"/>
+								<UML:TaggedValue tag="ea_localid" value="55572"/>
 								<UML:TaggedValue tag="ea_sourceName" value="FSDF-Gazetteer to W3C POI"/>
 								<UML:TaggedValue tag="ea_targetName" value="Transformable to W3C POI standard"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Package"/>
 								<UML:TaggedValue tag="ea_targetType" value="Requirement"/>
-								<UML:TaggedValue tag="ea_sourceID" value="50767"/>
+								<UML:TaggedValue tag="ea_sourceID" value="50918"/>
 								<UML:TaggedValue tag="ea_targetID" value="50874"/>
 								<UML:TaggedValue tag="src_visibility" value="Public"/>
 								<UML:TaggedValue tag="src_aggregation" value="0"/>
@@ -1021,7 +1029,7 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="55514"/>
+								<UML:TaggedValue tag="ea_localid" value="55566"/>
 								<UML:TaggedValue tag="ea_sourceName" value="WFS-G version of ISO19112  to FSDF-Gazetteer"/>
 								<UML:TaggedValue tag="ea_targetName" value="Lossless translation from WFS-G (GA/CGNA implementation) "/>
 								<UML:TaggedValue tag="ea_sourceType" value="Package"/>
@@ -1057,52 +1065,52 @@
 				<UML:TaggedValue tag="version" value="1.0"/>
 				<UML:TaggedValue tag="author" value="atk093"/>
 				<UML:TaggedValue tag="created_date" value="2014-05-27 18:28:39"/>
-				<UML:TaggedValue tag="modified_date" value="2014-05-28 20:42:43"/>
+				<UML:TaggedValue tag="modified_date" value="2014-05-29 13:25:16"/>
 				<UML:TaggedValue tag="package" value="EAPK_D95428E8_F4BE_46bf_850B_7596AF1491C9"/>
 				<UML:TaggedValue tag="type" value="Custom"/>
 				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;hl=1;cls=0;"/>
 				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;"/>
 				<UML:TaggedValue tag="ea_localid" value="20509"/>
-				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=2;PPgs.cy=1;DocSize.cx=791;DocSize.cy=1134;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<UML:TaggedValue tag="styleex" value="SaveTag=2B164D16;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=Extended::Requirements;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=2;PPgs.cy=2;DocSize.cx=791;DocSize.cy=1134;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=EB02B042;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=Extended::Requirements;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;"/>
 			</UML:ModelElement.taggedValue>
 			<UML:Diagram.element>
-				<UML:DiagramElement geometry="Left=222;Top=765;Right=337;Bottom=820;" subject="EAID_62F4EB7C_2BB7_4bce_AB66_366C2A7FAE11" seqno="1" style="DUID=41EF71B0;"/>
-				<UML:DiagramElement geometry="Left=97;Top=69;Right=212;Bottom=124;" subject="EAID_124D40C8_9326_4976_91E6_E87DCFC7C80B" seqno="2" style="DUID=5E5FFDD3;"/>
-				<UML:DiagramElement geometry="Left=144;Top=593;Right=259;Bottom=648;" subject="EAID_BEDF8838_26DF_4a44_9384_6E4EF1BCE423" seqno="3" style="DUID=A5208D04;"/>
-				<UML:DiagramElement geometry="Left=492;Top=763;Right=884;Bottom=818;" subject="EAID_3DFD6978_42D3_4f7a_A9EA_BAB04F6C422F" seqno="4" style="DUID=982C74CF;"/>
-				<UML:DiagramElement geometry="Left=490;Top=563;Right=882;Bottom=738;" subject="EAID_9CA6D4C1_3C99_433b_A4D2_1DD105603985" seqno="5" style="DUID=CB799A9C;"/>
-				<UML:DiagramElement geometry="Left=490;Top=25;Right=882;Bottom=80;" subject="EAID_588E8805_89C3_47a5_8742_9E55B383A484" seqno="6" style="DUID=907840F8;"/>
-				<UML:DiagramElement geometry="Left=490;Top=87;Right=882;Bottom=142;" subject="EAID_3127AF92_4EC2_4e90_9634_5BA4B83A2636" seqno="7" style="DUID=09B7477C;"/>
-				<UML:DiagramElement geometry="Left=490;Top=391;Right=882;Bottom=446;" subject="EAID_810F05C3_DBB0_43b2_A730_CD88C2885A22" seqno="8" style="DUID=FBCA8E74;"/>
-				<UML:DiagramElement geometry="Left=491;Top=453;Right=883;Bottom=556;" subject="EAID_8D10868A_C77E_4421_B05D_6DD4CCA6AD27" seqno="9" style="DUID=B5BCB15E;"/>
-				<UML:DiagramElement geometry="Left=350;Top=19;Right=460;Bottom=63;" subject="EAID_7DD6DF72_BA7E_4eb6_B726_9896B598D37E" seqno="10" style="DUID=2091F372;"/>
-				<UML:DiagramElement geometry="Left=350;Top=103;Right=460;Bottom=147;" subject="EAID_624F0EFC_0B51_495b_B573_5C110B3CB749" seqno="11" style="DUID=849CF426;"/>
-				<UML:DiagramElement geometry="Left=82;Top=735;Right=192;Bottom=807;" subject="EAID_7AF597AE_56F5_4f12_94A9_DEFC097D47A5" seqno="12" style="DUID=FB783571;"/>
-				<UML:DiagramElement geometry="Left=350;Top=531;Right=460;Bottom=616;" subject="EAID_E406CD5A_89E4_4f49_B100_4C3E7500CFEE" seqno="13" style="DUID=4FEDD2D2;"/>
-				<UML:DiagramElement geometry="Left=65;Top=458;Right=175;Bottom=530;" subject="EAID_39E9E440_F07B_4fd1_92B5_C1D40BBBAE5C" seqno="14" style="DUID=A9290309;"/>
-				<UML:DiagramElement geometry="Left=350;Top=445;Right=460;Bottom=491;" subject="EAID_97568928_451E_473c_95A3_2C8F2886F1E0" seqno="15" style="DUID=553332AA;"/>
-				<UML:DiagramElement geometry="Left=350;Top=348;Right=460;Bottom=394;" subject="EAID_FDDA115E_DA39_4e9d_A3BF_2C2FEB7B96E3" seqno="16" style="DUID=A599C283;"/>
-				<UML:DiagramElement geometry="Left=65;Top=209;Right=175;Bottom=281;" subject="EAID_A2054BE0_1C22_436d_BCB4_8FADF4051680" seqno="17" style="DUID=53998922;"/>
-				<UML:DiagramElement geometry="Left=350;Top=273;Right=460;Bottom=319;" subject="EAID_A7DC31D6_7155_4db7_9AAC_90A1951AF6F3" seqno="18" style="DUID=7639F305;"/>
-				<UML:DiagramElement geometry="Left=490;Top=149;Right=882;Bottom=384;" subject="EAID_BC2C4685_97A6_46f7_AA58_4D4FEBA47796" seqno="19" style="DUID=F8147302;"/>
-				<UML:DiagramElement geometry="Left=350;Top=187;Right=460;Bottom=233;" subject="EAID_66F7DE93_E6C0_4d39_959C_A572971E9D26" seqno="20" style="DUID=FFA766BE;"/>
+				<UML:DiagramElement geometry="Left=229;Top=920;Right=344;Bottom=975;" subject="EAID_62F4EB7C_2BB7_4bce_AB66_366C2A7FAE11" seqno="1" style="DUID=41EF71B0;"/>
+				<UML:DiagramElement geometry="Left=101;Top=238;Right=216;Bottom=293;" subject="EAID_124D40C8_9326_4976_91E6_E87DCFC7C80B" seqno="2" style="DUID=5E5FFDD3;"/>
+				<UML:DiagramElement geometry="Left=148;Top=762;Right=263;Bottom=817;" subject="EAID_BEDF8838_26DF_4a44_9384_6E4EF1BCE423" seqno="3" style="DUID=A5208D04;"/>
+				<UML:DiagramElement geometry="Left=514;Top=1197;Right=962;Bottom=1276;" subject="EAID_3DFD6978_42D3_4f7a_A9EA_BAB04F6C422F" seqno="4" style="DUID=982C74CF;"/>
+				<UML:DiagramElement geometry="Left=514;Top=1018;Right=962;Bottom=1193;" subject="EAID_9CA6D4C1_3C99_433b_A4D2_1DD105603985" seqno="5" style="DUID=CB799A9C;"/>
+				<UML:DiagramElement geometry="Left=514;Top=259;Right=962;Bottom=506;" subject="EAID_588E8805_89C3_47a5_8742_9E55B383A484" seqno="6" style="DUID=907840F8;"/>
+				<UML:DiagramElement geometry="Left=514;Top=511;Right=962;Bottom=782;" subject="EAID_3127AF92_4EC2_4e90_9634_5BA4B83A2636" seqno="7" style="DUID=09B7477C;"/>
+				<UML:DiagramElement geometry="Left=515;Top=787;Right=963;Bottom=938;" subject="EAID_810F05C3_DBB0_43b2_A730_CD88C2885A22" seqno="8" style="DUID=FBCA8E74;"/>
+				<UML:DiagramElement geometry="Left=514;Top=943;Right=962;Bottom=1012;" subject="EAID_8D10868A_C77E_4421_B05D_6DD4CCA6AD27" seqno="9" style="DUID=B5BCB15E;"/>
+				<UML:DiagramElement geometry="Left=356;Top=313;Right=466;Bottom=357;" subject="EAID_7DD6DF72_BA7E_4eb6_B726_9896B598D37E" seqno="10" style="DUID=2091F372;"/>
+				<UML:DiagramElement geometry="Left=353;Top=381;Right=463;Bottom=425;" subject="EAID_624F0EFC_0B51_495b_B573_5C110B3CB749" seqno="11" style="DUID=849CF426;"/>
+				<UML:DiagramElement geometry="Left=89;Top=890;Right=199;Bottom=962;" subject="EAID_7AF597AE_56F5_4f12_94A9_DEFC097D47A5" seqno="12" style="DUID=FB783571;"/>
+				<UML:DiagramElement geometry="Left=354;Top=700;Right=464;Bottom=785;" subject="EAID_E406CD5A_89E4_4f49_B100_4C3E7500CFEE" seqno="13" style="DUID=4FEDD2D2;"/>
+				<UML:DiagramElement geometry="Left=69;Top=627;Right=179;Bottom=699;" subject="EAID_39E9E440_F07B_4fd1_92B5_C1D40BBBAE5C" seqno="14" style="DUID=A9290309;"/>
+				<UML:DiagramElement geometry="Left=354;Top=614;Right=464;Bottom=660;" subject="EAID_97568928_451E_473c_95A3_2C8F2886F1E0" seqno="15" style="DUID=553332AA;"/>
+				<UML:DiagramElement geometry="Left=354;Top=517;Right=464;Bottom=563;" subject="EAID_FDDA115E_DA39_4e9d_A3BF_2C2FEB7B96E3" seqno="16" style="DUID=A599C283;"/>
+				<UML:DiagramElement geometry="Left=69;Top=378;Right=179;Bottom=450;" subject="EAID_A2054BE0_1C22_436d_BCB4_8FADF4051680" seqno="17" style="DUID=53998922;"/>
+				<UML:DiagramElement geometry="Left=354;Top=442;Right=464;Bottom=488;" subject="EAID_A7DC31D6_7155_4db7_9AAC_90A1951AF6F3" seqno="18" style="DUID=7639F305;"/>
+				<UML:DiagramElement geometry="Left=514;Top=19;Right=962;Bottom=254;" subject="EAID_BC2C4685_97A6_46f7_AA58_4D4FEBA47796" seqno="19" style="DUID=F8147302;"/>
+				<UML:DiagramElement geometry="Left=349;Top=238;Right=459;Bottom=284;" subject="EAID_66F7DE93_E6C0_4d39_959C_A572971E9D26" seqno="20" style="DUID=FFA766BE;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=54;EY=-10;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_566CA0E3_0E3B_42d3_9E1C_DFC49B95DD80" style="Mode=3;EOID=53998922;SOID=7639F305;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_969C7455_1209_47b7_8FCC_6365B22045BE" style="Mode=3;EOID=53998922;SOID=2091F372;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="EDGE=1;SX=9;SY=6;EX=9;EY=6;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_B7349F99_DB05_48d6_8BC1_62C1F195B10F" style="Mode=3;EOID=A599C283;SOID=B5BCB15E;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_1013A9F2_7189_49ad_B984_125FDF539259" style="Mode=3;EOID=7639F305;SOID=FBCA8E74;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_71F88CA4_BF4E_4579_8435_DA8B7D4C349F" style="Mode=3;EOID=849CF426;SOID=09B7477C;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_969C7455_1209_47b7_8FCC_6365B22045BE" style="Mode=3;EOID=53998922;SOID=2091F372;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="EDGE=1;SX=-196;SY=-1;EX=54;EY=-22;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_B7349F99_DB05_48d6_8BC1_62C1F195B10F" style="Mode=3;EOID=A599C283;SOID=B5BCB15E;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="EDGE=1;SX=-190;SY=25;EX=51;EY=-23;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_1013A9F2_7189_49ad_B984_125FDF539259" style="Mode=3;EOID=7639F305;SOID=FBCA8E74;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_71F88CA4_BF4E_4579_8435_DA8B7D4C349F" style="Mode=3;EOID=849CF426;SOID=09B7477C;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_21F05BCB_BA4A_4cc6_86A0_966D6F36DDDD" style="Mode=3;EOID=A9290309;SOID=4FEDD2D2;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=-55;SY=21;EX=53;EY=-36;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_97D6D881_C097_492f_B7F4_E2BB84C79988" style="Mode=3;EOID=53998922;SOID=553332AA;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_4E57B722_66C4_446a_878B_5E36973675A7" style="Mode=3;EOID=A9290309;SOID=553332AA;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=54;EY=21;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_03AF526C_03C2_4647_9884_BA3A41A54144" style="Mode=3;EOID=53998922;SOID=849CF426;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=54;EY=11;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_03AF526C_03C2_4647_9884_BA3A41A54144" style="Mode=3;EOID=53998922;SOID=849CF426;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_A5782E1A_16C0_4f94_9787_67BCAF3EA2F6" style="Mode=3;EOID=A9290309;SOID=A599C283;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_BF00C902_ED97_40a5_90D2_D32173BE4E21" style="Mode=3;EOID=FB783571;SOID=41EF71B0;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_2743DAA3_ACA6_438d_8554_E44A7E654A9F" style="Mode=3;EOID=F8147302;SOID=FFA766BE;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=54;EY=3;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_6590C893_D2D7_448a_8566_1A6F61C78BCC" style="Mode=3;EOID=53998922;SOID=FFA766BE;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=26;SY=-13;EX=26;EY=-105;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_2743DAA3_ACA6_438d_8554_E44A7E654A9F" style="Mode=3;EOID=F8147302;SOID=FFA766BE;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=54;EY=33;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_6590C893_D2D7_448a_8566_1A6F61C78BCC" style="Mode=3;EOID=53998922;SOID=FFA766BE;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_F2CD36C6_514E_4bc0_9956_65A9829B8C5F" style="Mode=3;EOID=2091F372;SOID=907840F8;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_8F8C2852_0EAC_41f9_987D_EF066AD8369D" style="Mode=3;EOID=553332AA;SOID=CB799A9C;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_502CE540_1A06_4db8_9A62_4E483960F9F0" style="Mode=3;EOID=4FEDD2D2;SOID=982C74CF;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="EDGE=1;SX=-192;SY=85;EX=48;EY=-22;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_8F8C2852_0EAC_41f9_987D_EF066AD8369D" style="Mode=3;EOID=553332AA;SOID=CB799A9C;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="EDGE=1;SX=-196;SY=24;EX=-2;EY=-10;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_502CE540_1A06_4db8_9A62_4E483960F9F0" style="Mode=3;EOID=4FEDD2D2;SOID=982C74CF;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_CA9CE35A_1BB4_472e_91B2_55960E4FA4D4" style="Mode=3;EOID=A9290309;SOID=A5208D04;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_1580AA7E_5746_4958_8B5B_51FCE5C112F9" style="Mode=3;EOID=53998922;SOID=5E5FFDD3;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=-55;SY=18;EX=55;EY=-24;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_5A98B22F_2839_4339_8C38_26A7F6C16B7D" style="Mode=3;EOID=53998922;SOID=A599C283;Color=-1;LWidth=0;Hidden=0;"/>
