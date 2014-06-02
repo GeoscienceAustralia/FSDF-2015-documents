@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema 
+xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+xmlns:fsdf-pn-g="http://anzlic.fsdf/def/schema/source/placenames/gazetteer" 
+xmlns:gml="http://www.opengis.net/gml/3.2" 
+xmlns:gmd="http://www.isotc211.org/2005/gmd" 
+xmlns:gmlexr="http://www.opengis.net/gml/3.3/exr" 
+xmlns:fsdf-abt="http://anzlic.com.au/themes/ab/abt"
+targetNamespace="http://anzlic.fsdf/def/schema/source/placenames/gazetteer" elementFormDefault="qualified" version="1.0.0">
+	<xs:import namespace="http://anzlic.com.au/themes/ab/abt" schemaLocation="C://Repos/FSDF/fsdf-au/trunk/Schema/GML Schema/AdminBoundaryTopology.xsd"/>
+	<xs:import namespace="http://www.opengis.net/gml/3.3/exr" schemaLocation="http://schemas.opengis.net/gml/3.3/extdEncRule.xsd"/>
+	<xs:import namespace="http://www.isotc211.org/2005/gmd" schemaLocation="http://schemas.opengis.net/iso/19139/20070417/gmd/gmd.xsd"/>
+	<xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+	<xs:annotation>
+		<xs:documentation>Application schema for gazetteers and their entries, names and codes.</xs:documentation>
+	</xs:annotation>
+	<!-- xmlns:fsdf-core-cdm="http://anzlic.fsdf/def/schema/source/core/cdm" <xs:import namespace="http://anzlic.fsdf/def/schema/source/core/cdm" schemaLocation=
+ -->
+	<xs:element name="Code" type="fsdf-pn-g:CodeType" substitutionGroup="gml:AbstractObject">
+		<xs:annotation>
+			<xs:documentation>A data type to capture where the name of the GazetteerEntry is a code (e.g MEL for Tullamarine Airport)</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="CodeType">
+		<xs:sequence>
+			<xs:element name="value" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Where the name of the GazetteerUnit is a code (e.g MEL for Tullamarine Airport)</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="codeSpace" type="xs:anyURI">
+				<xs:annotation>
+					<xs:documentation>Describes the code</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="CodePropertyType">
+		<xs:sequence>
+			<xs:element ref="fsdf-pn-g:Code"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="gml:OwnershipAttributeGroup"/>
+	</xs:complexType>
+	<xs:element name="Gazetteer" type="fsdf-pn-g:GazetteerType" substitutionGroup="gml:AbstractFeature">
+		<xs:annotation>
+			<xs:documentation>Metadata carrier and access point for sets of gazetteer entries. Gazetteers are hierarchical </xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="GazetteerType">
+		<xs:complexContent>
+			<xs:extension base="gml:AbstractFeatureType">
+				<xs:sequence>
+					<xs:element name="record" type="fsdf-pn-g:GazetteerEntryPropertyType" minOccurs="0" maxOccurs="unbounded"/>
+					<xs:element name="boundingBox" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>The spatial envelope of the gazetteer.</xs:documentation>
+						</xs:annotation>
+						<xs:complexType>
+							<xs:complexContent>
+								<xs:extension base="gml:AbstractMemberType">
+									<xs:sequence>
+										<xs:element ref="gml:Envelope"/>
+									</xs:sequence>
+								</xs:extension>
+							</xs:complexContent>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="custodian" nillable="true">
+						<xs:annotation>
+							<xs:documentation>Count of entries at last harvest.</xs:documentation>
+							<xs:appinfo>
+								<gml:targetElement>gmd:CI_ResponsibleParty</gml:targetElement>
+							</xs:appinfo>
+						</xs:annotation>
+						<xs:complexType>
+							<xs:complexContent>
+								<xs:extension base="gml:AbstractMetadataPropertyType">
+									<xs:sequence/>
+									<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+								</xs:extension>
+							</xs:complexContent>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="description" type="xs:string" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Description of the gazetteer</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="locationType" type="gml:ReferenceType"  nillable="true">
+						<xs:annotation>
+							<xs:documentation>If binding to definition space via SKOS this is a broader term for collections (stadiums, golf courses, bridges).</xs:documentation>
+						</xs:annotation>
+						<!--
+						<xs:complexType>
+							<xs:complexContent>
+								<xs:extension base="gml:AbstractMemberType">
+									<xs:sequence>
+										<xs:element ref="LocationType"/>
+									</xs:sequence>
+								</xs:extension>
+							</xs:complexContent>
+						</xs:complexType> -->
+					</xs:element>
+					
+					<xs:element name="name" type="xs:string" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>The name of the gazetteer</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="status" type="fsdf-pn-g:GazetteerStatusTypeType" nillable="true">
+						<xs:annotation>
+							<xs:documentation>The status of the gazetteer. examples:
+Aggregate
+Defined
+Gazetted
+Published</xs:documentation>
+							<!--<xs:appinfo>
+								<gmlexr:targetCodeList>GazetteerStatusType</gmlexr:targetCodeList>
+							</xs:appinfo> -->
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="unitCount" type="xs:integer" nillable="true">
+						<xs:annotation>
+							<xs:documentation>Count of entries at last harvest.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<!--fsdf-abt
+					<xs:element name="territoryOfUse" type="fsdf-core-cdm:UnitDefinitionPropertyType"/> -->
+					<xs:element name="territoryOfUse" type="fsdf-abt:UnitDefinitionPropertyType"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="GazetteerPropertyType">
+		<xs:sequence minOccurs="0">
+			<xs:element ref="fsdf-pn-g:Gazetteer"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+		<xs:attributeGroup ref="gml:OwnershipAttributeGroup"/>
+	</xs:complexType>
+	<xs:element name="GazetteerEntry" type="fsdf-pn-g:GazetteerEntryType" substitutionGroup="gml:AbstractFeature">
+		<xs:annotation>
+			<xs:documentation>This is a simplified gazetteer entry, which gets its definition, versioning and geometry representation from unit definition. There will be a mapping model to describe the mapping of attributes to the formal profile of ISO 19112 in an operational context.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="GazetteerEntryType">
+		<xs:complexContent>
+			<xs:extension base="gml:AbstractFeatureType">
+				<xs:sequence>
+					<xs:element name="sourceUnit" type="gml:ReferenceType" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>The URI identifier of an FSDF feature if applicable.</xs:documentation>
+							<xs:appinfo>
+								<gml:targetElement>fsdf-core-cdm:UnitDefinition</gml:targetElement>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="boundingBox" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>The spatial envelope of the gazetteer entry.</xs:documentation>
+						</xs:annotation>
+						<xs:complexType>
+							<xs:complexContent>
+								<xs:extension base="gml:AbstractMemberType">
+									<xs:sequence>
+										<xs:element ref="gml:Envelope"/>
+									</xs:sequence>
+								</xs:extension>
+							</xs:complexContent>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="description" type="xs:string" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Description of the Gazetteer entry</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="geographicIdentifier" type="xs:string">
+						<xs:annotation>
+							<xs:documentation>Local Identifier</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="locationType" type="gml:ReferenceType">
+						<xs:annotation>
+							<xs:documentation>Local Identifier</xs:documentation>
+							<xs:appinfo>
+								<gmlexr:targetCodeList>LocationType</gmlexr:targetCodeList>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="name" type="xs:string">
+						<xs:annotation>
+							<xs:documentation>Name of the Gazetteer entry</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="position" type="gml:PointPropertyType" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>The spatial location of the locality.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="recordStatus" type="gml:ReferenceType" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Status of the gazetteer record (e.g. Historial,
+Official, 
+Unofficial
+Misspelling
+Proposed)</xs:documentation>
+							<xs:appinfo>
+								<gmlexr:targetCodeList>RecordStatusType</gmlexr:targetCodeList>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="alternativeName" type="xs:Name" minOccurs="0" maxOccurs="unbounded"/>
+					<xs:element name="preferredName" type="xs:Name" minOccurs="0" maxOccurs="1"/>
+					<xs:element name="featureCode" type="fsdf-pn-g:CodePropertyType" minOccurs="0" maxOccurs="1"/>
+					<xs:element name="relatedObject" type="xs:string" minOccurs="0" maxOccurs="unbounded">
+						<xs:annotation>
+							<xs:documentation>Identifier of a feature or spatial object representing the same entity but appearing in other FSDF themes , if any.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="GazetteerEntryPropertyType">
+		<xs:sequence minOccurs="0">
+			<xs:element ref="fsdf-pn-g:GazetteerEntry"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+		<xs:attributeGroup ref="gml:OwnershipAttributeGroup"/>
+	</xs:complexType>
+	<xs:element name="Name" type="fsdf-pn-g:NameType" substitutionGroup="gml:AbstractObject">
+		<xs:annotation>
+			<xs:documentation>A data type to capture the name and associated properties of the gazetteer entry.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="NameType">
+		<xs:sequence>
+			<xs:element name="language" type="gml:CodeType">
+				<xs:annotation>
+					<xs:documentation>The language that the name is represented in.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="status" type="gml:ReferenceType">
+				<xs:annotation>
+					<xs:documentation>Status of name
+					A list of terms appropriate to describe the status of the locality name.
+The NameStatus should be aligned with the implementation of the version, possibly by direct re-use of CodeLists.
+
+Examples from GA Gazetteer Data Structure and Content are:
+Historial,
+Official, 
+Unofficial
+Misspelling
+Proposed</xs:documentation>
+					<xs:appinfo>
+						<gmlexr:targetCodeList>NameStatus</gmlexr:targetCodeList>
+					</xs:appinfo>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="label" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>name of the gazetteer entry</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="type" type="fsdf-pn-g:NameTypeType">
+				<xs:annotation>
+					<xs:documentation>endonym, exonym etc</xs:documentation>
+					<xs:appinfo>
+						<gmlexr:targetCodeList>NameType</gmlexr:targetCodeList>
+					</xs:appinfo>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="NamePropertyType">
+		<xs:sequence>
+			<xs:element ref="fsdf-pn-g:Name"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="gml:OwnershipAttributeGroup"/>
+	</xs:complexType>
+<xs:simpleType name="GazetteerStatusTypeType">
+		<xs:annotation>
+			<xs:documentation>gazetteer classification. </xs:documentation>
+		</xs:annotation>
+		<xs:union memberTypes="fsdf-pn-g:GazetteerStatusTypeEnumerationType fsdf-pn-g:GazetteerStatusTypeOtherType"/>
+	</xs:simpleType>
+	<xs:simpleType name="GazetteerStatusTypeEnumerationType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Published">
+				<xs:annotation>
+					<xs:documentation>Data set made available through SDI infrastructure</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="Gazetted">
+				<xs:annotation>
+					<xs:documentation>Data set maintained by a designated jurisdictional naming authority. </xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="Defined">
+				<xs:annotation>
+					<xs:documentation>Other data set containing a set of spatial feature identifiers and names.</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="Aggregate">
+				<xs:annotation>
+					<xs:documentation>A virtual gazetteer aggregating other gazetteers for a specific purpose.</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="GazetteerStatusTypeOtherType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="other: \w{2,}"/>
+		</xs:restriction>
+	</xs:simpleType>
+<xs:simpleType name="NameTypeType">
+		<xs:annotation>
+			<xs:documentation>Whether the name is in the native-language version used by its inhabitants (endonym) or the foreign language version (exonym) or unknown. </xs:documentation>
+		</xs:annotation>
+		<xs:union memberTypes="fsdf-pn-g:NameTypeEnumerationType fsdf-pn-g:NameTypeOtherType"/>
+	</xs:simpleType>
+	<xs:simpleType name="NameTypeEnumerationType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Endonym">
+				<xs:annotation>
+					<xs:documentation>A name used by inhabitants of a place in a recognised official language of the place., </xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="Exonym">
+				<xs:annotation>
+					<xs:documentation>A place name used by foreigners instead of the native-language version used by its inhabitants</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="Unknown">
+				<xs:annotation>
+					<xs:documentation>It is not known whether a name is an endonym or exonym, for example because the language has not been positively identified.</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="NameTypeOtherType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="other: \w{2,}"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>
