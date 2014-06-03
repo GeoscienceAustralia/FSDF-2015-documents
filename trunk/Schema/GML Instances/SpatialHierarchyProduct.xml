@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gml:FeatureCollection gml:id="SHP1" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:fsdf-shp="http://anzlic.com.au/themes/ab/shp" xmlns:wfs="http://www.opengis.net/wfs/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xsi:schemaLocation="http://anzlic.com.au/themes/ab/shp C:\Repos\FSDF\fsdf-au\trunk\Schema\SpatialHierarchyProduct.xsd
+                http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd
+                  http://www.isotc211.org/2005/gmd http://schemas.opengis.net/iso/19139/20070417/gmd/gmd.xsd
+                http://www.isotc211.org/2005/gco http://schemas.opengis.net/iso/19139/20070417/gco/gco.xsd
+                      ">
+	<gml:featureMember>
+		<fsdf-shp:GovernmentGovernanceUnit gml:id="GGU1">
+			<gml:identifier codeSpace="http://anzlic.com.au/themes/ab/shp">http://anzlic.com.au/themes/ab/shp/GGU1</gml:identifier>
+			<gml:name codeSpace="http://anzlic.com.au/themes/ab/shp">Commonwealth of Australia</gml:name>
+			<!-- Note that fsdf_identifier needs to be removed from schema -->
+			<fsdf-shp:fsdf_Identifier codeSpace="http://anzlic.com.au/themes/ab/shp">http://anzlic.com.au/themes/ab/shp/GGU1</fsdf-shp:fsdf_Identifier>
+			<!-- Note that fsdf_Name needs to be removed from schema -->
+			<fsdf-shp:fsdf_Name/>
+			<fsdf-shp:unitType>federal</fsdf-shp:unitType>
+			<fsdf-shp:knownSpatialRelationship>
+				<fsdf-shp:UnitSpatialRelationship gml:id="USP1">
+					<gml:identifier codeSpace="http://anzlic.com.au/themes/ab/shp">http://anzlic.com.au/themes/ab/shp/USP1</gml:identifier>
+<!-- Note that fsdf_identifier needs to be removed from schema -->
+					<fsdf-shp:fsdf_Identifier></fsdf-shp:fsdf_Identifier>
+					<fsdf-shp:spatialRelationshipType>contains</fsdf-shp:spatialRelationshipType>
+					<fsdf-shp:sourceUnit xlink:href="#GGU1"/>
+					<fsdf-shp:targetUnit xlink:href="http://anzlic.com.au/themes/ab/shp/GGU2"/>
+				</fsdf-shp:UnitSpatialRelationship>
+			</fsdf-shp:knownSpatialRelationship><fsdf-shp:currentDefinedArea>
+				<fsdf-shp:AreaDefinition gml:id="AD1">
+					<fsdf-shp:definitionType>creation</fsdf-shp:definitionType>
+					<fsdf-shp:hasRepresentation>
+						<fsdf-shp:AreaRepresentation gml:id="AR1">
+							<fsdf-shp:geometryRepresentation>
+								<gml:Point gml:id="Location_01">
+									<gml:pos/>
+								</gml:Point>
+							</fsdf-shp:geometryRepresentation>
+						</fsdf-shp:AreaRepresentation>
+					</fsdf-shp:hasRepresentation>
+				</fsdf-shp:AreaDefinition>
+			</fsdf-shp:currentDefinedArea>
+			<fsdf-shp:level>1</fsdf-shp:level>
+			<fsdf-shp:levelName>country</fsdf-shp:levelName>
+			<fsdf-shp:hierarchy>
+				<fsdf-shp:UnitHierarchy gml:id="UH1">
+					<gml:identifier codeSpace="http://anzlic.com.au/themes/ab/shp">http://anzlic.com.au/themes/ab/shp/UH1</gml:identifier>
+					<gml:name codeSpace="http://anzlic.com.au/themes/ab/shp">governance hierarchy</gml:name>
+					<!-- Note that fsdf_identifier needs to be removed from schema -->
+					<fsdf-shp:fsdf_Identifier/>
+					<!-- Note that fsdf_Name needs to be removed from schema -->
+					<fsdf-shp:fsdf_Name/>
+				</fsdf-shp:UnitHierarchy>
+			</fsdf-shp:hierarchy>
+		</fsdf-shp:GovernmentGovernanceUnit>
+	</gml:featureMember>
+</gml:FeatureCollection>
