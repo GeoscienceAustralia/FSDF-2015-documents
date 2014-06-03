@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wfs:FeatureCollection 
+xmlns="http://www.w3.org/2001/XMLSchema" 
+xmlns:wfs="http://www.opengis.net/wfs/2.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns:xlink="http://www.w3.org/1999/xlink" 
+xmlns:gml="http://www.opengis.net/gml/3.2" 
+xmlns:fsdflga="http://anzlic.com.au/themes/ab/lga" 
+xmlns:fsdf="http://anzlic.com.au/themes/ab" 
+xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd
+                http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd" 
+                
+timeStamp="2013-07-17T09:07:14.313+10:00" 
+                numberMatched="unknown" numberReturned="2">
+                <!-- #### Need location of Admin Boundary schema when produced ### -->
+                <!-- #### extra  schem athat may need to be imported ##### 
+xmlns:swe="http://www.opengis.net/swe/2.0" 
+xmlns:spec="http://www.opengis.net/samplingSpecimen/2.0" 
+xmlns:sams="http://www.opengis.net/samplingSpatial/2.0"  
+xmlns:gco="http://www.isotc211.org/2005/gco" 
+xmlns:gmd="http://www.isotc211.org/2005/gmd"
+xmlns:sam="http://www.opengis.net/sampling/2.0" 
+xmlns:om="http://www.opengis.net/om/2.0" 
+xsi:schemaLocation="
+                http://www.opengis.net/swe/2.0 http://schemas.opengis.net/sweCommon/2.0/swe.xsd
+                http://www.isotc211.org/2005/gmd http://schemas.opengis.net/iso/19139/20070417/gmd/gmd.xsd
+                http://www.isotc211.org/2005/gco http://schemas.opengis.net/iso/19139/20070417/gco/gco.xsd
+                http://www.opengis.net/samplingSpatial/2.0 http://schemas.opengis.net/samplingSpatial/2.0/spatialSamplingFeature.xsd
+                http://www.opengis.net/samplingSpecimen/2.0 http://schemas.opengis.net/samplingSpecimen/2.0/specimen.xsd
+                http://www.opengis.net/om/2.0 http://schemas.opengis.net/om/2.0/observation.xsd"
+             -->
+<!-- ========================= -->                
+<!-- This is an example of a LocalGovernmentUnit based on the UML. That is, no schema is availalable as yet -->
+<wfs:member>
+<fsdflga:LocalGovernmentUnit gml:id="FDO_OBJECTID">
+<!-- ### List of Tas LGA properties:
+CREATED_ON string
+-FDO_OBJECTID 
+FDO_Shape
+FMP
+-GAZ_DATE date
+-LGA_CODE
+-LGA_ID
+-NAME
+NOM_REG_NO
+-OBJECTID
+PLAN_REF
+Shape
+Shape_Area
+Shape_Length
+-->
+	<gml:description></gml:description>
+	<gml:identifier codeSpace="http://anzlic.com.au">http://anzlic.com.au/themes/ab/lga/tas_id</gml:identifier>
+	<!-- [tas_id] = "http://anzlic.com.au/themes/ab/lga/tas_[LGA_ID] or [FDO_OBJECTID]?-->
+	<gml:name codeSpace="http://www.lgat.tas.gov.au/name">Some tasmanian LGA name</gml:name>
+	<!-- gml:name: codeSpace from data provider; value from [NAME] -->
+	<gml:name codeSpace="http://www.lgat.tas.gov.au/code">Some tasmanian LGA name</gml:name>
+	<!-- gml:name: codeSpace from data provider; value from [LGA_CODE] -->
+	<fsdf:initialDefinedArea>
+	<!-- <fsdf:initialDefinedArea> has cardinality 0..1 -->
+		<fsdf:LGAAreaDefinition gml:id="Some_LGAAreaDefinition_ID_1">
+		<gml:identifier codeSpace="http://anzlic.com.au">Some_LGAAreaDefinition_ID_1</gml:identifier>
+		<!-- replaces AreaDefinition:fsdfID in the UML -->
+		<gml:name codeSpace="http://www.lgat.tas.gov.au/LGAAreaDefinitionName">Some LGAAreaDefinition name</gml:name>
+			<fsdf:definitionType>creation</fsdf:definitionType>
+			<!-- Can a <fsdf:initialDefinedArea> be anything other than a "creation" EvolutionType? If not need to add a constraint on the AreaDefinition -->
+			<fsdf:startLifespanVersion>2013-07-20</fsdf:startLifespanVersion>
+			<!-- startLifeSpanVersion for <initialDefinedArea> = [GAZ_DATE] or [CREATED_ON]. If [CREATED_ON] needs converting to gml date format from string -->
+			<fsdf:endLifespanVersion nilReason="missing" xsi:nil="true"/>
+			<!-- Date the initially defined area was changed -->
+			<hasRepresentation>
+				<fsdf:AreaRepresentation gml:id="Some_AreaRepresentation_ID_1">
+					<gml:identifier codeSpace="http://anzlic.com.au">Some_AreaRepresentation_ID_1</gml:identifier>
+					<!-- replaces AreaRepresentation:fsdfID in the UML -->
+					<fsdf:areaRepresentation>
+						<gml:Polygon srsName="http://www.opengis.net/def/crs/EPSG/0/4326" gml:id="OBJECTID">
+						<!-- EPSG for the Tasmanian datum -->
+					
+							<gml:exterior>
+								<gml:LinearRing>
+									<gml:posList srsDimension="2" count="7">-30.6470548505734
+                                155.4873225351353 -30.64428004011609 155.488397575696 -30.63483715790909
+                                155.4914599200904 -30.63646799657096 155.4913000575058
+                                -30.64136937627433 155.4903279605393 -30.64694807316954
+                                155.4888017130295 -30.6470548505734 155.4873225351353</gml:posList>
+								</gml:LinearRing>
+							</gml:exterior>
+						</gml:Polygon>
+                
+					</fsdf:areaRepresentation>
+                <fsdf:boundary>
+					<fsdf:AreaBoundary gml:id ="Some_AreaBoundary_id_1">
+						<gml:identifier codeSpace="http://anzlic.com.au">Some_AreaBoundary_ID</gml:identifier>
+						<!-- replaces AreaBoundary:fsdfID in the UML -->
+						<fsdf:areaBoundary>
+							<gml:LineString gml:id="Some_AreaBoundary_LineString_ID_1">
+								<gml:posList srsDimension="2"
+								srsName="http://www.opengis.net/def/crs/EPSG/0/4939">-30.6470548505734
+                                155.4873225351353 -30.64428004011609 155.488397575696</gml:posList>
+							</gml:LineString>
+						</fsdf:areaBoundary>
+						<fsdf:areaRepresentation xlink:href="Some_AreaRepresentation_ID_1"/>
+					</fsdf:AreaBoundary>
+                </fsdf:boundary>
+				<fsdf:areaRepresentation/>
+			</fsdf:AreaRepresentation>
+		</hasRepresentation>
+		<__attrPlaceholder></__attrPlaceholder>
+		<!-- Further fsdflga:LGAAAreaDefinition attributes to be defined appear here -->
+	</fsdf:LGAAreaDefinition>
+</fsdf:initialDefinedArea>
+<fsdf:definedAreas>
+<fsdf:LGAAreaDefinition gml:id="Some_LGAAreaDefinition_ID_2">
+		<gml:identifier codeSpace="http://anzlic.com.au">Some_LGAAreaDefinition_ID_2</gml:identifier>
+		<!-- replaces AreaDefinition:fsdfID in the UML -->
+		<gml:name codeSpace="http://www.lgat.tas.gov.au/LGAAreaDefinitionName">Some LGAAreaDefinition name</gml:name>
+			<fsdf:definitionType>creation</fsdf:definitionType>
+			<!-- Can a <fsdf:initialDefinedArea> be anything other than a "creation" EvolutionType? If not need to add a constraint on the AreaDefinition -->
+			<fsdf:startLifespanVersion>2013-07-20</fsdf:startLifespanVersion>
+			<!-- startLifeSpanVersion for <initialDefinedArea> = [GAZ_DATE] or [CREATED_ON]. If [CREATED_ON] needs converting to gml date format from string -->
+			<fsdf:endLifespanVersion nilReason="missing" xsi:nil="true"/>
+			<!-- Date the initially defined area was changed -->
+			<hasRepresentation>
+				<fsdf:AreaRepresentation gml:id="Some_AreaRepresentation_ID_2">
+					<gml:identifier codeSpace="http://anzlic.com.au">Some_AreaRepresentation_ID_2</gml:identifier>
+					<!-- replaces AreaRepresentation:fsdfID in the UML -->
+					<fsdf:areaRepresentation>
+						<gml:Polygon srsName="http://www.opengis.net/def/crs/EPSG/0/4326" gml:id="OBJECTID_2">
+						<!-- EPSG for the Tasmanian datum -->
+					
+							<gml:exterior>
+								<gml:LinearRing>
+									<gml:posList srsDimension="2" count="7">-30.6470548505734
+                                155.4873225351353 -30.64428004011609 155.488397575696 -30.63483715790909
+                                155.4914599200904 -30.63646799657096 155.4913000575058
+                                -30.64136937627433 155.4903279605393 -30.64694807316954
+                                155.4888017130295 -30.6470548505734 155.4873225351353</gml:posList>
+								</gml:LinearRing>
+							</gml:exterior>
+						</gml:Polygon>
+                
+					</fsdf:areaRepresentation>
+                <fsdf:boundary>
+					<fsdf:AreaBoundary gml:id ="Some_AreaBoundary_id_2">
+						<gml:identifier codeSpace="http://anzlic.com.au">Some_AreaBoundary_ID</gml:identifier>
+						<!-- replaces AreaBoundary:fsdfID in the UML -->
+						<fsdf:areaBoundary>
+							<gml:LineString gml:id="Some_AreaBoundary_LineString_ID_2">
+								<gml:posList srsDimension="2"
+								srsName="http://www.opengis.net/def/crs/EPSG/0/4939">-30.6470548505734
+                                155.4873225351353 -30.64428004011609 155.488397575696</gml:posList>
+							</gml:LineString>
+						</fsdf:areaBoundary>
+						<fsdf:areaRepresentation xlink:href="Some_AreaRepresentation_ID_2"/>
+					</fsdf:AreaBoundary>
+                </fsdf:boundary>
+				<fsdf:areaRepresentation/>
+			</fsdf:AreaRepresentation>
+		</hasRepresentation>
+		<fsdf:belongsToDefinedUnit xlink:href="http://anzlic.com.au/themes/ab/lga/tas_id"/>
+		<__attrPlaceholder></__attrPlaceholder>
+		<!-- Further fsdflga:LGAAAreaDefinition attributes to be defined appear here -->
+	</fsdf:LGAAreaDefinition>
+
+</fsdf:definedAreas>
+<fsdf:currentDefinedArea>
+<fsdf:LGAAreaDefinition gml:id="Some_LGAAreaDefinition_ID_3">
+		<gml:identifier codeSpace="http://anzlic.com.au">Some_LGAAreaDefinition_ID_3</gml:identifier>
+		<!-- replaces AreaDefinition:fsdfID in the UML -->
+		<gml:name codeSpace="http://www.lgat.tas.gov.au/LGAAreaDefinitionName">Some LGAAreaDefinition name</gml:name>
+			<fsdf:definitionType>creation</fsdf:definitionType>
+			<!-- Can a <fsdf:initialDefinedArea> be anything other than a "creation" EvolutionType? If not need to add a constraint on the AreaDefinition -->
+			<fsdf:startLifespanVersion>2013-07-20</fsdf:startLifespanVersion>
+			<!-- startLifeSpanVersion for <initialDefinedArea> = [GAZ_DATE] or [CREATED_ON]. If [CREATED_ON] needs converting to gml date format from string -->
+			<fsdf:endLifespanVersion nilReason="missing" xsi:nil="true"/>
+			<!-- Date the initially defined area was changed -->
+			<hasRepresentation>
+				<fsdf:AreaRepresentation gml:id="Some_AreaRepresentation_ID_3">
+					<gml:identifier codeSpace="http://anzlic.com.au">Some_AreaRepresentation_ID_3</gml:identifier>
+					<!-- replaces AreaRepresentation:fsdfID in the UML -->
+					<fsdf:areaRepresentation>
+						<gml:Polygon srsName="http://www.opengis.net/def/crs/EPSG/0/4326" gml:id="OBJECTID_3">
+						<!-- EPSG for the Tasmanian datum -->
+					
+							<gml:exterior>
+								<gml:LinearRing>
+									<gml:posList srsDimension="2" count="7">-30.6470548505734
+                                155.4873225351353 -30.64428004011609 155.488397575696 -30.63483715790909
+                                155.4914599200904 -30.63646799657096 155.4913000575058
+                                -30.64136937627433 155.4903279605393 -30.64694807316954
+                                155.4888017130295 -30.6470548505734 155.4873225351353</gml:posList>
+								</gml:LinearRing>
+							</gml:exterior>
+						</gml:Polygon>
+                
+					</fsdf:areaRepresentation>
+                <fsdf:boundary>
+					<fsdf:AreaBoundary gml:id ="Some_AreaBoundary_id_3">
+						<gml:identifier codeSpace="http://anzlic.com.au">Some_AreaBoundary_ID_3</gml:identifier>
+						<!-- replaces AreaBoundary:fsdfID in the UML -->
+						<fsdf:areaBoundary>
+							<gml:LineString gml:id="Some_AreaBoundary_LineString_ID_3">
+								<gml:posList srsDimension="2"
+								srsName="http://www.opengis.net/def/crs/EPSG/0/4939">-30.6470548505734
+                                155.4873225351353 -30.64428004011609 155.488397575696</gml:posList>
+							</gml:LineString>
+						</fsdf:areaBoundary>
+						<fsdf:areaRepresentation xlink:href="Some_AreaRepresentation_ID_3"/>
+					</fsdf:AreaBoundary>
+                </fsdf:boundary>
+				<fsdf:areaRepresentation/>
+			</fsdf:AreaRepresentation>
+		</hasRepresentation>
+		<__attrPlaceholder></__attrPlaceholder>
+		<!-- Further fsdflga:LGAAAreaDefinition attributes to be defined appear here -->
+	</fsdf:LGAAreaDefinition>
+
+</fsdf:currentDefinedArea>
+<fsdflga:__attrPlaceholder></fsdflga:__attrPlaceholder>
+<!-- Further fsdflga:LocalGovernmentUnit attributes to be defined appear here -->
+</fsdflga:LocalGovernmentUnit>
+</wfs:member>
+
+<wfs:member>
+<!-- ### List of Qld LGA properties
+#### List of Qld LGA properties ####
+ABBREV_NAM
+ADMINAREAN
+ADMINTYPEN
+FDO_OBJECTID_1
+FDO_Shape
+LGA_CODE
+OBJECTID
+OBJECTID_1
+Shape
+SHAPE_AR_1
+Shape_Area
+SHAPE_LE_1
+Shape_Length
+-->
+<!-- Same pattern as for tasmanian example -->
+</wfs:member>
+</wfs:FeatureCollection>
