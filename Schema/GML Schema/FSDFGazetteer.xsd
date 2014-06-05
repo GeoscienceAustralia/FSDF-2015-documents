@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema 
-xmlns:xs="http://www.w3.org/2001/XMLSchema" 
-xmlns:fsdf-pn-g="http://anzlic.fsdf/def/schema/source/placenames/gazetteer" 
-xmlns:gml="http://www.opengis.net/gml/3.2" 
-xmlns:gmd="http://www.isotc211.org/2005/gmd" 
-xmlns:gmlexr="http://www.opengis.net/gml/3.3/exr" 
-xmlns:fsdf-abt="http://anzlic.com.au/themes/ab/abt"
-targetNamespace="http://anzlic.fsdf/def/schema/source/placenames/gazetteer" elementFormDefault="qualified" version="1.0.0">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fsdf-pn-g="http://anzlic.fsdf/def/schema/source/placenames/gazetteer" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmlexr="http://www.opengis.net/gml/3.3/exr" xmlns:fsdf-abt="http://anzlic.com.au/themes/ab/abt" targetNamespace="http://anzlic.fsdf/def/schema/source/placenames/gazetteer" elementFormDefault="qualified" version="1.0.0">
 	<xs:import namespace="http://anzlic.com.au/themes/ab/abt" schemaLocation="C://Repos/FSDF2/FDSF/trunk/Schema/GML Schema/AdminBoundaryTopologyProductSchema.xsd"/>
 	<xs:import namespace="http://www.opengis.net/gml/3.3/exr" schemaLocation="http://schemas.opengis.net/gml/3.3/extdEncRule.xsd"/>
 	<xs:import namespace="http://www.isotc211.org/2005/gmd" schemaLocation="http://schemas.opengis.net/iso/19139/20070417/gmd/gmd.xsd"/>
@@ -14,7 +7,8 @@ targetNamespace="http://anzlic.fsdf/def/schema/source/placenames/gazetteer" elem
 	<xs:annotation>
 		<xs:documentation>Application schema for gazetteers and their entries, names and codes.</xs:documentation>
 	</xs:annotation>
-	<!-- xmlns:fsdf-core-cdm="http://anzlic.fsdf/def/schema/source/core/cdm" <xs:import namespace="http://anzlic.fsdf/def/schema/source/core/cdm" schemaLocation=
+	<!-- Reference to core schema rather than product schema:
+xmlns:fsdf-core-cdm="http://anzlic.fsdf/def/schema/source/core/cdm" <xs:import namespace="http://anzlic.fsdf/def/schema/source/core/cdm" schemaLocation=
  -->
 	<xs:element name="Code" type="fsdf-pn-g:CodeType" substitutionGroup="gml:AbstractObject">
 		<xs:annotation>
@@ -86,7 +80,7 @@ targetNamespace="http://anzlic.fsdf/def/schema/source/placenames/gazetteer" elem
 							<xs:documentation>Description of the gazetteer</xs:documentation>
 						</xs:annotation>
 					</xs:element>
-					<xs:element name="locationType" type="gml:ReferenceType"  nillable="true">
+					<xs:element name="locationType" type="gml:ReferenceType" nillable="true">
 						<xs:annotation>
 							<xs:documentation>If binding to definition space via SKOS this is a broader term for collections (stadiums, golf courses, bridges).</xs:documentation>
 						</xs:annotation>
@@ -101,7 +95,6 @@ targetNamespace="http://anzlic.fsdf/def/schema/source/placenames/gazetteer" elem
 							</xs:complexContent>
 						</xs:complexType> -->
 					</xs:element>
-					
 					<xs:element name="name" type="xs:string" minOccurs="0" maxOccurs="1">
 						<xs:annotation>
 							<xs:documentation>The name of the gazetteer</xs:documentation>
@@ -278,7 +271,7 @@ Proposed</xs:documentation>
 		</xs:sequence>
 		<xs:attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</xs:complexType>
-<xs:simpleType name="GazetteerStatusTypeType">
+	<xs:simpleType name="GazetteerStatusTypeType">
 		<xs:annotation>
 			<xs:documentation>gazetteer classification. </xs:documentation>
 		</xs:annotation>
@@ -313,7 +306,7 @@ Proposed</xs:documentation>
 			<xs:pattern value="other: \w{2,}"/>
 		</xs:restriction>
 	</xs:simpleType>
-<xs:simpleType name="NameTypeType">
+	<xs:simpleType name="NameTypeType">
 		<xs:annotation>
 			<xs:documentation>Whether the name is in the native-language version used by its inhabitants (endonym) or the foreign language version (exonym) or unknown. </xs:documentation>
 		</xs:annotation>
@@ -336,7 +329,6 @@ Proposed</xs:documentation>
 					<xs:documentation>It is not known whether a name is an endonym or exonym, for example because the language has not been positively identified.</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
-			
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:simpleType name="NameTypeOtherType">
