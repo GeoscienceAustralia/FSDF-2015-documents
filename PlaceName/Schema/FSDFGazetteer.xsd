@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fsdf-pn-g="http://anzlic.fsdf/def/schema/source/placenames/gazetteer" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmlexr="http://www.opengis.net/gml/3.3/exr" xmlns:fsdf-abt="http://anzlic.com.au/themes/ab/abt" targetNamespace="http://anzlic.fsdf/def/schema/source/placenames/gazetteer" elementFormDefault="qualified" version="1.0.0">
-	<xs:import namespace="http://anzlic.com.au/themes/ab/abt" schemaLocation="C://Repos/FSDF2/FDSF/trunk/Schema/GMLSchema/AdminBoundaryTopologyProductSchema.xsd"/>
+	<xs:import namespace="http://anzlic.com.au/themes/ab/abt" schemaLocation="C://Repos/FSDF2/FDSF/AdminBoundary/Schema/AdminBoundaryTopologyProductSchema.xsd"/>
 	<xs:import namespace="http://www.opengis.net/gml/3.3/exr" schemaLocation="http://schemas.opengis.net/gml/3.3/extdEncRule.xsd"/>
 	<xs:import namespace="http://www.isotc211.org/2005/gmd" schemaLocation="http://schemas.opengis.net/iso/19139/20070417/gmd/gmd.xsd"/>
 	<xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
@@ -115,6 +115,12 @@ Published</xs:documentation>
 					<xs:element name="unitCount" type="xs:integer" nillable="true">
 						<xs:annotation>
 							<xs:documentation>Count of entries at last harvest.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<!-- ############## -->
+					<xs:element name="subRegisterOf" type="fsdf-pn-g:GazetteerPropertyType" nillable="true" minOccurs="0" maxOccurs="unbounded">
+						<xs:annotation>
+							<xs:documentation>A relationship to allow Gazetteers to be composed of other gazetteers</xs:documentation>
 						</xs:annotation>
 					</xs:element>
 					<!--fsdf-abt
