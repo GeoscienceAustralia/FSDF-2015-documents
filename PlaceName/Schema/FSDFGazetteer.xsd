@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fsdf-pn-g="http://anzlic.fsdf/def/schema/source/placenames/gazetteer" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmlexr="http://www.opengis.net/gml/3.3/exr" xmlns:fsdf-abt="http://anzlic.com.au/themes/ab/abt" targetNamespace="http://anzlic.fsdf/def/schema/source/placenames/gazetteer" elementFormDefault="qualified" version="1.0.0">
-	<xs:import namespace="http://anzlic.com.au/themes/ab/abt" schemaLocation="C://Repos/FSDF2/FDSF/AdminBoundary/Schema/AdminBoundaryTopologyProductSchema.xsd"/>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fsdf-pn-g="http://anzlic.fsdf/def/schema/source/placenames/gazetteer" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmlexr="http://www.opengis.net/gml/3.3/exr"  targetNamespace="http://anzlic.fsdf/def/schema/source/placenames/gazetteer" elementFormDefault="qualified" version="1.0.0">
+	
 	<xs:import namespace="http://www.opengis.net/gml/3.3/exr" schemaLocation="http://schemas.opengis.net/gml/3.3/extdEncRule.xsd"/>
 	<xs:import namespace="http://www.isotc211.org/2005/gmd" schemaLocation="http://schemas.opengis.net/iso/19139/20070417/gmd/gmd.xsd"/>
 	<xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+	<!-- Removing references to Admin Boundaries Product schema 
+xmlns:fsdf-abt="http://anzlic.com.au/themes/ab/abt"
+<xs:import namespace="http://anzlic.com.au/themes/ab/abt" schemaLocation="C://Repos/FSDF2/FDSF/AdminBoundary/Schema/AdminBoundaryTopologyProductSchema.xsd"/>
+-->
 	<xs:annotation>
 		<xs:documentation>Application schema for gazetteers and their entries, names and codes.</xs:documentation>
 	</xs:annotation>
@@ -44,7 +48,6 @@ xmlns:fsdf-core-cdm="http://anzlic.fsdf/def/schema/source/core/cdm" <xs:import n
 		<xs:complexContent>
 			<xs:extension base="gml:AbstractFeatureType">
 				<xs:sequence>
-					<xs:element name="record" type="fsdf-pn-g:GazetteerEntryPropertyType" minOccurs="0" maxOccurs="unbounded"/>
 					<xs:element name="boundingBox" minOccurs="0" maxOccurs="1">
 						<xs:annotation>
 							<xs:documentation>The spatial envelope of the gazetteer.</xs:documentation>
@@ -59,9 +62,10 @@ xmlns:fsdf-core-cdm="http://anzlic.fsdf/def/schema/source/core/cdm" <xs:import n
 							</xs:complexContent>
 						</xs:complexType>
 					</xs:element>
+					
 					<xs:element name="custodian" nillable="true">
 						<xs:annotation>
-							<xs:documentation>Count of entries at last harvest.</xs:documentation>
+							<xs:documentation>Custodian of the gazetteer</xs:documentation>
 							<xs:appinfo>
 								<gml:targetElement>gmd:CI_ResponsibleParty</gml:targetElement>
 							</xs:appinfo>
@@ -69,8 +73,10 @@ xmlns:fsdf-core-cdm="http://anzlic.fsdf/def/schema/source/core/cdm" <xs:import n
 						<xs:complexType>
 							<xs:complexContent>
 								<xs:extension base="gml:AbstractMetadataPropertyType">
-									<xs:sequence/>
-									<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+									<xs:sequence>
+									<xs:element ref="gmd:CI_ResponsibleParty"/>
+								</xs:sequence>
+								<xs:attribute name="nilReason" type="gml:NilReasonType"/>
 								</xs:extension>
 							</xs:complexContent>
 						</xs:complexType>
@@ -124,8 +130,19 @@ Published</xs:documentation>
 						</xs:annotation>
 					</xs:element>
 					<!--fsdf-abt
-					<xs:element name="territoryOfUse" type="fsdf-core-cdm:UnitDefinitionPropertyType"/> -->
-					<xs:element name="territoryOfUse" type="fsdf-abt:UnitDefinitionPropertyType"/>
+					<xs:element name="territoryOfUse" type="fsdf-core-cdm:UnitDefinitionPropertyType"/> 
+					<xs:element name="territoryOfUse" type="fsdf-abt:UnitDefinitionPropertyType"/> -->
+					<xs:element name="territoryOfUse" type="gml:ReferenceType">
+					<xs:annotation>
+							<xs:documentation>The unit definition of the area that the gazetteer covers.</xs:documentation>
+							<xs:appinfo>
+								<gml:targetElement>fsdf-core-cdm:UnitDefinition</gml:targetElement>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:element>
+					
+					<xs:element name="record" type="fsdf-pn-g:GazetteerEntryPropertyType" minOccurs="0" maxOccurs="unbounded"/>
+					
 				</xs:sequence>
 			</xs:extension>
 		</xs:complexContent>

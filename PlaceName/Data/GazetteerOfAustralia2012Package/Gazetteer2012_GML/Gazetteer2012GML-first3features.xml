@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gml:FeatureCollection xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fme="http://www.safe.com/gml/fme" xsi:schemaLocation="http://www.safe.com/gml/fme tblMainGML.xsd">
+	<gml:boundedBy>
+		<gml:Envelope srsName="EPSG:3112" srsDimension="2">
+			<gml:lowerCorner>45.2921142578125 -80.2166748046875</gml:lowerCorner>
+			<gml:upperCorner>169.000122070313 -9.14251708984375</gml:upperCorner>
+		</gml:Envelope>
+	</gml:boundedBy>
+	<gml:featureMember>
+		<fme:GML gml:id="id5255fa48-42b3-43d1-9e0d-b2ba8b57a936">
+			<fme:OBJECTID>1</fme:OBJECTID>
+			<fme:RECORD_ID>QLD48234</fme:RECORD_ID>
+			<fme:NAME>HATCHMAN POINT</fme:NAME>
+			<fme:FEAT_CODE>PT</fme:FEAT_CODE>
+			<fme:CGDN>N</fme:CGDN>
+			<fme:AUTHORITY_ID>QLD</fme:AUTHORITY_ID>
+			<fme:CONCISE_GAZ>N</fme:CONCISE_GAZ>
+			<fme:LATITUDE>-12.58361</fme:LATITUDE>
+			<fme:lat_degrees>-12</fme:lat_degrees>
+			<fme:lat_minutes>35</fme:lat_minutes>
+			<fme:lat_seconds>0</fme:lat_seconds>
+			<fme:LONGITUDE>141.62583</fme:LONGITUDE>
+			<fme:long_degrees>141</fme:long_degrees>
+			<fme:long_minutes>37</fme:long_minutes>
+			<fme:long_seconds>32</fme:long_seconds>
+			<fme:STATE_ID>QLD</fme:STATE_ID>
+			<fme:STATUS>U</fme:STATUS>
+			<fme:VARIANT_NAME/>
+			<fme:MAP_100K>7272</fme:MAP_100K>
+			<fme:Place_ID>45880</fme:Place_ID>
+			<gml:pointProperty>
+				<gml:Point srsName="EPSG:3112" srsDimension="2">
+					<gml:pos>141.625915527344 -12.5836181640625</gml:pos>
+				</gml:Point>
+			</gml:pointProperty>
+		</fme:GML>
+	</gml:featureMember>
+	<gml:featureMember>
+		<fme:GML gml:id="id8018a2c3-d4c4-4809-9032-6634993e2e5b">
+			<fme:OBJECTID>2</fme:OBJECTID>
+			<fme:RECORD_ID>QLD48233</fme:RECORD_ID>
+			<fme:NAME>JANTZ POINT</fme:NAME>
+			<fme:FEAT_CODE>PT</fme:FEAT_CODE>
+			<fme:CGDN>N</fme:CGDN>
+			<fme:AUTHORITY_ID>QLD</fme:AUTHORITY_ID>
+			<fme:CONCISE_GAZ>N</fme:CONCISE_GAZ>
+			<fme:LATITUDE>-12.56361</fme:LATITUDE>
+			<fme:lat_degrees>-12</fme:lat_degrees>
+			<fme:lat_minutes>33</fme:lat_minutes>
+			<fme:lat_seconds>48</fme:lat_seconds>
+			<fme:LONGITUDE>141.59194</fme:LONGITUDE>
+			<fme:long_degrees>141</fme:long_degrees>
+			<fme:long_minutes>35</fme:long_minutes>
+			<fme:long_seconds>30</fme:long_seconds>
+			<fme:STATE_ID>QLD</fme:STATE_ID>
+			<fme:STATUS>U</fme:STATUS>
+			<fme:VARIANT_NAME/>
+			<fme:MAP_100K>7272</fme:MAP_100K>
+			<fme:Place_ID>45881</fme:Place_ID>
+			<gml:pointProperty>
+				<gml:Point srsName="EPSG:3112" srsDimension="2">
+					<gml:pos>141.591918945313 -12.5635986328125</gml:pos>
+				</gml:Point>
+			</gml:pointProperty>
+		</fme:GML>
+	</gml:featureMember>
+	<gml:featureMember>
+		<fme:GML gml:id="idb4480381-330a-429b-9743-fd1eab434d27">
+			<fme:OBJECTID>3</fme:OBJECTID>
+			<fme:RECORD_ID>QLD48232</fme:RECORD_ID>
+			<fme:NAME>SALSBURY LANDING</fme:NAME>
+			<fme:FEAT_CODE>PIER</fme:FEAT_CODE>
+			<fme:CGDN>N</fme:CGDN>
+			<fme:AUTHORITY_ID>QLD</fme:AUTHORITY_ID>
+			<fme:CONCISE_GAZ>N</fme:CONCISE_GAZ>
+			<fme:LATITUDE>-21.39778</fme:LATITUDE>
+			<fme:lat_degrees>-21</fme:lat_degrees>
+			<fme:lat_minutes>23</fme:lat_minutes>
+			<fme:lat_seconds>52</fme:lat_seconds>
+			<fme:LONGITUDE>149.28472</fme:LONGITUDE>
+			<fme:long_degrees>149</fme:long_degrees>
+			<fme:long_minutes>17</fme:long_minutes>
+			<fme:long_seconds>4</fme:long_seconds>
+			<fme:STATE_ID>QLD</fme:STATE_ID>
+			<fme:STATUS>O</fme:STATUS>
+			<fme:VARIANT_NAME/>
+			<fme:MAP_100K>8755</fme:MAP_100K>
+			<fme:Place_ID>45882</fme:Place_ID>
+			<gml:pointProperty>
+				<gml:Point srsName="EPSG:3112" srsDimension="2">
+					<gml:pos>149.284729003906 -21.397705078125</gml:pos>
+				</gml:Point>
+			</gml:pointProperty>
+		</fme:GML>
+	</gml:featureMember>
+	<gml:featureMember>
+		<fme:GML gml:id="ide4120347-12bd-40e8-8aba-294546128f69">
+			<fme:OBJECTID>4</fme:OBJECTID>
+			<fme:RECORD_ID>QLD48231</fme:RECORD_ID>
+			<fme:NAME>SHARKS NEST</fme:NAME>
+			<fme:FEAT_CODE>WTRH</fme:FEAT_CODE>
+			<fme:CGDN>N</fme:CGDN>
+			<fme:AUTHORITY_ID>QLD</fme:AUTHORITY_ID>
+			<fme:CONCISE_GAZ>N</fme:CONCISE_GAZ>
+			<fme:LATITUDE>-24.95056</fme:LATITUDE>
+			<fme:lat_degrees>-24</fme:lat_degrees>
+			<fme:lat_minutes>57</fme:lat_minutes>
+			<fme:lat_seconds>2</fme:lat_seconds>
+			<fme:LONGITUDE>152.46556</fme:LONGITUDE>
+			<fme:long_degrees>152</fme:long_degrees>
+			<fme:long_minutes>27</fme:long_minutes>
+			<fme:long_seconds>56</fme:long_seconds>
+			<fme:STATE_ID>QLD</fme:STATE_ID>
+			<fme:STATUS>O</fme:STATUS>
+			<fme:VARIANT_NAME/>
+			<fme:MAP_100K>9348</fme:MAP_100K>
+			<fme:Place_ID>45883</fme:Place_ID>
+			<gml:pointProperty>
+				<gml:Point srsName="EPSG:3112" srsDimension="2">
+					<gml:pos>152.465698242188 -24.9505004882813</gml:pos>
+				</gml:Point>
+			</gml:pointProperty>
+		</fme:GML>
+	</gml:featureMember>
+</gml:FeatureCollection>

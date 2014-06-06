@@ -16,30 +16,48 @@ xmlns:sams="http://www.opengis.net/samplingSpatial/2.0"
 timeStamp="2014-01-28T09:07:14.313+10:00" 
 xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd
                 http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd
-                 http://anzlic.fsdf/def/schema/source/placenames/gazetteer C://Repos/FSDF2/FDSF/trunk/Schema/GMLSchema/FSDFGazetteer.xsd" 
+                 http://anzlic.fsdf/def/schema/source/placenames/gazetteer C://Repos/FSDF2/FDSF/PlaceName/Schema/FSDFGazetteer.xsd" 
                 numberMatched="unknown" 
-                numberReturned="5">
+                numberReturned="1">
+                <!-- the first gazetteer. --> 
                 <wfs:member>
-                <fsdf-pn-g:Gazetteer gml:id="TOBEFILLED">
-																	<gml:description></gml:description>
-																	<gml:name>GazetteerOfAustralia2012</gml:name>
+                <fsdf-pn-g:Gazetteer gml:id="GazetteerOfAustralia2012">
+																	<gml:description>The Gazetteer of Australia provides map-makers and the public with authoritative information on the location and spelling of approved place names. The 2012 release of the Gazetteer is the 11th edition with information held by the relevant State, Territory and Commonwealth naming authorities.
+The place names in this Gazetteer are a subset of the complete information sets held by each of the relevant agencies. For example, the full dataset held by the Geographical Names Board of NSW contains information on the history of a name and its derivation. Also, some features such as the names of roads, which may not be held uniformly by the naming authorities, have not been supplied.
+The State and Territory agencies are the relevant authorities responsible for place names in their respective States and Territories. The Australian Hydrographic Service is the authority for maritime place name features, while the Australian Antarctic Division provides additional information on Heard Island and McDonald Island. Geoscience Australia provides additional information for Norfolk Island, populated place names and unofficial homestead names for NSW, Queensland, Victoria and Tasmania.</gml:description>
+																	<gml:name codeSpace="http://www.ga.gov.au/darwin-gazetteer">GazetteerOfAustralia2012</gml:name>
+																	
+																	<fsdf-pn-g:boundingBox>
+																		<gml:Envelope srsName="EPSG:3112" srsDimension="2"><gml:lowerCorner>45.2921142578125 -80.2166748046875</gml:lowerCorner><gml:upperCorner>169.000122070313 -9.14251708984375</gml:upperCorner></gml:Envelope>
+																	</fsdf-pn-g:boundingBox>
+																	<!-- <fsdf-pn-g:custodian xsi:nil="true" nilReason="unknown"/> -->
+																<fsdf-pn-g:custodian>
+																	<gmd:CI_ResponsibleParty>
+																		<gmd:organisationName>
+																		<!-- Need to determine Country codeList and codeListValue values 
+																		<gmd:Country codeList="" codeListValue=""></gmd:Country> -->
+																		<gco:CharacterString>Geoscience Australia</gco:CharacterString>
+																		</gmd:organisationName>
+																		<gmd:role>
+																		<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml" codeSpace="ISOTC211/19115" codeListValue="CI_RoleCode_custodian">custodian</gmd:CI_RoleCode>
+																		</gmd:role>
+																	</gmd:CI_ResponsibleParty>
+																</fsdf-pn-g:custodian>
+																	<fsdf-pn-g:description>The Gazetteer of Australia provides map-makers and the public with authoritative information on the location and spelling of approved place names. The 2012 release of the Gazetteer is the 11th edition with information held by the relevant State, Territory and Commonwealth naming authorities.
+The place names in this Gazetteer are a subset of the complete information sets held by each of the relevant agencies. For example, the full dataset held by the Geographical Names Board of NSW contains information on the history of a name and its derivation. Also, some features such as the names of roads, which may not be held uniformly by the naming authorities, have not been supplied.
+The State and Territory agencies are the relevant authorities responsible for place names in their respective States and Territories. The Australian Hydrographic Service is the authority for maritime place name features, while the Australian Antarctic Division provides additional information on Heard Island and McDonald Island. Geoscience Australia provides additional information for Norfolk Island, populated place names and unofficial homestead names for NSW, Queensland, Victoria and Tasmania.</fsdf-pn-g:description>
+																	<fsdf-pn-g:locationType xsi:nil="true" nilReason="unknown"></fsdf-pn-g:locationType>
+																	<fsdf-pn-g:name>GazetteerOfAustralia2012</fsdf-pn-g:name>
+																	<fsdf-pn-g:status>Published</fsdf-pn-g:status>
+																	<fsdf-pn-g:unitCount xsi:nil="true"></fsdf-pn-g:unitCount>
+																	<fsdf-pn-g:subRegisterOf></fsdf-pn-g:subRegisterOf>
+																	<fsdf-pn-g:territoryOfUse xlink:href="someURIdefiningAustralia"></fsdf-pn-g:territoryOfUse>
 																	<fsdf-pn-g:record>
 																	<fsdf-pn-g:GazetteerEntry gml:id="id5255fa48-42b3-43d1-9e0d-b2ba8b57a936">
 																		<fsdf-pn-g:geographicIdentifier>QLD48234</fsdf-pn-g:geographicIdentifier>
 																		<fsdf-pn-g:locationType></fsdf-pn-g:locationType>
 																		<fsdf-pn-g:name>HATCHMAN POINT</fsdf-pn-g:name>
 																	</fsdf-pn-g:GazetteerEntry></fsdf-pn-g:record>
-																	<fsdf-pn-g:boundingBox>
-																		<gml:Envelope srsName="EPSG:3112" srsDimension="2"><gml:lowerCorner>45.2921142578125 -80.2166748046875</gml:lowerCorner><gml:upperCorner>169.000122070313 -9.14251708984375</gml:upperCorner></gml:Envelope>
-																	</fsdf-pn-g:boundingBox>
-																	<fsdf-pn-g:custodian></fsdf-pn-g:custodian>
-																	<fsdf-pn-g:description></fsdf-pn-g:description>
-																	<fsdf-pn-g:locationType></fsdf-pn-g:locationType>
-																	<fsdf-pn-g:name></fsdf-pn-g:name>
-																	<fsdf-pn-g:status></fsdf-pn-g:status>
-																	<fsdf-pn-g:unitCount></fsdf-pn-g:unitCount>
-																	<fsdf-pn-g:subRegisterOf></fsdf-pn-g:subRegisterOf>
-																	<fsdf-pn-g:territoryOfUse></fsdf-pn-g:territoryOfUse>
 																</fsdf-pn-g:Gazetteer>
 																</wfs:member>
               </wfs:FeatureCollection>
