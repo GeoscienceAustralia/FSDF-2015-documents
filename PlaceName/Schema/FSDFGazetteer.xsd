@@ -90,16 +90,7 @@ xmlns:fsdf-core-cdm="http://anzlic.fsdf/def/schema/source/core/cdm" <xs:import n
 						<xs:annotation>
 							<xs:documentation>If binding to definition space via SKOS this is a broader term for collections (stadiums, golf courses, bridges).</xs:documentation>
 						</xs:annotation>
-						<!--
-						<xs:complexType>
-							<xs:complexContent>
-								<xs:extension base="gml:AbstractMemberType">
-									<xs:sequence>
-										<xs:element ref="LocationType"/>
-									</xs:sequence>
-								</xs:extension>
-							</xs:complexContent>
-						</xs:complexType> -->
+						
 					</xs:element>
 					<xs:element name="name" type="xs:string" minOccurs="0" maxOccurs="1">
 						<xs:annotation>
@@ -163,14 +154,6 @@ Published</xs:documentation>
 		<xs:complexContent>
 			<xs:extension base="gml:AbstractFeatureType">
 				<xs:sequence>
-					<xs:element name="sourceUnit" type="gml:ReferenceType" minOccurs="0" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation>The URI identifier of an FSDF feature if applicable.</xs:documentation>
-							<xs:appinfo>
-								<gml:targetElement>fsdf-core-cdm:UnitDefinition</gml:targetElement>
-							</xs:appinfo>
-						</xs:annotation>
-					</xs:element>
 					<xs:element name="boundingBox" minOccurs="0" maxOccurs="1">
 						<xs:annotation>
 							<xs:documentation>The spatial envelope of the gazetteer entry.</xs:documentation>
@@ -203,11 +186,11 @@ Published</xs:documentation>
 							</xs:appinfo>
 						</xs:annotation>
 					</xs:element>
-					<xs:element name="name" type="xs:string">
+					<!--<xs:element name="name" type="xs:string">
 						<xs:annotation>
 							<xs:documentation>Name of the Gazetteer entry</xs:documentation>
 						</xs:annotation>
-					</xs:element>
+					</xs:element> -->
 					<xs:element name="position" type="gml:PointPropertyType" minOccurs="0" maxOccurs="1">
 						<xs:annotation>
 							<xs:documentation>The spatial location of the locality.</xs:documentation>
@@ -225,8 +208,16 @@ Proposed)</xs:documentation>
 							</xs:appinfo>
 						</xs:annotation>
 					</xs:element>
-					<xs:element name="alternativeName" type="xs:Name" minOccurs="0" maxOccurs="unbounded"/>
-					<xs:element name="preferredName" type="xs:Name" minOccurs="0" maxOccurs="1"/>
+					<xs:element name="sourceUnit" type="gml:ReferenceType" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>The URI identifier of an FSDF feature if applicable.</xs:documentation>
+							<xs:appinfo>
+								<gml:targetElement>fsdf-core-cdm:UnitDefinition</gml:targetElement>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="alternativeName" type="fsdf-pn-g:NamePropertyType" minOccurs="0" maxOccurs="unbounded"/>
+					<xs:element name="preferredName" type="fsdf-pn-g:NamePropertyType" minOccurs="0" maxOccurs="1"/>
 					<xs:element name="featureCode" type="fsdf-pn-g:CodePropertyType" minOccurs="0" maxOccurs="1"/>
 					<xs:element name="relatedObject" type="xs:string" minOccurs="0" maxOccurs="unbounded">
 						<xs:annotation>

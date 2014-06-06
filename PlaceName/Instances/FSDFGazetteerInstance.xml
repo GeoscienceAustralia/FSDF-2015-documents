@@ -1,63 +1,211 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<wfs:FeatureCollection 
-xmlns="http://www.w3.org/2001/XMLSchema" 
-xmlns:fsdf-pn-g="http://anzlic.fsdf/def/schema/source/placenames/gazetteer" 
-xmlns:fsdf-abt="http://anzlic.com.au/themes/ab/abt"
-xmlns:wfs="http://www.opengis.net/wfs/2.0" 
-xmlns:gml="http://www.opengis.net/gml/3.2" 
-xmlns:gco="http://www.isotc211.org/2005/gco" 
-xmlns:gmd="http://www.isotc211.org/2005/gmd"
-xmlns:gmlexr="http://www.opengis.net/gml/3.3/exr" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xmlns:swe="http://www.opengis.net/swe/2.0" 
-xmlns:xlink="http://www.w3.org/1999/xlink" 
-xmlns:sam="http://www.opengis.net/sampling/2.0" 
-xmlns:sams="http://www.opengis.net/samplingSpatial/2.0" 
-timeStamp="2014-01-28T09:07:14.313+10:00" 
-xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd
+<wfs:FeatureCollection xmlns="http://www.w3.org/2001/XMLSchema" xmlns:fsdf-pn-g="http://anzlic.fsdf/def/schema/source/placenames/gazetteer" xmlns:fsdf-abt="http://anzlic.com.au/themes/ab/abt" xmlns:wfs="http://www.opengis.net/wfs/2.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmlexr="http://www.opengis.net/gml/3.3/exr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sam="http://www.opengis.net/sampling/2.0" xmlns:sams="http://www.opengis.net/samplingSpatial/2.0" timeStamp="2014-01-28T09:07:14.313+10:00" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd
                 http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd
-                 http://anzlic.fsdf/def/schema/source/placenames/gazetteer C://Repos/FSDF2/FDSF/PlaceName/Schema/FSDFGazetteer.xsd" 
-                numberMatched="unknown" 
-                numberReturned="1">
-                <!-- the first gazetteer. --> 
-                <wfs:member>
-                <fsdf-pn-g:Gazetteer gml:id="GazetteerOfAustralia2012">
-																	<gml:description>The Gazetteer of Australia provides map-makers and the public with authoritative information on the location and spelling of approved place names. The 2012 release of the Gazetteer is the 11th edition with information held by the relevant State, Territory and Commonwealth naming authorities.
+                 http://anzlic.fsdf/def/schema/source/placenames/gazetteer C://Repos/FSDF2/FDSF/PlaceName/Schema/FSDFGazetteer.xsd" numberMatched="unknown" numberReturned="1">
+	<!-- the first gazetteer. -->
+	<wfs:member>
+		<!-- ############################ -->
+		<!-- Using the FSDFGazetteer Conceptual Model as a GML Application Schema Product Model results in a number of properties specified in the Conceptual Model being duplicated due to their already being present in the GML application schema (e.g. description, name, bounding box).
+A specific FSDF Gazetteer Product Model would normally remove these duplicates. -->
+		<!-- ############### -->
+		<fsdf-pn-g:Gazetteer gml:id="GazetteerOfAustralia2012">
+			<gml:description>The Gazetteer of Australia provides map-makers and the public with authoritative information on the location and spelling of approved place names. The 2012 release of the Gazetteer is the 11th edition with information held by the relevant State, Territory and Commonwealth naming authorities.
 The place names in this Gazetteer are a subset of the complete information sets held by each of the relevant agencies. For example, the full dataset held by the Geographical Names Board of NSW contains information on the history of a name and its derivation. Also, some features such as the names of roads, which may not be held uniformly by the naming authorities, have not been supplied.
 The State and Territory agencies are the relevant authorities responsible for place names in their respective States and Territories. The Australian Hydrographic Service is the authority for maritime place name features, while the Australian Antarctic Division provides additional information on Heard Island and McDonald Island. Geoscience Australia provides additional information for Norfolk Island, populated place names and unofficial homestead names for NSW, Queensland, Victoria and Tasmania.</gml:description>
-																	<gml:name codeSpace="http://www.ga.gov.au/darwin-gazetteer">GazetteerOfAustralia2012</gml:name>
-																	
-																	<fsdf-pn-g:boundingBox>
-																		<gml:Envelope srsName="EPSG:3112" srsDimension="2"><gml:lowerCorner>45.2921142578125 -80.2166748046875</gml:lowerCorner><gml:upperCorner>169.000122070313 -9.14251708984375</gml:upperCorner></gml:Envelope>
-																	</fsdf-pn-g:boundingBox>
-																	<!-- <fsdf-pn-g:custodian xsi:nil="true" nilReason="unknown"/> -->
-																<fsdf-pn-g:custodian>
-																	<gmd:CI_ResponsibleParty>
-																		<gmd:organisationName>
-																		<!-- Need to determine Country codeList and codeListValue values 
+			<gml:identifier codeSpace="http://www.ga.gov.au/darwin-gazetteer">http://www.ga.gov.au/darwin-gazetteer/GazetteerOfAustralia2012</gml:identifier>
+			<gml:name codeSpace="http://www.ga.gov.au/darwin-gazetteer">GazetteerOfAustralia2012</gml:name>
+			<gml:boundedBy>
+				<gml:Envelope srsName="EPSG:3112" srsDimension="2">
+					<gml:lowerCorner>45.2921142578125 -80.2166748046875</gml:lowerCorner>
+					<gml:upperCorner>169.000122070313 -9.14251708984375</gml:upperCorner>
+				</gml:Envelope>
+			</gml:boundedBy>
+			<!-- duplicates gml:boundedBy -->
+			<fsdf-pn-g:boundingBox>
+				<gml:Envelope srsName="EPSG:3112" srsDimension="2">
+					<gml:lowerCorner>45.2921142578125 -80.2166748046875</gml:lowerCorner>
+					<gml:upperCorner>169.000122070313 -9.14251708984375</gml:upperCorner>
+				</gml:Envelope>
+			</fsdf-pn-g:boundingBox>
+			<!-- <fsdf-pn-g:custodian xsi:nil="true" nilReason="unknown"/> -->
+			<fsdf-pn-g:custodian>
+				<gmd:CI_ResponsibleParty>
+					<gmd:organisationName>
+						<!-- Need to determine Country codeList and codeListValue values 
 																		<gmd:Country codeList="" codeListValue=""></gmd:Country> -->
-																		<gco:CharacterString>Geoscience Australia</gco:CharacterString>
-																		</gmd:organisationName>
-																		<gmd:role>
-																		<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml" codeSpace="ISOTC211/19115" codeListValue="CI_RoleCode_custodian">custodian</gmd:CI_RoleCode>
-																		</gmd:role>
-																	</gmd:CI_ResponsibleParty>
-																</fsdf-pn-g:custodian>
-																	<fsdf-pn-g:description>The Gazetteer of Australia provides map-makers and the public with authoritative information on the location and spelling of approved place names. The 2012 release of the Gazetteer is the 11th edition with information held by the relevant State, Territory and Commonwealth naming authorities.
+						<gco:CharacterString>Geoscience Australia</gco:CharacterString>
+					</gmd:organisationName>
+					<gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml" codeSpace="ISOTC211/19115" codeListValue="CI_RoleCode_custodian">custodian</gmd:CI_RoleCode>
+					</gmd:role>
+				</gmd:CI_ResponsibleParty>
+			</fsdf-pn-g:custodian>
+			<!-- duplicates gml:description -->
+			<fsdf-pn-g:description>The Gazetteer of Australia provides map-makers and the public with authoritative information on the location and spelling of approved place names. The 2012 release of the Gazetteer is the 11th edition with information held by the relevant State, Territory and Commonwealth naming authorities.
 The place names in this Gazetteer are a subset of the complete information sets held by each of the relevant agencies. For example, the full dataset held by the Geographical Names Board of NSW contains information on the history of a name and its derivation. Also, some features such as the names of roads, which may not be held uniformly by the naming authorities, have not been supplied.
 The State and Territory agencies are the relevant authorities responsible for place names in their respective States and Territories. The Australian Hydrographic Service is the authority for maritime place name features, while the Australian Antarctic Division provides additional information on Heard Island and McDonald Island. Geoscience Australia provides additional information for Norfolk Island, populated place names and unofficial homestead names for NSW, Queensland, Victoria and Tasmania.</fsdf-pn-g:description>
-																	<fsdf-pn-g:locationType xsi:nil="true" nilReason="unknown"></fsdf-pn-g:locationType>
-																	<fsdf-pn-g:name>GazetteerOfAustralia2012</fsdf-pn-g:name>
-																	<fsdf-pn-g:status>Published</fsdf-pn-g:status>
-																	<fsdf-pn-g:unitCount xsi:nil="true"></fsdf-pn-g:unitCount>
-																	<fsdf-pn-g:subRegisterOf></fsdf-pn-g:subRegisterOf>
-																	<fsdf-pn-g:territoryOfUse xlink:href="someURIdefiningAustralia"></fsdf-pn-g:territoryOfUse>
-																	<fsdf-pn-g:record>
-																	<fsdf-pn-g:GazetteerEntry gml:id="id5255fa48-42b3-43d1-9e0d-b2ba8b57a936">
-																		<fsdf-pn-g:geographicIdentifier>QLD48234</fsdf-pn-g:geographicIdentifier>
-																		<fsdf-pn-g:locationType></fsdf-pn-g:locationType>
-																		<fsdf-pn-g:name>HATCHMAN POINT</fsdf-pn-g:name>
-																	</fsdf-pn-g:GazetteerEntry></fsdf-pn-g:record>
-																</fsdf-pn-g:Gazetteer>
-																</wfs:member>
-              </wfs:FeatureCollection>
+			<fsdf-pn-g:locationType xsi:nil="true" nilReason="unknown"/>
+			<!-- duplicates gml:name -->
+			<fsdf-pn-g:name>GazetteerOfAustralia2012</fsdf-pn-g:name>
+			<fsdf-pn-g:status>Published</fsdf-pn-g:status>
+			<fsdf-pn-g:unitCount>4</fsdf-pn-g:unitCount>
+			<fsdf-pn-g:subRegisterOf xsi:nil="true" nilReason="inapplicable"/>
+			<fsdf-pn-g:territoryOfUse xlink:href="http://demo.sirf.net/siset/AUS-FSDF/admin/1"/>
+			<!-- Individual gazetteer entry -->
+			<fsdf-pn-g:record>
+				<fsdf-pn-g:GazetteerEntry gml:id="id5255fa48-42b3-43d1-9e0d-b2ba8b57a936">
+					<gml:description/>
+					<gml:identifier codeSpace="http://www.ga.gov.au/darwin-gazetteer">http://www.ga.gov.au/darwin-gazetteer/GazetteerOfAustralia2012/id5255fa48-42b3-43d1-9e0d-b2ba8b57a936</gml:identifier>
+					<gml:name codeSpace="http://www.ga.gov.au/darwin-gazetteer/Place_ID">45880</gml:name>
+					<gml:name codeSpace="http://www.ga.gov.au/darwin-gazetteer/Object_ID">1</gml:name>
+					<gml:name codeSpace="http://www.ga.gov.au/darwin-gazetteer/Name">HATCHMAN POINT</gml:name>
+					<gml:boundedBy>
+						<gml:Envelope srsName="EPSG:3112" srsDimension="2">
+							<gml:lowerCorner>141.62584 -12.58362</gml:lowerCorner>
+							<gml:upperCorner>141.62582 -12.58360</gml:upperCorner>
+						</gml:Envelope>
+					</gml:boundedBy>
+					<!-- duplicates gml:boundedBy -->
+					<fsdf-pn-g:boundingBox>
+						<gml:Envelope srsName="EPSG:3112" srsDimension="2">
+							<gml:lowerCorner>141.62584 -12.58362</gml:lowerCorner>
+							<gml:upperCorner>141.62582 -12.58360</gml:upperCorner>
+						</gml:Envelope>
+					</fsdf-pn-g:boundingBox>
+					<!-- No description is provided for this entry. Property is not mandatory
+<fsdf-pn-g:description></fsdf-pn-g:description> -->
+<!-- fsdf-pn-g:geographicIdentifier duplicate of gml:Point gml:id? -->
+					<fsdf-pn-g:geographicIdentifier>QLD48234</fsdf-pn-g:geographicIdentifier>
+					<fsdf-pn-g:locationType xlink:href="http://www.ga.gov.au/darwin-gazetteer/Feat_Code/PT" xlink:title="PT"/>
+					<fsdf-pn-g:position>
+						<gml:Point gml:id="QLD48234" srsName="EPSG:3112" srsDimension="2">
+							<gml:pos>141.625915527344 -12.5836181640625</gml:pos>
+						</gml:Point>
+					</fsdf-pn-g:position>
+					<fsdf-pn-g:recordStatus xlink:href="http://www.ga.gov.au/darwin-gazetteer/Status/U" xlink:title="unauthorised"/>
+					<fsdf-pn-g:sourceUnit nilReason="missing"/>
+					<!--<fsdf-pn-g:alternativeName></fsdf-pn-g:alternativeName> -->
+					<fsdf-pn-g:preferredName>
+						<fsdf-pn-g:Name>
+							<fsdf-pn-g:language>en</fsdf-pn-g:language>
+							<fsdf-pn-g:status nilReason="unknown"/>
+							<fsdf-pn-g:label>HATCHMAN POINT</fsdf-pn-g:label>
+							<fsdf-pn-g:type>Unknown</fsdf-pn-g:type>
+						</fsdf-pn-g:Name>
+					</fsdf-pn-g:preferredName>
+					<!-- No Code required for this entry
+					<fsdf-pn-g:featureCode>
+						<fsdf-pn-g:Code>
+							<fsdf-pn-g:value/>
+							<fsdf-pn-g:codeSpace/>
+						</fsdf-pn-g:Code>
+					</fsdf-pn-g:featureCode> -->
+				</fsdf-pn-g:GazetteerEntry>
+			</fsdf-pn-g:record>
+			<!--
+### Not Used ####
+			<fme:CGDN>N</fme:CGDN>
+			<fme:AUTHORITY_ID>QLD</fme:AUTHORITY_ID>
+			<fme:CONCISE_GAZ>N</fme:CONCISE_GAZ> - Indicates whether it appears in the "Concise Gazetteer. If so use relatedObject?
+			<fme:lat_degrees>-12</fme:lat_degrees>
+			<fme:lat_minutes>35</fme:lat_minutes>
+			<fme:lat_seconds>0</fme:lat_seconds>
+			<fme:long_degrees>141</fme:long_degrees>
+			<fme:long_minutes>37</fme:long_minutes>
+			<fme:long_seconds>32</fme:long_seconds>
+			<fme:STATE_ID>QLD</fme:STATE_ID>
+			<fme:VARIANT_NAME/> If present use alternativeName. Note some entries are inappropriate e.g.  "See SA Gazetteer". Multiple entries separated by "|"
+			<fme:MAP_100K>7272</fme:MAP_100K> -->
+
+<!-- Three more feature examples to encode 
+	<gml:featureMember>
+		<fme:GML gml:id="id8018a2c3-d4c4-4809-9032-6634993e2e5b">
+			<fme:OBJECTID>2</fme:OBJECTID>
+			<fme:RECORD_ID>QLD48233</fme:RECORD_ID>
+			<fme:NAME>JANTZ POINT</fme:NAME>
+			<fme:FEAT_CODE>PT</fme:FEAT_CODE>
+			<fme:CGDN>N</fme:CGDN>
+			<fme:AUTHORITY_ID>QLD</fme:AUTHORITY_ID>
+			<fme:CONCISE_GAZ>N</fme:CONCISE_GAZ>
+			<fme:LATITUDE>-12.56361</fme:LATITUDE>
+			<fme:lat_degrees>-12</fme:lat_degrees>
+			<fme:lat_minutes>33</fme:lat_minutes>
+			<fme:lat_seconds>48</fme:lat_seconds>
+			<fme:LONGITUDE>141.59194</fme:LONGITUDE>
+			<fme:long_degrees>141</fme:long_degrees>
+			<fme:long_minutes>35</fme:long_minutes>
+			<fme:long_seconds>30</fme:long_seconds>
+			<fme:STATE_ID>QLD</fme:STATE_ID>
+			<fme:STATUS>U</fme:STATUS>
+			<fme:VARIANT_NAME/>
+			<fme:MAP_100K>7272</fme:MAP_100K>
+			<fme:Place_ID>45881</fme:Place_ID>
+			<gml:pointProperty>
+				<gml:Point srsName="EPSG:3112" srsDimension="2">
+					<gml:pos>141.591918945313 -12.5635986328125</gml:pos>
+				</gml:Point>
+			</gml:pointProperty>
+		</fme:GML>
+	</gml:featureMember>
+	<gml:featureMember>
+		<fme:GML gml:id="idb4480381-330a-429b-9743-fd1eab434d27">
+			<fme:OBJECTID>3</fme:OBJECTID>
+			<fme:RECORD_ID>QLD48232</fme:RECORD_ID>
+			<fme:NAME>SALSBURY LANDING</fme:NAME>
+			<fme:FEAT_CODE>PIER</fme:FEAT_CODE>
+			<fme:CGDN>N</fme:CGDN>
+			<fme:AUTHORITY_ID>QLD</fme:AUTHORITY_ID>
+			<fme:CONCISE_GAZ>N</fme:CONCISE_GAZ>
+			<fme:LATITUDE>-21.39778</fme:LATITUDE>
+			<fme:lat_degrees>-21</fme:lat_degrees>
+			<fme:lat_minutes>23</fme:lat_minutes>
+			<fme:lat_seconds>52</fme:lat_seconds>
+			<fme:LONGITUDE>149.28472</fme:LONGITUDE>
+			<fme:long_degrees>149</fme:long_degrees>
+			<fme:long_minutes>17</fme:long_minutes>
+			<fme:long_seconds>4</fme:long_seconds>
+			<fme:STATE_ID>QLD</fme:STATE_ID>
+			<fme:STATUS>O</fme:STATUS>
+			<fme:VARIANT_NAME/>
+			<fme:MAP_100K>8755</fme:MAP_100K>
+			<fme:Place_ID>45882</fme:Place_ID>
+			<gml:pointProperty>
+				<gml:Point srsName="EPSG:3112" srsDimension="2">
+					<gml:pos>149.284729003906 -21.397705078125</gml:pos>
+				</gml:Point>
+			</gml:pointProperty>
+		</fme:GML>
+	</gml:featureMember>
+	<gml:featureMember>
+		<fme:GML gml:id="ide4120347-12bd-40e8-8aba-294546128f69">
+			<fme:OBJECTID>4</fme:OBJECTID>
+			<fme:RECORD_ID>QLD48231</fme:RECORD_ID>
+			<fme:NAME>SHARKS NEST</fme:NAME>
+			<fme:FEAT_CODE>WTRH</fme:FEAT_CODE>
+			<fme:CGDN>N</fme:CGDN>
+			<fme:AUTHORITY_ID>QLD</fme:AUTHORITY_ID>
+			<fme:CONCISE_GAZ>N</fme:CONCISE_GAZ>
+			<fme:LATITUDE>-24.95056</fme:LATITUDE>
+			<fme:lat_degrees>-24</fme:lat_degrees>
+			<fme:lat_minutes>57</fme:lat_minutes>
+			<fme:lat_seconds>2</fme:lat_seconds>
+			<fme:LONGITUDE>152.46556</fme:LONGITUDE>
+			<fme:long_degrees>152</fme:long_degrees>
+			<fme:long_minutes>27</fme:long_minutes>
+			<fme:long_seconds>56</fme:long_seconds>
+			<fme:STATE_ID>QLD</fme:STATE_ID>
+			<fme:STATUS>O</fme:STATUS>
+			<fme:VARIANT_NAME/>
+			<fme:MAP_100K>9348</fme:MAP_100K>
+			<fme:Place_ID>45883</fme:Place_ID>
+			<gml:pointProperty>
+				<gml:Point srsName="EPSG:3112" srsDimension="2">
+					<gml:pos>152.465698242188 -24.9505004882813</gml:pos>
+				</gml:Point>
+			</gml:pointProperty>
+		</fme:GML>
+	</gml:featureMember>
+-->
+		</fsdf-pn-g:Gazetteer>
+	</wfs:member>
+</wfs:FeatureCollection>
