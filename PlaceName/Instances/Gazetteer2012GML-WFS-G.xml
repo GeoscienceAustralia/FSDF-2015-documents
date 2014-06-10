@@ -92,7 +92,7 @@ A specific FSDF Gazetteer Product Model could be created to remove these duplica
 			<fsdf-pn-g:record>
 				<fsdf-pn-g:GazetteerEntry gml:id="AAD10">
 					<!-- No description of the gazetteer entry is available -->
-					<gml:identifier codeSpace="http://www.ga.gov.au/gazetteer-australia-wfsg-gws/wfs">AAD10</gml:identifier>
+					<gml:identifier codeSpace="http://demo.sirf.net/siset/CGNA">AAD10</gml:identifier>
 					<gml:name>Mt Abbs</gml:name>
 					<!--  Need to fix location bounding box EPSG for Antarctica -->
 					<gml:boundedBy>
