@@ -12,7 +12,7 @@
 				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
 				<UML:Package name="WFS-G version of ISO19112  to FSDF-Gazetteer" xmi.id="EAPK_82DDC59F_A09E_4df0_8ED6_8E23EC3B9F62" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 					<UML:ModelElement.stereotype>
-						<UML:Stereotype xmi.idref="EAID_D3170804_B046_4a21_8E73_654E6C79295D"/>
+						<UML:Stereotype xmi.idref="EAID_6A5DE86B_E939_4c64_8BF6_4BE9873A60ED"/>
 					</UML:ModelElement.stereotype>
 					<UML:ModelElement.taggedValue>
 						<UML:TaggedValue tag="documentation" value="A mapping package to capture the mappings between WFS-G and FSDF Gazetteer"/>
@@ -111,7 +111,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="35638"/>
 								<UML:TaggedValue tag="ea_targetID" value="35639"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=20;SY=-26;EX=20;EY=-26;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="rt" value="+mappingContext"/>
 							</UML:ModelElement.taggedValue>
@@ -154,9 +153,8 @@
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="35638"/>
-								<UML:TaggedValue tag="ea_targetID" value="35696"/>
+								<UML:TaggedValue tag="ea_targetID" value="35716"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={A9722BB9-74CD-407e-AABD-1AA11096DC88}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=mapsTo;FQName=Model Mapping::mapsTo;@ENDSTEREO;$DES;$CLT={252CE0D3-1E77-4986-A3E9-54B12FB2C72B}$CLT;$ENDXREF;"/>
-								<UML:TaggedValue tag="privatedata5" value="EDGE=2;EX=0;EY=0;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="mb" value=" &#xA;«mapsTo»"/>
 							</UML:ModelElement.taggedValue>
@@ -200,7 +198,6 @@
 								<UML:TaggedValue tag="ea_sourceID" value="35638"/>
 								<UML:TaggedValue tag="ea_targetID" value="35487"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={012A784E-E4AB-438a-9FBE-7CF0CAD2FE87}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=representsAttribute;FQName=Model Mapping::representsAttribute;@ENDSTEREO;$DES;$CLT={BEBA28A2-738B-4f9e-919F-FED682B52893}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-104;SY=-14;EX=86;EY=-83;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="lt" value="+type"/>
 								<UML:TaggedValue tag="mb" value=" &#xA;«representsAttribute»"/>
@@ -248,7 +245,6 @@
 								<UML:TaggedValue tag="ea_sourceID" value="35638"/>
 								<UML:TaggedValue tag="ea_targetID" value="35487"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={30AAA0F5-DBC4-448f-9885-F48E9925A9A6}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=representsAttribute;FQName=Model Mapping::representsAttribute;@ENDSTEREO;$DES;$CLT={C1137C2C-F013-4e1e-BF69-98E164C73B0F}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-104;SY=39;EX=86;EY=-30;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="lt" value="+language"/>
 								<UML:TaggedValue tag="mb" value=" &#xA;«representsAttribute»"/>
@@ -297,7 +293,6 @@
 								<UML:TaggedValue tag="ea_sourceID" value="35638"/>
 								<UML:TaggedValue tag="ea_targetID" value="35487"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={BD12291C-DEB4-4577-BE7B-A611CD8A435A}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=representsAttribute;FQName=Model Mapping::representsAttribute;@ENDSTEREO;$DES;$CLT={DED22D35-A095-4e59-AD77-170EB48821EF}$CLT;$ENDXREF;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-104;SY=12;EX=86;EY=-57;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="lt" value="+label"/>
 								<UML:TaggedValue tag="mb" value=" &#xA;«representsAttribute»"/>
@@ -373,6 +368,7 @@
 								<UML:TaggedValue tag="ea_sourceID" value="35705"/>
 								<UML:TaggedValue tag="ea_targetID" value="35486"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={8D46AAC3-B339-4064-8DA0-6BB9648572F2}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=representsAttribute;FQName=Model Mapping::representsAttribute;@ENDSTEREO;$DES;$CLT={0A4F9367-3CBC-41d0-B875-BE86E878858B}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=-82;SY=66;EX=101;EY=55;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="lt" value="+custodian"/>
 								<UML:TaggedValue tag="mb" value=" &#xA;«representsAttribute»"/>
@@ -420,6 +416,7 @@
 								<UML:TaggedValue tag="ea_sourceID" value="35705"/>
 								<UML:TaggedValue tag="ea_targetID" value="35486"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={018768FC-A03F-4030-8F5D-E658F34091F1}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=representsAttribute;FQName=Model Mapping::representsAttribute;@ENDSTEREO;$DES;$CLT={3C50B154-3D25-41d0-8183-3567D5F35776}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=-86;SY=-9;EX=101;EY=-20;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="lt" value="+name"/>
 								<UML:TaggedValue tag="mb" value=" &#xA;«representsAttribute»"/>
@@ -467,6 +464,7 @@
 								<UML:TaggedValue tag="ea_sourceID" value="35705"/>
 								<UML:TaggedValue tag="ea_targetID" value="35486"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={7EC453AC-7CB5-4910-B8ED-5848FF881FCE}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=representsAttribute;FQName=Model Mapping::representsAttribute;@ENDSTEREO;$DES;$CLT={3C731CA8-7379-44f7-B3D8-D93C3BE42FBB}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=-85;SY=-51;EX=101;EY=-62;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="lt" value="+territoryOfUse"/>
 								<UML:TaggedValue tag="mb" value=" &#xA;«representsAttribute»"/>
@@ -514,6 +512,7 @@
 								<UML:TaggedValue tag="ea_sourceID" value="35705"/>
 								<UML:TaggedValue tag="ea_targetID" value="35486"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={680F45CE-8420-4da3-8E09-3F67600644D0}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=representsAttribute;FQName=Model Mapping::representsAttribute;@ENDSTEREO;$DES;$CLT={5FA0E4B6-2FCE-47da-A477-8864603A2ED9}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=-86;SY=-95;EX=5;EY=-105;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="lt" value="+record"/>
 								<UML:TaggedValue tag="mb" value=" &#xA;«representsAttribute»"/>
@@ -561,6 +560,7 @@
 								<UML:TaggedValue tag="ea_sourceID" value="35705"/>
 								<UML:TaggedValue tag="ea_targetID" value="35486"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={FC71C951-E696-4c74-AB7C-D4BBE2405EB9}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=representsAttribute;FQName=Model Mapping::representsAttribute;@ENDSTEREO;$DES;$CLT={898E19B8-EF04-40d9-8F24-45C97876481C}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=-85;SY=100;EX=101;EY=89;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="lt" value="+boundingBox.srsName"/>
 								<UML:TaggedValue tag="mb" value=" &#xA;«representsAttribute»"/>
@@ -608,6 +608,7 @@
 								<UML:TaggedValue tag="ea_sourceID" value="35705"/>
 								<UML:TaggedValue tag="ea_targetID" value="35486"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={DA02133F-4477-4690-ACA2-62767F40772D}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=representsAttribute;FQName=Model Mapping::representsAttribute;@ENDSTEREO;$DES;$CLT={9FB0258D-3CC4-458a-A74E-B6BA76B98321}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=-84;SY=33;EX=101;EY=22;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="lt" value="+locationType"/>
 								<UML:TaggedValue tag="mb" value=" &#xA;«representsAttribute»"/>
@@ -655,6 +656,7 @@
 								<UML:TaggedValue tag="ea_sourceID" value="35705"/>
 								<UML:TaggedValue tag="ea_targetID" value="35486"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={0FCFF4FF-B8E0-4547-B109-3C590383D17D}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=representsAttribute;FQName=Model Mapping::representsAttribute;@ENDSTEREO;$DES;$CLT={A3B7D6AF-723E-41a6-A5F4-1837B05AF1DC}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=-86;SY=145;EX=98;EY=134;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="mb" value=" &#xA;«representsAttribute»"/>
 								<UML:TaggedValue tag="rt" value="+acceptableClassList"/>
@@ -699,8 +701,9 @@
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="35705"/>
-								<UML:TaggedValue tag="ea_targetID" value="35692"/>
+								<UML:TaggedValue tag="ea_targetID" value="35712"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={BCE30AF9-C930-4bd1-881D-24B9C0CAA1A0}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=mapsTo;FQName=Model Mapping::mapsTo;@ENDSTEREO;$DES;$CLT={D3CAE218-FDA6-421e-98C2-0152D04EC6C4}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=86;SY=31;EX=0;EY=0;EDGE=2;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="lb" value="1"/>
 								<UML:TaggedValue tag="mb" value=" &#xA;«mapsTo»"/>
@@ -786,7 +789,6 @@
 								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
 								<UML:TaggedValue tag="dst_isNavigable" value="false"/>
 								<UML:TaggedValue tag="dst_style" value="Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=7;SY=160;EX=183;EY=151;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="lb" value="1"/>
 								<UML:TaggedValue tag="mb" value=" &#xA;«realisedObject»"/>
@@ -818,7 +820,6 @@
 								<UML:TaggedValue tag="ea_sourceID" value="35639"/>
 								<UML:TaggedValue tag="ea_targetID" value="35485"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={42CE5DA5-328E-4061-B7B6-2DF71E82C43B}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=representsAttribute;FQName=Model Mapping::representsAttribute;@ENDSTEREO;$DES;$CLT={208FFF72-A651-446a-A2B7-8B6BE2A31CAB}$CLT;$ENDXREF;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-62;SY=88;EX=-1;EY=79;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="lb" value="1"/>
 								<UML:TaggedValue tag="lt" value="+alternativeName"/>
@@ -870,7 +871,6 @@
 								<UML:TaggedValue tag="ea_sourceID" value="35639"/>
 								<UML:TaggedValue tag="ea_targetID" value="35485"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={EEA107A7-9FD5-4d43-9840-E04931668429}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=representsAttribute;FQName=Model Mapping::representsAttribute;@ENDSTEREO;$DES;$CLT={47287E3A-D426-40f1-80F0-327F84E6E00C}$CLT;$ENDXREF;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-61;SY=46;EX=9;EY=37;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="lb" value="1"/>
 								<UML:TaggedValue tag="lt" value="+geographicIdentifier"/>
@@ -920,7 +920,6 @@
 								<UML:TaggedValue tag="ea_sourceID" value="35639"/>
 								<UML:TaggedValue tag="ea_targetID" value="35485"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={10888C6D-5D44-4c80-B036-1E480B4B1A4F}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=representsAttribute;FQName=Model Mapping::representsAttribute;@ENDSTEREO;$DES;$CLT={551ABE90-0505-463c-843C-FF8073C1E840}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=7;SY=-68;EX=7;EY=-77;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="lt" value="+sourceUnit"/>
 								<UML:TaggedValue tag="mb" value=" &#xA;«representsAttribute»"/>
@@ -968,7 +967,6 @@
 								<UML:TaggedValue tag="ea_sourceID" value="35639"/>
 								<UML:TaggedValue tag="ea_targetID" value="35485"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={178A55BC-73F1-4d53-BBFE-F1FF6CF10DC1}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=representsAttribute;FQName=Model Mapping::representsAttribute;@ENDSTEREO;$DES;$CLT={6D62CFA1-5881-4aa3-A7F2-A011677C9703}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-61;SY=-32;EX=-37;EY=-41;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="lt" value="+boundingBox"/>
 								<UML:TaggedValue tag="mb" value=" &#xA;«representsAttribute»"/>
@@ -1016,7 +1014,6 @@
 								<UML:TaggedValue tag="ea_sourceID" value="35639"/>
 								<UML:TaggedValue tag="ea_targetID" value="35485"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={18E577C0-E47C-4301-BAE7-9C0F246C12D7}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=representsAttribute;FQName=Model Mapping::representsAttribute;@ENDSTEREO;$DES;$CLT={766A5CD6-317E-418c-B57B-AD4E986E7304}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-61;SY=126;EX=-11;EY=117;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="lt" value="+sourceunit"/>
 								<UML:TaggedValue tag="mb" value=" &#xA;«representsAttribute»"/>
@@ -1059,7 +1056,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="35640"/>
 								<UML:TaggedValue tag="ea_targetID" value="35639"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-44;SY=-2;EX=-42;EY=-175;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="rt" value="+mappingContext"/>
 							</UML:ModelElement.taggedValue>
@@ -1104,7 +1100,6 @@
 								<UML:TaggedValue tag="ea_sourceID" value="35639"/>
 								<UML:TaggedValue tag="ea_targetID" value="35485"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={82783856-427F-4e5b-829C-155D00274DFD}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=representsAttribute;FQName=Model Mapping::representsAttribute;@ENDSTEREO;$DES;$CLT={EA3CF7A4-8A52-4830-B068-936F6883F51B}$CLT;$ENDXREF;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-61;SY=-115;EX=11;EY=-124;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="lt" value="+locationType"/>
 								<UML:TaggedValue tag="mb" value=" &#xA;«representsAttribute»"/>
@@ -1153,9 +1148,8 @@
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="35639"/>
-								<UML:TaggedValue tag="ea_targetID" value="35691"/>
+								<UML:TaggedValue tag="ea_targetID" value="35711"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={4047DF68-B1AB-4607-89DD-A8D31D5D29C9}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=mapsTo;FQName=Model Mapping::mapsTo;@ENDSTEREO;$DES;$CLT={EEA12521-B671-41f2-948D-CAC18D18D421}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="privatedata5" value="EDGE=2;EX=5;EY=-23;SX=62;SY=-112;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="lb" value="1"/>
 								<UML:TaggedValue tag="mb" value=" &#xA;«mapsTo»"/>
@@ -1203,7 +1197,6 @@
 								<UML:TaggedValue tag="ea_sourceID" value="35639"/>
 								<UML:TaggedValue tag="ea_targetID" value="35485"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={93164C4D-D7F0-4d5a-AB2F-1C125489B08B}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=representsAttribute;FQName=Model Mapping::representsAttribute;@ENDSTEREO;$DES;$CLT={F7FA519B-806B-4268-A819-C6447D510025}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-61;SY=5;EX=46;EY=-4;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="lb" value="1"/>
 								<UML:TaggedValue tag="lt" value="+position"/>
@@ -1331,7 +1324,6 @@
 								<UML:TaggedValue tag="ea_sourceID" value="35640"/>
 								<UML:TaggedValue tag="ea_targetID" value="35487"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={9D6EA1BE-C494-448e-8290-DD9BD4B9FEE0}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=representsAttribute;FQName=Model Mapping::representsAttribute;@ENDSTEREO;$DES;$CLT={313DF26D-3741-4297-8E1C-8C9EB465F27E}$CLT;$ENDXREF;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-16;SY=38;EX=84;EY=121;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="lt" value="+label"/>
 								<UML:TaggedValue tag="mb" value=" &#xA;«representsAttribute»"/>
@@ -1378,9 +1370,8 @@
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="35640"/>
-								<UML:TaggedValue tag="ea_targetID" value="35696"/>
+								<UML:TaggedValue tag="ea_targetID" value="35716"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={167D322D-0CAF-4d18-AF43-D27E4A95F4DD}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=mapsTo;FQName=Model Mapping::mapsTo;@ENDSTEREO;$DES;$CLT={619E74BB-434D-4ecb-82E1-55AC191F4C6F}$CLT;$ENDXREF;"/>
-								<UML:TaggedValue tag="privatedata5" value="EDGE=2;SX=8;SY=-4;EX=0;EY=0;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="mb" value=" &#xA;«mapsTo»"/>
 							</UML:ModelElement.taggedValue>
@@ -1425,7 +1416,6 @@
 								<UML:TaggedValue tag="ea_sourceID" value="35640"/>
 								<UML:TaggedValue tag="ea_targetID" value="35487"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={7CDE5A51-92A5-4d35-8234-A66F18CC77C4}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=representsAttribute;FQName=Model Mapping::representsAttribute;@ENDSTEREO;$DES;$CLT={6627CF06-9025-4374-9C47-916459AF958E}$CLT;$ENDXREF;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-18;SY=-36;EX=82;EY=47;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="lt" value="+type"/>
 								<UML:TaggedValue tag="mb" value=" &#xA;«representsAttribute»"/>
@@ -1474,7 +1464,6 @@
 								<UML:TaggedValue tag="ea_sourceID" value="35640"/>
 								<UML:TaggedValue tag="ea_targetID" value="35487"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={67AC300A-B606-4f59-BE72-0E84EA84970F}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=representsAttribute;FQName=Model Mapping::representsAttribute;@ENDSTEREO;$DES;$CLT={744236AA-EA2B-4373-96B7-D2E85D3E8F07}$CLT;$ENDXREF;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-7;SY=-1;EX=86;EY=82;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="lt" value="+language"/>
 								<UML:TaggedValue tag="mb" value=" &#xA;«representsAttribute»"/>
@@ -1584,14 +1573,14 @@
 						</UML:Dependency>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
-				<UML:Stereotype xmi.id="EAID_D3170804_B046_4a21_8E73_654E6C79295D" name="mappingPackage" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_6A5DE86B_E939_4c64_8BF6_4BE9873A60ED" name="mappingPackage" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
 				<UML:DataType xmi.id="eaxmiid0" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
 			</UML:Namespace.ownedElement>
 		</UML:Model>
 		<UML:TaggedValue tag="property" xmi.id="EAID_1623E848_2CD8_4019_9D15_478AE483F6BA" value="alternativeGeographicIdentifiers" modelElement="EAID_3B826609_4D7A_4d30_98EB_A8C88164AFCD"/>
-		<UML:TaggedValue tag="target" xmi.id="EAID_FDF547D6_B992_4c97_8A35_754AD9FD30E1" value="preferedName" modelElement="EAID_3B826609_4D7A_4d30_98EB_A8C88164AFCD"/>
+		<UML:TaggedValue tag="target" xmi.id="EAID_FDF547D6_B992_4c97_8A35_754AD9FD30E1" value="preferredName" modelElement="EAID_3B826609_4D7A_4d30_98EB_A8C88164AFCD"/>
 		<UML:TaggedValue tag="xpath" xmi.id="EAID_7C6D4753_C313_4981_AF68_9405C1719DAB" value="[primary=&quot;true&quot;]" modelElement="EAID_3B826609_4D7A_4d30_98EB_A8C88164AFCD"/>
 		<UML:TaggedValue tag="property" xmi.id="EAID_B62F842B_C886_4c20_9739_94331BCDAE41" value="alternativeGeographicIdentifiers" modelElement="EAID_E20B6B20_1780_45bb_BC77_75E4A1AE5FD7"/>
 		<UML:TaggedValue tag="target" xmi.id="EAID_CEFF1920_D20E_4c93_8CE8_2DB8F94D1C7B" value="alternateNames" modelElement="EAID_E20B6B20_1780_45bb_BC77_75E4A1AE5FD7"/>
