@@ -12,7 +12,7 @@
 				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
 				<UML:Package name="AdminBoundaryTopology" xmi.id="EAPK_3B8E9AC3_51B5_4132_8B60_3851B82BA633" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 					<UML:ModelElement.stereotype>
-						<UML:Stereotype xmi.idref="EAID_998B5C39_F8EF_4f46_B5A6_0784C5315C60"/>
+						<UML:Stereotype xmi.idref="EAID_75C2816D_F217_4630_96CD_E63559327F5A"/>
 					</UML:ModelElement.stereotype>
 					<UML:ModelElement.taggedValue>
 						<UML:TaggedValue tag="documentation" value="The AreaHierarchy (AH) package contains common behavior model for any nested hierarchy of areas.  The model addresses issues of navigation and cross referencing between hierarchies and the scoping of topology to versions of hierarchies.&#xA;The hierarchy describes the topological relationships, not the (potentially multiple) alternative geometric descriptions of objects (see package AreaRepresentation)."/>
@@ -121,10 +121,10 @@
 						</UML:Class>
 						<UML:Association xmi.id="EAID_D95B6EA4_769E_4096_90EB_9ECACAC8F83C" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="style" value="2"/>
 								<UML:TaggedValue tag="ea_type" value="Association"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linemode" value="2"/>
 								<UML:TaggedValue tag="linecolor" value="-1"/>
 								<UML:TaggedValue tag="linewidth" value="0"/>
 								<UML:TaggedValue tag="seqno" value="0"/>
@@ -138,6 +138,7 @@
 								<UML:TaggedValue tag="ea_sourceID" value="35573"/>
 								<UML:TaggedValue tag="ea_targetID" value="35563"/>
 								<UML:TaggedValue tag="$ea_dst_xref_property" value="$XREFPROP=$XID={05CA2B3D-6ACF-4d62-8997-993DB0F29436}$XID;$NAM=Stereotypes$NAM;$TYP=connectorDestEnd property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=property;FQName=ISO 19100::property;@ENDSTEREO;$DES;$CLT={D95B6EA4-769E-4096-90EB-9ECACAC8F83C}$CLT;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=-1;SY=-14;EX=0;EY=23;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="rb" value="0..1"/>
 								<UML:TaggedValue tag="rt" value="+currentDefinedVersion&#xA;«property»"/>
@@ -224,6 +225,7 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+								<UML:TaggedValue tag="privatedata5" value="EDGE=1;SX=0;SY=0;EX=-2;EY=0;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Generalization>
@@ -338,10 +340,10 @@
 						</UML:Class>
 						<UML:Generalization subtype="EAID_4075BE30_31D5_43f1_9328_EC08B6504895" supertype="EAID_D1513861_8BE9_47ec_B424_624F0D136B47" xmi.id="EAID_32E0EABF_0114_4945_B5D6_71F9E6118389" visibility="public">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="style" value="2"/>
 								<UML:TaggedValue tag="ea_type" value="Generalization"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linemode" value="2"/>
 								<UML:TaggedValue tag="linecolor" value="-1"/>
 								<UML:TaggedValue tag="linewidth" value="0"/>
 								<UML:TaggedValue tag="seqno" value="0"/>
@@ -370,15 +372,16 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=-3;SY=-13;EX=-3;EY=-13;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Generalization>
 						<UML:Association xmi.id="EAID_3D6C20AC_CF1B_41c7_B3A7_A44FF28CE147" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="style" value="1"/>
 								<UML:TaggedValue tag="ea_type" value="Association"/>
 								<UML:TaggedValue tag="direction" value="Bi-Directional"/>
-								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linemode" value="1"/>
 								<UML:TaggedValue tag="linecolor" value="-1"/>
 								<UML:TaggedValue tag="linewidth" value="0"/>
 								<UML:TaggedValue tag="seqno" value="0"/>
@@ -393,6 +396,7 @@
 								<UML:TaggedValue tag="ea_targetID" value="35565"/>
 								<UML:TaggedValue tag="$ea_src_xref_property" value="$XREFPROP=$XID={C643D8B0-C485-4cca-8F7E-073C800CB9FD}$XID;$NAM=Stereotypes$NAM;$TYP=connectorSrcEnd property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=property;FQName=ISO 19100::property;@ENDSTEREO;$DES;$CLT={3D6C20AC-CF1B-41c7-B3A7-A44FF28CE147}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 								<UML:TaggedValue tag="$ea_dst_xref_property" value="$XREFPROP=$XID={EF7263E2-ED02-4518-A7AD-442B9A1BA3B2}$XID;$NAM=Stereotypes$NAM;$TYP=connectorDestEnd property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=property;FQName=ISO 19100::property;@ENDSTEREO;$DES;$CLT={3D6C20AC-CF1B-41c7-B3A7-A44FF28CE147}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=-49;SY=-9;EX=-94;EY=-44;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="lb" value="1"/>
 								<UML:TaggedValue tag="lt" value="+hierarchy&#xA;«property»"/>
@@ -440,6 +444,7 @@
 								<UML:TaggedValue tag="ea_targetID" value="35565"/>
 								<UML:TaggedValue tag="$ea_src_xref_property" value="$XREFPROP=$XID={287EB890-1A68-41e1-A13E-67A82A196A65}$XID;$NAM=Stereotypes$NAM;$TYP=connectorSrcEnd property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=property;FQName=ISO 19100::property;@ENDSTEREO;$DES;$CLT={B9978EDC-BB74-4213-97C9-80E8625381A1}$CLT;$ENDXREF;"/>
 								<UML:TaggedValue tag="$ea_dst_xref_property" value="$XREFPROP=$XID={03B66DA6-53FD-4db3-B269-654184D4660B}$XID;$NAM=Stereotypes$NAM;$TYP=connectorDestEnd property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=property;FQName=ISO 19100::property;@ENDSTEREO;$DES;$CLT={B9978EDC-BB74-4213-97C9-80E8625381A1}$CLT;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;SCME=1;SCTR=1;EDGE=4;SCTR.LEFT=227;SCTR.TOP=-497;SCTR.RIGHT=320;SCTR.BOTTOM=-442;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="lb" value="0..*"/>
 								<UML:TaggedValue tag="lt" value="+lowerLevelUnit&#xA;«property»"/>
@@ -507,6 +512,7 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Generalization>
@@ -791,10 +797,10 @@
 						</UML:Class>
 						<UML:Association xmi.id="EAID_8A0BA717_FEEB_44ba_BFC9_E62B6EC3E8D8" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="style" value="2"/>
 								<UML:TaggedValue tag="ea_type" value="Association"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linemode" value="2"/>
 								<UML:TaggedValue tag="linecolor" value="-1"/>
 								<UML:TaggedValue tag="linewidth" value="0"/>
 								<UML:TaggedValue tag="seqno" value="0"/>
@@ -808,6 +814,7 @@
 								<UML:TaggedValue tag="ea_sourceID" value="35574"/>
 								<UML:TaggedValue tag="ea_targetID" value="35568"/>
 								<UML:TaggedValue tag="$ea_dst_xref_property" value="$XREFPROP=$XID={C50BFEDC-71E1-4737-95F8-3BEF7F08F1B8}$XID;$NAM=Stereotypes$NAM;$TYP=connectorDestEnd property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=property;FQName=ISO 19100::property;@ENDSTEREO;$DES;$CLT={8A0BA717-FEEB-44ba-BFC9-E62B6EC3E8D8}$CLT;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=1;SY=-12;EX=0;EY=0;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="rb" value="0..*"/>
 								<UML:TaggedValue tag="rt" value="+consistsOf&#xA;«property»"/>
@@ -835,10 +842,10 @@
 						</UML:Association>
 						<UML:Association xmi.id="EAID_931B9C6F_1410_41cf_B719_67D26E23E02D" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="style" value="2"/>
 								<UML:TaggedValue tag="ea_type" value="Association"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linemode" value="2"/>
 								<UML:TaggedValue tag="linecolor" value="-1"/>
 								<UML:TaggedValue tag="linewidth" value="0"/>
 								<UML:TaggedValue tag="seqno" value="0"/>
@@ -852,6 +859,7 @@
 								<UML:TaggedValue tag="ea_sourceID" value="35574"/>
 								<UML:TaggedValue tag="ea_targetID" value="35568"/>
 								<UML:TaggedValue tag="$ea_dst_xref_property" value="$XREFPROP=$XID={BDD30560-5AFE-4e75-B77A-793E823DAC78}$XID;$NAM=Stereotypes$NAM;$TYP=connectorDestEnd property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=property;FQName=ISO 19100::property;@ENDSTEREO;$DES;$CLT={931B9C6F-1410-41cf-B719-67D26E23E02D}$CLT;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=52;SY=28;EX=55;EY=4;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="rb" value="0..1"/>
 								<UML:TaggedValue tag="rt" value="+refersTo&#xA;«property»"/>
@@ -1407,6 +1415,7 @@
 								<UML:TaggedValue tag="ea_sourceID" value="35573"/>
 								<UML:TaggedValue tag="ea_targetID" value="35572"/>
 								<UML:TaggedValue tag="$ea_dst_xref_property" value="$XREFPROP=$XID={FE35A6D0-197A-4bd6-8A41-C9397A6E8730}$XID;$NAM=Stereotypes$NAM;$TYP=connectorDestEnd property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=property;FQName=ISO 19100::property;@ENDSTEREO;$DES;$CLT={015D9763-DC1A-45dc-B429-E9A2FF5691BA}$CLT;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=-88;SY=-17;EX=-101;EY=-48;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="rb" value="0..*"/>
 								<UML:TaggedValue tag="rt" value="+knownSpatialRelationship&#xA;«property»"/>
@@ -1450,6 +1459,7 @@
 								<UML:TaggedValue tag="ea_sourceID" value="35572"/>
 								<UML:TaggedValue tag="ea_targetID" value="35573"/>
 								<UML:TaggedValue tag="$ea_dst_xref_property" value="$XREFPROP=$XID={8DA16B1B-9F08-43c9-9528-7B90C0C5878D}$XID;$NAM=Stereotypes$NAM;$TYP=connectorDestEnd property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=property;FQName=ISO 19100::property;@ENDSTEREO;$DES;$CLT={11860DA0-BD4C-4b65-8B99-72A995985A78}$CLT;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=77;SY=-1;EX=90;EY=52;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="rb" value="0..*"/>
 								<UML:TaggedValue tag="rt" value="+sourceUnit&#xA;«property»"/>
@@ -1493,6 +1503,7 @@
 								<UML:TaggedValue tag="ea_sourceID" value="35572"/>
 								<UML:TaggedValue tag="ea_targetID" value="35573"/>
 								<UML:TaggedValue tag="$ea_dst_xref_property" value="$XREFPROP=$XID={9DBA9E64-C327-4d36-AFA2-34809AD2843F}$XID;$NAM=Stereotypes$NAM;$TYP=connectorDestEnd property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=property;FQName=ISO 19100::property;@ENDSTEREO;$DES;$CLT={F3DEE40D-DA6C-4385-8074-E616B45DBEF6}$CLT;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=-7;SY=-46;EX=6;EY=1;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="rb" value="0..*"/>
 								<UML:TaggedValue tag="rt" value="+targetUnit&#xA;«property»"/>
@@ -1681,7 +1692,7 @@
 						</UML:Class>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
-				<UML:Stereotype xmi.id="EAID_998B5C39_F8EF_4f46_B5A6_0784C5315C60" name="ApplicationSchema" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_75C2816D_F217_4630_96CD_E63559327F5A" name="ApplicationSchema" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
 				<UML:DataType xmi.id="eaxmiid1" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
@@ -1690,7 +1701,11 @@
 				<UML:DataType xmi.id="eaxmiid2" name="StatisticalUnit_TypeTerm" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
 			</UML:Namespace.ownedElement>
 		</UML:Model>
+		<UML:TaggedValue tag="author" xmi.id="EAID_1DD109A5_2473_4f38_B38E_59BDD29FE475" value="Atkinson R., Roy M., Simons B.A., Cox S.J.D., Box P." modelElement="MX_EAID_3B8E9AC3_51B5_4132_8B60_3851B82BA633"/>
+		<UML:TaggedValue tag="copyright" xmi.id="EAID_6D0F0C34_C776_4ee0_A8D3_F10EC68CC5F5" value="ANZLIC - the Spatial Information Council;  Office of Spatial Policy, Department of Communications, " modelElement="MX_EAID_3B8E9AC3_51B5_4132_8B60_3851B82BA633"/>
 		<UML:TaggedValue tag="gmlProfileSchema" xmi.id="EAID_48460EC2_0C6F_f40c_886E_7D283A089D5B" value="#NOTES#Description: URL of the XSD location of a GML profile&#xA;" modelElement="MX_EAID_3B8E9AC3_51B5_4132_8B60_3851B82BA633"/>
+		<UML:TaggedValue tag="licence" xmi.id="EAID_FE9B4C81_254D_4c04_BA83_DBE4A8FC3C5A" value="this work is licensed under a Creative Commons Attribution 3.0 Australia licence (http://creativecommons.org/licenses/by/3.0/au/). " modelElement="MX_EAID_3B8E9AC3_51B5_4132_8B60_3851B82BA633"/>
+		<UML:TaggedValue tag="ownedBy" xmi.id="EAID_E6E08F6D_A070_446d_9143_261ABA053703" value="ANZLIC - the Spatial Information Council;  Office of Spatial Policy, Department of Communications, " modelElement="MX_EAID_3B8E9AC3_51B5_4132_8B60_3851B82BA633"/>
 		<UML:TaggedValue tag="targetNamespace" xmi.id="EAID_393CD814_F041_3bf0_B955_BDCB82F3FAF4" value="http://anzlic.com.au/themes/ab/abt#NOTES#Description: Target namespace URI of the Application Schema&#xA;" modelElement="MX_EAID_3B8E9AC3_51B5_4132_8B60_3851B82BA633"/>
 		<UML:TaggedValue tag="version" xmi.id="EAID_6F40CEE6_0A33_550a_A07E_2ECE00A59B95" value="1.0.0#NOTES#Description: Version of the Application Schema&#xA;" modelElement="MX_EAID_3B8E9AC3_51B5_4132_8B60_3851B82BA633"/>
 		<UML:TaggedValue tag="xmlns" xmi.id="EAID_08B91BD2_1FDF_fc1f_9C88_5B55ACE58EB0" value="fsdf-abt#NOTES#Description: Namespace prefix (or) the abbreviated short form  of the target namespace&#xA;" modelElement="MX_EAID_3B8E9AC3_51B5_4132_8B60_3851B82BA633"/>
