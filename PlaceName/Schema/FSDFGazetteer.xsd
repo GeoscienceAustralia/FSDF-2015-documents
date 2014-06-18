@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fsdf-pn-g="http://anzlic.fsdf/def/schema/source/placenames/gazetteer" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmlexr="http://www.opengis.net/gml/3.3/exr"  targetNamespace="http://anzlic.fsdf/def/schema/source/placenames/gazetteer" elementFormDefault="qualified" version="1.0.0">
-	
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fsdf-pn-g="http://anzlic.fsdf/def/schema/source/placenames/gazetteer" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmlexr="http://www.opengis.net/gml/3.3/exr" targetNamespace="http://anzlic.fsdf/def/schema/source/placenames/gazetteer" elementFormDefault="qualified" version="1.0.0">
+<!-- General information:
+Authors                  - Rob Atkinson, Bruce Simons, Simon Cox (CSIRO), Box (CSIRO) – for AB Models and core common conceptual mode and just CSIRO for the PN models)
+Copyright            - ANZLIC - the Spatial Information Council;  Department of Communications, 
+Licence                 - this work is licensed under a Creative Commons Attribution 3.0 Australia licence (http://creativecommons.org/licenses/by/3.0/au/). 
+-->
 	<xs:import namespace="http://www.opengis.net/gml/3.3/exr" schemaLocation="http://schemas.opengis.net/gml/3.3/extdEncRule.xsd"/>
 	<xs:import namespace="http://www.isotc211.org/2005/gmd" schemaLocation="http://schemas.opengis.net/iso/19139/20070417/gmd/gmd.xsd"/>
 	<xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
-	<!-- Removing references to Admin Boundaries Product schema 
-xmlns:fsdf-abt="http://anzlic.com.au/themes/ab/abt"
-<xs:import namespace="http://anzlic.com.au/themes/ab/abt" schemaLocation="C://Repos/FSDF2/FDSF/AdminBoundary/Schema/AdminBoundaryTopologyProductSchema.xsd"/>
--->
 	<xs:annotation>
 		<xs:documentation>Application schema for gazetteers and their entries, names and codes.</xs:documentation>
 	</xs:annotation>
-	<!-- Reference to core schema rather than product schema:
-xmlns:fsdf-core-cdm="http://anzlic.fsdf/def/schema/source/core/cdm" <xs:import namespace="http://anzlic.fsdf/def/schema/source/core/cdm" schemaLocation=
- -->
 	<xs:element name="Code" type="fsdf-pn-g:CodeType" substitutionGroup="gml:AbstractObject">
 		<xs:annotation>
 			<xs:documentation>A data type to capture where the name of the GazetteerEntry is a code (e.g MEL for Tullamarine Airport)</xs:documentation>
@@ -62,7 +59,6 @@ xmlns:fsdf-core-cdm="http://anzlic.fsdf/def/schema/source/core/cdm" <xs:import n
 							</xs:complexContent>
 						</xs:complexType>
 					</xs:element>
-					
 					<xs:element name="custodian" nillable="true">
 						<xs:annotation>
 							<xs:documentation>Custodian of the gazetteer</xs:documentation>
@@ -74,9 +70,9 @@ xmlns:fsdf-core-cdm="http://anzlic.fsdf/def/schema/source/core/cdm" <xs:import n
 							<xs:complexContent>
 								<xs:extension base="gml:AbstractMetadataPropertyType">
 									<xs:sequence>
-									<xs:element ref="gmd:CI_ResponsibleParty"/>
-								</xs:sequence>
-								<xs:attribute name="nilReason" type="gml:NilReasonType"/>
+										<xs:element ref="gmd:CI_ResponsibleParty"/>
+									</xs:sequence>
+									<xs:attribute name="nilReason" type="gml:NilReasonType"/>
 								</xs:extension>
 							</xs:complexContent>
 						</xs:complexType>
@@ -90,7 +86,6 @@ xmlns:fsdf-core-cdm="http://anzlic.fsdf/def/schema/source/core/cdm" <xs:import n
 						<xs:annotation>
 							<xs:documentation>If binding to definition space via SKOS this is a broader term for collections (stadiums, golf courses, bridges).</xs:documentation>
 						</xs:annotation>
-						
 					</xs:element>
 					<xs:element name="name" type="xs:string" minOccurs="0" maxOccurs="1">
 						<xs:annotation>
@@ -124,16 +119,14 @@ Published</xs:documentation>
 					<xs:element name="territoryOfUse" type="fsdf-core-cdm:UnitDefinitionPropertyType"/> 
 					<xs:element name="territoryOfUse" type="fsdf-abt:UnitDefinitionPropertyType"/> -->
 					<xs:element name="territoryOfUse" type="gml:ReferenceType">
-					<xs:annotation>
+						<xs:annotation>
 							<xs:documentation>The unit definition of the area that the gazetteer covers.</xs:documentation>
 							<xs:appinfo>
 								<gml:targetElement>fsdf-core-cdm:UnitDefinition</gml:targetElement>
 							</xs:appinfo>
 						</xs:annotation>
 					</xs:element>
-					
 					<xs:element name="record" type="fsdf-pn-g:GazetteerEntryPropertyType" minOccurs="0" maxOccurs="unbounded"/>
-					
 				</xs:sequence>
 			</xs:extension>
 		</xs:complexContent>
@@ -224,6 +217,27 @@ Proposed)</xs:documentation>
 							<xs:documentation>Identifier of a feature or spatial object representing the same entity but appearing in other FSDF themes , if any.</xs:documentation>
 						</xs:annotation>
 					</xs:element>
+					<!-- Temporary addition of gazetteer entry custodian -->
+					<!-- Not required as decided to define Gazetteers as collections of GazetteerEntries for each custodian
+					<xs:element name="custodian" nillable="true">
+						<xs:annotation>
+							<xs:documentation>Custodian of the gazetteer entry</xs:documentation>
+							<xs:appinfo>
+								<gml:targetElement>gmd:CI_ResponsibleParty</gml:targetElement>
+							</xs:appinfo>
+						</xs:annotation>
+						<xs:complexType>
+							<xs:complexContent>
+								<xs:extension base="gml:AbstractMetadataPropertyType">
+									<xs:sequence>
+										<xs:element ref="gmd:CI_ResponsibleParty"/>
+									</xs:sequence>
+									<xs:attribute name="nilReason" type="gml:NilReasonType"/>
+								</xs:extension>
+							</xs:complexContent>
+						</xs:complexType>
+					</xs:element>
+					-->
 				</xs:sequence>
 			</xs:extension>
 		</xs:complexContent>
@@ -351,3 +365,10 @@ Proposed</xs:documentation>
 		</xs:restriction>
 	</xs:simpleType>
 </xs:schema>
+<!-- Removing references to Admin Boundaries Product schema 
+xmlns:fsdf-abt="http://anzlic.com.au/themes/ab/abt"
+<xs:import namespace="http://anzlic.com.au/themes/ab/abt" schemaLocation="C://Repos/FSDF2/FDSF/AdminBoundary/Schema/AdminBoundaryTopologyProductSchema.xsd"/>
+-->
+<!-- Reference to core schema rather than product schema:
+xmlns:fsdf-core-cdm="http://anzlic.fsdf/def/schema/source/core/cdm" <xs:import namespace="http://anzlic.fsdf/def/schema/source/core/cdm" schemaLocation=
+ -->
