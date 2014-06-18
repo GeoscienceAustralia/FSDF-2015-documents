@@ -228,9 +228,9 @@ A specific FSDF Gazetteer Product Model could be created to remove these duplica
 			<fsdf-pn-g:territoryOfUse xlink:href="http://demo.sirf.net/siset/AUS-FSDF/admin/1"/>
 			<!-- Individual gazetteer entry from the Queensland gazetteer -->
 			<fsdf-pn-g:record>
-				<fsdf-pn-g:GazetteerEntry gml:id="id5255fa48-42b3-43d1-9e0d-b2ba8b57a936">
+				<fsdf-pn-g:GazetteerEntry gml:id="QLD48229">
 					<gml:description/>
-					<gml:identifier codeSpace="http://www.ga.gov.au/gazetteer-australia-wfsg-gws/wfs">QLD48229</gml:identifier>
+					<gml:identifier codeSpace="http://demo.sirf.net/siset/CGNA">QLD48229</gml:identifier>
 					<gml:name>FALLONS ROCKS</gml:name>
 					<gml:boundedBy>
 						<gml:Envelope srsName="EPSG:3112" srsDimension="2">
@@ -251,7 +251,7 @@ A specific FSDF Gazetteer Product Model could be created to remove these duplica
 					<fsdf-pn-g:geographicIdentifier>QLD48234</fsdf-pn-g:geographicIdentifier>
 					<fsdf-pn-g:locationType xlink:href="http://www.ga.gov.au/darwin-gazetteer/Feat_Code/PT" xlink:title="PT"/>
 					<fsdf-pn-g:position>
-						<gml:Point gml:id="QLD48234" srsName="EPSG:3112" srsDimension="2">
+						<gml:Point gml:id="QLD48229position" srsName="EPSG:3112" srsDimension="2">
 							<gml:pos>141.625915527344 -12.5836181640625</gml:pos>
 						</gml:Point>
 					</fsdf-pn-g:position>
