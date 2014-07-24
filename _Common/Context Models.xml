@@ -669,7 +669,7 @@
 												<UML:TaggedValue tag="conditional" value=" &#xA;쳃mport�"/>
 												<UML:TaggedValue tag="ea_localid" value="11878"/>
 												<UML:TaggedValue tag="ea_sourceName" value="FSDF Thematic Model"/>
-												<UML:TaggedValue tag="ea_targetName" value="FSDF Core Common Model"/>
+												<UML:TaggedValue tag="ea_targetName" value="FSDF Common Model"/>
 												<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 												<UML:TaggedValue tag="ea_targetType" value="Class"/>
 												<UML:TaggedValue tag="ea_sourceID" value="9833"/>
@@ -708,7 +708,7 @@
 												<UML:TaggedValue tag="headStyle" value="0"/>
 												<UML:TaggedValue tag="lineStyle" value="0"/>
 												<UML:TaggedValue tag="ea_localid" value="11882"/>
-												<UML:TaggedValue tag="ea_sourceName" value="FSDF Product Model"/>
+												<UML:TaggedValue tag="ea_sourceName" value="FSDF product model"/>
 												<UML:TaggedValue tag="ea_targetName" value="FSDF Thematic Model"/>
 												<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 												<UML:TaggedValue tag="ea_targetType" value="Class"/>
@@ -752,7 +752,7 @@
 												<UML:TaggedValue tag="conditional" value=" &#xA;쳓race�"/>
 												<UML:TaggedValue tag="ea_localid" value="11877"/>
 												<UML:TaggedValue tag="ea_sourceName" value="FSDF Thematic Model"/>
-												<UML:TaggedValue tag="ea_targetName" value="FSDFproduct"/>
+												<UML:TaggedValue tag="ea_targetName" value="FSDF product"/>
 												<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 												<UML:TaggedValue tag="ea_targetType" value="Class"/>
 												<UML:TaggedValue tag="ea_sourceID" value="9833"/>
@@ -816,7 +816,7 @@
 												<UML:TaggedValue tag="lineStyle" value="0"/>
 												<UML:TaggedValue tag="ea_localid" value="11889"/>
 												<UML:TaggedValue tag="ea_sourceName" value="FSDF datastore"/>
-												<UML:TaggedValue tag="ea_targetName" value="Foudnation Spatial Data Framework"/>
+												<UML:TaggedValue tag="ea_targetName" value="Foundation Spatial Data Framework"/>
 												<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 												<UML:TaggedValue tag="ea_targetType" value="Class"/>
 												<UML:TaggedValue tag="ea_sourceID" value="9826"/>
@@ -854,7 +854,7 @@
 												<UML:TaggedValue tag="lineStyle" value="0"/>
 												<UML:TaggedValue tag="ea_localid" value="11886"/>
 												<UML:TaggedValue tag="ea_sourceName" value="FSDF datastore"/>
-												<UML:TaggedValue tag="ea_targetName" value="FSDFproduct"/>
+												<UML:TaggedValue tag="ea_targetName" value="FSDF product"/>
 												<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 												<UML:TaggedValue tag="ea_targetType" value="Class"/>
 												<UML:TaggedValue tag="ea_sourceID" value="9826"/>
@@ -984,7 +984,7 @@
 												<UML:TaggedValue tag="ea_targetType" value="Class"/>
 												<UML:TaggedValue tag="ea_sourceID" value="9856"/>
 												<UML:TaggedValue tag="ea_targetID" value="9854"/>
-												<UML:TaggedValue tag="privatedata5" value="EDGE=1;"/>
+												<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
 												<UML:TaggedValue tag="virtualInheritance" value="0"/>
 											</UML:ModelElement.taggedValue>
 											<UML:Association.connection>
@@ -1261,16 +1261,16 @@
 												</UML:AssociationEnd>
 											</UML:Association.connection>
 										</UML:Association>
-										<UML:Class name="Foudnation Spatial Data Framework" xmi.id="EAID_7906F9CB_5CF7_42fc_AA55_F0697B658B2F" visibility="public" namespace="EAPK_5950DFF2_B9D8_474f_8D2A_8C04F5EE505F" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+										<UML:Class name="Foundation Spatial Data Framework" xmi.id="EAID_7906F9CB_5CF7_42fc_AA55_F0697B658B2F" visibility="public" namespace="EAPK_5950DFF2_B9D8_474f_8D2A_8C04F5EE505F" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="documentation" value="Information component of NSII.&#xA;Organized into  10 themes&#xA;Delivering Foundation information:&#xA;- for derived products&#xA;- reuse across applications&#xA;- national use case?&#xA;&#xA;"/>
+												<UML:TaggedValue tag="documentation" value="Information component of NSII.&#xA;Organized into  10 themes&#xA;Delivering Foundation information:&#xA;- for derived products&#xA;- reuse across applications&#xA;- national use case?&#xA;"/>
 												<UML:TaggedValue tag="isSpecification" value="false"/>
 												<UML:TaggedValue tag="ea_stype" value="Class"/>
 												<UML:TaggedValue tag="ea_ntype" value="0"/>
 												<UML:TaggedValue tag="version" value="1.0"/>
 												<UML:TaggedValue tag="package" value="EAPK_5950DFF2_B9D8_474f_8D2A_8C04F5EE505F"/>
 												<UML:TaggedValue tag="date_created" value="2013-05-20 09:26:26"/>
-												<UML:TaggedValue tag="date_modified" value="2014-05-28 17:05:05"/>
+												<UML:TaggedValue tag="date_modified" value="2014-07-24 14:18:41"/>
 												<UML:TaggedValue tag="gentype" value="Java"/>
 												<UML:TaggedValue tag="tagged" value="0"/>
 												<UML:TaggedValue tag="package_name" value="Concepts"/>
@@ -1297,7 +1297,7 @@
 												<UML:TaggedValue tag="lineStyle" value="0"/>
 												<UML:TaggedValue tag="ea_localid" value="11888"/>
 												<UML:TaggedValue tag="ea_sourceName" value="Policy Framework"/>
-												<UML:TaggedValue tag="ea_targetName" value="Foudnation Spatial Data Framework"/>
+												<UML:TaggedValue tag="ea_targetName" value="Foundation Spatial Data Framework"/>
 												<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 												<UML:TaggedValue tag="ea_targetType" value="Class"/>
 												<UML:TaggedValue tag="ea_sourceID" value="9834"/>
@@ -1334,7 +1334,7 @@
 												<UML:TaggedValue tag="headStyle" value="0"/>
 												<UML:TaggedValue tag="lineStyle" value="0"/>
 												<UML:TaggedValue tag="ea_localid" value="11890"/>
-												<UML:TaggedValue tag="ea_sourceName" value="Foudnation Spatial Data Framework"/>
+												<UML:TaggedValue tag="ea_sourceName" value="Foundation Spatial Data Framework"/>
 												<UML:TaggedValue tag="ea_targetName" value="NSII"/>
 												<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 												<UML:TaggedValue tag="ea_targetType" value="Class"/>
@@ -1444,7 +1444,7 @@
 												</UML:AssociationEnd>
 											</UML:Association.connection>
 										</UML:Association>
-										<UML:Class name="FSDF Core Common Model" xmi.id="EAID_8A2DE807_34C3_46de_BDEA_A78CCB1B35F0" visibility="public" namespace="EAPK_5950DFF2_B9D8_474f_8D2A_8C04F5EE505F" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+										<UML:Class name="FSDF Common Model" xmi.id="EAID_8A2DE807_34C3_46de_BDEA_A78CCB1B35F0" visibility="public" namespace="EAPK_5950DFF2_B9D8_474f_8D2A_8C04F5EE505F" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="documentation" value="The model that defines concepts that are common across and will enable coherence across the all TWGs. May include the definition of:&#xA;- spatial and temporal representations of spatial objects across different levels of detail&#xA;- spatial and temporal relationships between spatial objects&#xA;- unique object identifiers&#xA;- constraints&#xA;- reference to common spatial and temporal reference systems as well as multilingual thesauri &#xA;&#xA;See http://inspire.jrc.ec.europa.eu/reports/ImplementingRules/DataSpecifications/D2.5_v3.1.pdf"/>
 												<UML:TaggedValue tag="isSpecification" value="false"/>
@@ -1453,7 +1453,7 @@
 												<UML:TaggedValue tag="version" value="1.0"/>
 												<UML:TaggedValue tag="package" value="EAPK_5950DFF2_B9D8_474f_8D2A_8C04F5EE505F"/>
 												<UML:TaggedValue tag="date_created" value="2013-05-21 15:17:16"/>
-												<UML:TaggedValue tag="date_modified" value="2014-07-24 14:02:14"/>
+												<UML:TaggedValue tag="date_modified" value="2014-07-24 14:20:48"/>
 												<UML:TaggedValue tag="gentype" value="Java"/>
 												<UML:TaggedValue tag="tagged" value="0"/>
 												<UML:TaggedValue tag="package_name" value="Concepts"/>
@@ -1480,7 +1480,7 @@
 												<UML:TaggedValue tag="lineStyle" value="0"/>
 												<UML:TaggedValue tag="conditional" value="쳀low�"/>
 												<UML:TaggedValue tag="ea_localid" value="11982"/>
-												<UML:TaggedValue tag="ea_sourceName" value="FSDF Core Common Model"/>
+												<UML:TaggedValue tag="ea_sourceName" value="FSDF Common Model"/>
 												<UML:TaggedValue tag="ea_targetName" value="Model"/>
 												<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 												<UML:TaggedValue tag="ea_targetType" value="ActivityParameter"/>
@@ -1666,6 +1666,7 @@
 												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="privatedata5" value="SX=41;SY=-2;EX=0;EY=0;EDGE=2;"/>
 												<UML:TaggedValue tag="virtualInheritance" value="0"/>
 											</UML:ModelElement.taggedValue>
 										</UML:Dependency>
@@ -1707,7 +1708,7 @@
 												</UML:AssociationEnd>
 											</UML:Association.connection>
 										</UML:Association>
-										<UML:Class name="FSDF Product Model" xmi.id="EAID_B4619DFB_3F19_459e_A77D_AE567B28A803" visibility="public" namespace="EAPK_5950DFF2_B9D8_474f_8D2A_8C04F5EE505F" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+										<UML:Class name="FSDF product model" xmi.id="EAID_B4619DFB_3F19_459e_A77D_AE567B28A803" visibility="public" namespace="EAPK_5950DFF2_B9D8_474f_8D2A_8C04F5EE505F" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="documentation" value="Model describing the concepts and relationships represented in a specific dataset store or product). Models represented using UML ISO profile. Models are implementable."/>
 												<UML:TaggedValue tag="isSpecification" value="false"/>
@@ -1716,7 +1717,7 @@
 												<UML:TaggedValue tag="version" value="1.0"/>
 												<UML:TaggedValue tag="package" value="EAPK_5950DFF2_B9D8_474f_8D2A_8C04F5EE505F"/>
 												<UML:TaggedValue tag="date_created" value="2006-01-11 09:35:34"/>
-												<UML:TaggedValue tag="date_modified" value="2014-05-28 17:04:37"/>
+												<UML:TaggedValue tag="date_modified" value="2014-07-24 14:18:59"/>
 												<UML:TaggedValue tag="gentype" value="Java"/>
 												<UML:TaggedValue tag="tagged" value="0"/>
 												<UML:TaggedValue tag="package_name" value="Concepts"/>
@@ -1744,7 +1745,7 @@
 												<UML:TaggedValue tag="lineStyle" value="0"/>
 												<UML:TaggedValue tag="conditional" value="쳀low�"/>
 												<UML:TaggedValue tag="ea_localid" value="11987"/>
-												<UML:TaggedValue tag="ea_sourceName" value="FSDF Product Model"/>
+												<UML:TaggedValue tag="ea_sourceName" value="FSDF product model"/>
 												<UML:TaggedValue tag="ea_targetName" value="Model"/>
 												<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 												<UML:TaggedValue tag="ea_targetType" value="ActivityParameter"/>
@@ -1785,7 +1786,7 @@
 												<UML:TaggedValue tag="conditional" value="쳀low�"/>
 												<UML:TaggedValue tag="ea_localid" value="11986"/>
 												<UML:TaggedValue tag="ea_sourceName" value="model"/>
-												<UML:TaggedValue tag="ea_targetName" value="FSDF Product Model"/>
+												<UML:TaggedValue tag="ea_targetName" value="FSDF product model"/>
 												<UML:TaggedValue tag="ea_sourceType" value="ActivityParameter"/>
 												<UML:TaggedValue tag="ea_targetType" value="Class"/>
 												<UML:TaggedValue tag="ea_sourceID" value="9930"/>
@@ -1823,8 +1824,8 @@
 												<UML:TaggedValue tag="headStyle" value="0"/>
 												<UML:TaggedValue tag="lineStyle" value="0"/>
 												<UML:TaggedValue tag="ea_localid" value="11883"/>
-												<UML:TaggedValue tag="ea_sourceName" value="FSDF Product Model"/>
-												<UML:TaggedValue tag="ea_targetName" value="FSDFproduct"/>
+												<UML:TaggedValue tag="ea_sourceName" value="FSDF product model"/>
+												<UML:TaggedValue tag="ea_targetName" value="FSDF product"/>
 												<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 												<UML:TaggedValue tag="ea_targetType" value="Class"/>
 												<UML:TaggedValue tag="ea_sourceID" value="9829"/>
@@ -1917,7 +1918,7 @@
 												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 											</UML:ModelElement.taggedValue>
 										</UML:Class>
-										<UML:Class name="FSDFproduct" xmi.id="EAID_F2027D07_EE5A_4dfa_9437_DF21AFF17F7B" visibility="public" namespace="EAPK_5950DFF2_B9D8_474f_8D2A_8C04F5EE505F" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+										<UML:Class name="FSDF product" xmi.id="EAID_F2027D07_EE5A_4dfa_9437_DF21AFF17F7B" visibility="public" namespace="EAPK_5950DFF2_B9D8_474f_8D2A_8C04F5EE505F" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="isSpecification" value="false"/>
 												<UML:TaggedValue tag="ea_stype" value="Class"/>
@@ -1925,7 +1926,7 @@
 												<UML:TaggedValue tag="version" value="1.0"/>
 												<UML:TaggedValue tag="package" value="EAPK_5950DFF2_B9D8_474f_8D2A_8C04F5EE505F"/>
 												<UML:TaggedValue tag="date_created" value="2013-05-13 17:10:12"/>
-												<UML:TaggedValue tag="date_modified" value="2014-05-28 17:04:42"/>
+												<UML:TaggedValue tag="date_modified" value="2014-07-24 14:18:49"/>
 												<UML:TaggedValue tag="gentype" value="Java"/>
 												<UML:TaggedValue tag="tagged" value="0"/>
 												<UML:TaggedValue tag="package_name" value="Concepts"/>
@@ -1953,7 +1954,7 @@
 												<UML:TaggedValue tag="conditional" value="쳀low�"/>
 												<UML:TaggedValue tag="ea_localid" value="11988"/>
 												<UML:TaggedValue tag="ea_sourceName" value="data"/>
-												<UML:TaggedValue tag="ea_targetName" value="FSDFproduct"/>
+												<UML:TaggedValue tag="ea_targetName" value="FSDF product"/>
 												<UML:TaggedValue tag="ea_sourceType" value="ActivityParameter"/>
 												<UML:TaggedValue tag="ea_targetType" value="Class"/>
 												<UML:TaggedValue tag="ea_sourceID" value="9941"/>
@@ -2391,7 +2392,7 @@
 														<UML:TaggedValue tag="lineStyle" value="0"/>
 														<UML:TaggedValue tag="ea_localid" value="11962"/>
 														<UML:TaggedValue tag="ea_sourceName" value="Subject Matter Expert"/>
-														<UML:TaggedValue tag="ea_targetName" value="Create Product Model"/>
+														<UML:TaggedValue tag="ea_targetName" value="Create/edit FSDF product model"/>
 														<UML:TaggedValue tag="ea_sourceType" value="Actor"/>
 														<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
 														<UML:TaggedValue tag="ea_sourceID" value="9900"/>
@@ -2551,7 +2552,7 @@
 														<UML:TaggedValue tag="lineStyle" value="0"/>
 														<UML:TaggedValue tag="ea_localid" value="11965"/>
 														<UML:TaggedValue tag="ea_sourceName" value="Model Techncial lead"/>
-														<UML:TaggedValue tag="ea_targetName" value="Create Thematic Logical Model"/>
+														<UML:TaggedValue tag="ea_targetName" value="Create/edit FSDF thematic model"/>
 														<UML:TaggedValue tag="ea_sourceType" value="Actor"/>
 														<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
 														<UML:TaggedValue tag="ea_sourceID" value="9896"/>
@@ -2589,7 +2590,7 @@
 														<UML:TaggedValue tag="lineStyle" value="0"/>
 														<UML:TaggedValue tag="ea_localid" value="11964"/>
 														<UML:TaggedValue tag="ea_sourceName" value="Model Techncial lead"/>
-														<UML:TaggedValue tag="ea_targetName" value="Create FSDF CCM"/>
+														<UML:TaggedValue tag="ea_targetName" value="Create/edit FSDF core model"/>
 														<UML:TaggedValue tag="ea_sourceType" value="Actor"/>
 														<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
 														<UML:TaggedValue tag="ea_sourceID" value="9896"/>
@@ -2774,7 +2775,7 @@
 														<UML:TaggedValue tag="lineStyle" value="0"/>
 														<UML:TaggedValue tag="ea_localid" value="11970"/>
 														<UML:TaggedValue tag="ea_sourceName" value="FSDFEditor"/>
-														<UML:TaggedValue tag="ea_targetName" value="Create FSDF CCM"/>
+														<UML:TaggedValue tag="ea_targetName" value="Create/edit FSDF core model"/>
 														<UML:TaggedValue tag="ea_sourceType" value="Actor"/>
 														<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
 														<UML:TaggedValue tag="ea_sourceID" value="9893"/>
@@ -2934,7 +2935,7 @@
 														<UML:TaggedValue tag="lineStyle" value="0"/>
 														<UML:TaggedValue tag="ea_localid" value="11959"/>
 														<UML:TaggedValue tag="ea_sourceName" value="Thematic Working Group"/>
-														<UML:TaggedValue tag="ea_targetName" value="Create Thematic Logical Model"/>
+														<UML:TaggedValue tag="ea_targetName" value="Create/edit FSDF thematic model"/>
 														<UML:TaggedValue tag="ea_sourceType" value="Actor"/>
 														<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
 														<UML:TaggedValue tag="ea_sourceID" value="9901"/>
@@ -2971,7 +2972,7 @@
 														<UML:TaggedValue tag="lineStyle" value="0"/>
 														<UML:TaggedValue tag="ea_localid" value="11958"/>
 														<UML:TaggedValue tag="ea_sourceName" value="Thematic Working Group"/>
-														<UML:TaggedValue tag="ea_targetName" value="Create Product Model"/>
+														<UML:TaggedValue tag="ea_targetName" value="Create/edit FSDF product model"/>
 														<UML:TaggedValue tag="ea_sourceType" value="Actor"/>
 														<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
 														<UML:TaggedValue tag="ea_sourceID" value="9901"/>
@@ -3254,7 +3255,7 @@
 														<UML:TaggedValue tag="lineStyle" value="0"/>
 														<UML:TaggedValue tag="ea_localid" value="11976"/>
 														<UML:TaggedValue tag="ea_sourceName" value="TWGEditor"/>
-														<UML:TaggedValue tag="ea_targetName" value="Create Thematic Logical Model"/>
+														<UML:TaggedValue tag="ea_targetName" value="Create/edit FSDF thematic model"/>
 														<UML:TaggedValue tag="ea_sourceType" value="Actor"/>
 														<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
 														<UML:TaggedValue tag="ea_sourceID" value="9892"/>
@@ -3292,7 +3293,7 @@
 														<UML:TaggedValue tag="lineStyle" value="0"/>
 														<UML:TaggedValue tag="ea_localid" value="11974"/>
 														<UML:TaggedValue tag="ea_sourceName" value="TWGEditor"/>
-														<UML:TaggedValue tag="ea_targetName" value="Create Product Model"/>
+														<UML:TaggedValue tag="ea_targetName" value="Create/edit FSDF product model"/>
 														<UML:TaggedValue tag="ea_sourceType" value="Actor"/>
 														<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
 														<UML:TaggedValue tag="ea_sourceID" value="9892"/>
@@ -3416,7 +3417,7 @@
 												<UML:TaggedValue tag="ea_stype" value="Public"/>
 											</UML:ModelElement.taggedValue>
 											<UML:Namespace.ownedElement>
-												<UML:UseCase name="Create Product Model" xmi.id="EAID_25D5C123_A6DF_485c_A0A6_26BCBAC4944E" visibility="public" namespace="EAPK_E36A5660_F3CA_41f1_8CF4_C38236FEDE2F" isRoot="false" isLeaf="false" isAbstract="false">
+												<UML:UseCase name="Create/edit FSDF product model" xmi.id="EAID_25D5C123_A6DF_485c_A0A6_26BCBAC4944E" visibility="public" namespace="EAPK_E36A5660_F3CA_41f1_8CF4_C38236FEDE2F" isRoot="false" isLeaf="false" isAbstract="false">
 													<UML:ModelElement.taggedValue>
 														<UML:TaggedValue tag="isSpecification" value="false"/>
 														<UML:TaggedValue tag="ea_stype" value="UseCase"/>
@@ -3425,7 +3426,7 @@
 														<UML:TaggedValue tag="isActive" value="false"/>
 														<UML:TaggedValue tag="package" value="EAPK_E36A5660_F3CA_41f1_8CF4_C38236FEDE2F"/>
 														<UML:TaggedValue tag="date_created" value="2005-11-19 09:42:52"/>
-														<UML:TaggedValue tag="date_modified" value="2013-05-13 16:14:40"/>
+														<UML:TaggedValue tag="date_modified" value="2014-07-24 14:22:22"/>
 														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 														<UML:TaggedValue tag="tagged" value="0"/>
 														<UML:TaggedValue tag="package_name" value="Modelling Use Cases"/>
@@ -3463,7 +3464,7 @@
 														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 													</UML:ModelElement.taggedValue>
 												</UML:UseCase>
-												<UML:UseCase name="Create Thematic Logical Model" xmi.id="EAID_39A0B59E_9923_4266_A3DA_E28305D23963" visibility="public" namespace="EAPK_E36A5660_F3CA_41f1_8CF4_C38236FEDE2F" isRoot="false" isLeaf="false" isAbstract="false">
+												<UML:UseCase name="Create/edit FSDF thematic model" xmi.id="EAID_39A0B59E_9923_4266_A3DA_E28305D23963" visibility="public" namespace="EAPK_E36A5660_F3CA_41f1_8CF4_C38236FEDE2F" isRoot="false" isLeaf="false" isAbstract="false">
 													<UML:ModelElement.taggedValue>
 														<UML:TaggedValue tag="documentation" value="TCM - Thematic Logical Model "/>
 														<UML:TaggedValue tag="isSpecification" value="false"/>
@@ -3473,7 +3474,7 @@
 														<UML:TaggedValue tag="isActive" value="false"/>
 														<UML:TaggedValue tag="package" value="EAPK_E36A5660_F3CA_41f1_8CF4_C38236FEDE2F"/>
 														<UML:TaggedValue tag="date_created" value="2005-11-20 08:34:49"/>
-														<UML:TaggedValue tag="date_modified" value="2014-07-24 13:27:19"/>
+														<UML:TaggedValue tag="date_modified" value="2014-07-24 14:22:56"/>
 														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 														<UML:TaggedValue tag="tagged" value="0"/>
 														<UML:TaggedValue tag="package_name" value="Modelling Use Cases"/>
@@ -3533,7 +3534,7 @@
 														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 													</UML:ModelElement.taggedValue>
 												</UML:UseCase>
-												<UML:UseCase name="Create FSDF CCM" xmi.id="EAID_FBDCD7DF_C421_4eea_A888_FD934C677EE5" visibility="public" namespace="EAPK_E36A5660_F3CA_41f1_8CF4_C38236FEDE2F" isRoot="false" isLeaf="false" isAbstract="false">
+												<UML:UseCase name="Create/edit FSDF core model" xmi.id="EAID_FBDCD7DF_C421_4eea_A888_FD934C677EE5" visibility="public" namespace="EAPK_E36A5660_F3CA_41f1_8CF4_C38236FEDE2F" isRoot="false" isLeaf="false" isAbstract="false">
 													<UML:ModelElement.taggedValue>
 														<UML:TaggedValue tag="documentation" value="Create FSDF Common Conceptual Model"/>
 														<UML:TaggedValue tag="isSpecification" value="false"/>
@@ -3543,7 +3544,7 @@
 														<UML:TaggedValue tag="isActive" value="false"/>
 														<UML:TaggedValue tag="package" value="EAPK_E36A5660_F3CA_41f1_8CF4_C38236FEDE2F"/>
 														<UML:TaggedValue tag="date_created" value="2013-05-21 15:39:42"/>
-														<UML:TaggedValue tag="date_modified" value="2014-05-14 10:43:52"/>
+														<UML:TaggedValue tag="date_modified" value="2014-07-24 14:21:43"/>
 														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 														<UML:TaggedValue tag="tagged" value="0"/>
 														<UML:TaggedValue tag="package_name" value="Modelling Use Cases"/>
