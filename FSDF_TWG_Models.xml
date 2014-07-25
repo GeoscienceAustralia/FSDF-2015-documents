@@ -10,14 +10,14 @@
 		<UML:Model name="EA Model" xmi.id="MX_EAID_A86CC6F9_6BC9_4e6d_BC78_E99C923271B0">
 			<UML:Namespace.ownedElement>
 				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
-				<UML:Package name="FSDF TWG Models" xmi.id="EAPK_A86CC6F9_6BC9_4e6d_BC78_E99C923271B0" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+				<UML:Package name="Foundation Spatial Data Framework Models " xmi.id="EAPK_A86CC6F9_6BC9_4e6d_BC78_E99C923271B0" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 					<UML:ModelElement.taggedValue>
-						<UML:TaggedValue tag="parent" value="EAPK_98BFE85C_4CAC_4546_9EF4_B57C6C6E6746"/>
+						<UML:TaggedValue tag="parent" value="EAPK_92AA1E3F_89AC_4301_8CDD_BEE3062FA7B1"/>
 						<UML:TaggedValue tag="created" value="2013-05-22 15:59:24"/>
-						<UML:TaggedValue tag="modified" value="2014-04-22 13:57:55"/>
+						<UML:TaggedValue tag="modified" value="2014-07-25 15:59:15"/>
 						<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 						<UML:TaggedValue tag="xmlpath" value="FSDF_TWG_Models.xml"/>
-						<UML:TaggedValue tag="lastloaddate" value="2014-05-30 10:03:04"/>
+						<UML:TaggedValue tag="lastloaddate" value="2014-06-18 10:34:50"/>
 						<UML:TaggedValue tag="lastsavedate" value="2013-05-22 15:59:24"/>
 						<UML:TaggedValue tag="version" value="1.0"/>
 						<UML:TaggedValue tag="isprotected" value="FALSE"/>
@@ -51,13 +51,13 @@
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_04E88FC4_E20B_4c6f_BC03_2370B9EE54CF"/>
-										<UML:TaggedValue tag="package_name" value="FSDF TWG Models"/>
+										<UML:TaggedValue tag="package_name" value="Foundation Spatial Data Framework Models "/>
 										<UML:TaggedValue tag="phase" value="1.0"/>
 										<UML:TaggedValue tag="author" value="mroy"/>
 										<UML:TaggedValue tag="complexity" value="1"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
 										<UML:TaggedValue tag="tpos" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="4222"/>
+										<UML:TaggedValue tag="ea_localid" value="1910"/>
 										<UML:TaggedValue tag="ea_eleType" value="package"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
@@ -76,15 +76,39 @@
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_40D817B5_B669_491a_ADA3_1252E11056C2"/>
-										<UML:TaggedValue tag="package_name" value="FSDF TWG Models"/>
+										<UML:TaggedValue tag="package_name" value="Foundation Spatial Data Framework Models "/>
 										<UML:TaggedValue tag="phase" value="1.0"/>
 										<UML:TaggedValue tag="author" value="mroy"/>
 										<UML:TaggedValue tag="complexity" value="1"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
 										<UML:TaggedValue tag="tpos" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="4129"/>
+										<UML:TaggedValue tag="ea_localid" value="1781"/>
 										<UML:TaggedValue tag="ea_eleType" value="package"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="FSDF Theme Models" xmi.id="EAID_4F1D7911_44A3_4eb6_B6BF_BB2EA116DA91" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Boundary"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_A86CC6F9_6BC9_4e6d_BC78_E99C923271B0"/>
+										<UML:TaggedValue tag="date_created" value="2014-07-25 16:00:06"/>
+										<UML:TaggedValue tag="date_modified" value="2014-07-25 16:09:41"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Foundation Spatial Data Framework Models "/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="box019"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="11752"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
 									</UML:ModelElement.taggedValue>
 								</UML:ClassifierRole>
 								<UML:ClassifierRole name="TWG Geocoded Addressing" xmi.id="EAID_50DB98DF_58FA_454e_8DDA_63E0C956762C" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
@@ -101,13 +125,13 @@
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_50DB98DF_58FA_454e_8DDA_63E0C956762C"/>
-										<UML:TaggedValue tag="package_name" value="FSDF TWG Models"/>
+										<UML:TaggedValue tag="package_name" value="Foundation Spatial Data Framework Models "/>
 										<UML:TaggedValue tag="phase" value="1.0"/>
 										<UML:TaggedValue tag="author" value="mroy"/>
 										<UML:TaggedValue tag="complexity" value="1"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
 										<UML:TaggedValue tag="tpos" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="4104"/>
+										<UML:TaggedValue tag="ea_localid" value="1772"/>
 										<UML:TaggedValue tag="ea_eleType" value="package"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
@@ -126,19 +150,44 @@
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_5A6A8216_9CCD_4b7b_AD6B_300BAE6B29D8"/>
-										<UML:TaggedValue tag="package_name" value="FSDF TWG Models"/>
+										<UML:TaggedValue tag="package_name" value="Foundation Spatial Data Framework Models "/>
 										<UML:TaggedValue tag="phase" value="1.0"/>
 										<UML:TaggedValue tag="author" value="mroy"/>
 										<UML:TaggedValue tag="complexity" value="1"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
 										<UML:TaggedValue tag="tpos" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="4106"/>
+										<UML:TaggedValue tag="ea_localid" value="1797"/>
 										<UML:TaggedValue tag="ea_eleType" value="package"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
 								</UML:ClassifierRole>
+								<UML:ClassifierRole name="FSDF Common Models " xmi.id="EAID_5C5FBA8F_FAAD_4514_B23A_B19DC3942AB7" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Boundary"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_A86CC6F9_6BC9_4e6d_BC78_E99C923271B0"/>
+										<UML:TaggedValue tag="date_created" value="2014-07-25 15:59:59"/>
+										<UML:TaggedValue tag="date_modified" value="2014-07-25 16:01:15"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Foundation Spatial Data Framework Models "/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="box019"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="11751"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
 								<UML:ClassifierRole name="TWG Admin Boundaries Model" xmi.id="EAID_66BEEE65_5244_4641_ABA9_72D056ED0EEB" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="FSDF Administrative Boundary Thematic Working Group Models "/>
 										<UML:TaggedValue tag="isAbstract" value="false"/>
 										<UML:TaggedValue tag="isSpecification" value="false"/>
 										<UML:TaggedValue tag="ea_stype" value="Package"/>
@@ -147,23 +196,24 @@
 										<UML:TaggedValue tag="isActive" value="false"/>
 										<UML:TaggedValue tag="package" value="EAPK_A86CC6F9_6BC9_4e6d_BC78_E99C923271B0"/>
 										<UML:TaggedValue tag="date_created" value="2013-05-22 17:01:39"/>
-										<UML:TaggedValue tag="date_modified" value="2013-07-05 14:33:08"/>
+										<UML:TaggedValue tag="date_modified" value="2014-07-25 15:26:59"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_66BEEE65_5244_4641_ABA9_72D056ED0EEB"/>
-										<UML:TaggedValue tag="package_name" value="FSDF TWG Models"/>
+										<UML:TaggedValue tag="package_name" value="Foundation Spatial Data Framework Models "/>
 										<UML:TaggedValue tag="phase" value="1.0"/>
 										<UML:TaggedValue tag="author" value="mroy"/>
 										<UML:TaggedValue tag="complexity" value="1"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
 										<UML:TaggedValue tag="tpos" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="4223"/>
+										<UML:TaggedValue tag="ea_localid" value="1923"/>
 										<UML:TaggedValue tag="ea_eleType" value="package"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
 								</UML:ClassifierRole>
 								<UML:ClassifierRole name="TWG Transport" xmi.id="EAID_7287372F_113C_4b02_9AA9_30382B523933" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Initial draft models for Transport Theme"/>
 										<UML:TaggedValue tag="isAbstract" value="false"/>
 										<UML:TaggedValue tag="isSpecification" value="false"/>
 										<UML:TaggedValue tag="ea_stype" value="Package"/>
@@ -172,17 +222,17 @@
 										<UML:TaggedValue tag="isActive" value="false"/>
 										<UML:TaggedValue tag="package" value="EAPK_A86CC6F9_6BC9_4e6d_BC78_E99C923271B0"/>
 										<UML:TaggedValue tag="date_created" value="2013-05-29 13:19:42"/>
-										<UML:TaggedValue tag="date_modified" value="2013-05-29 13:19:42"/>
+										<UML:TaggedValue tag="date_modified" value="2014-07-25 15:57:47"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_7287372F_113C_4b02_9AA9_30382B523933"/>
-										<UML:TaggedValue tag="package_name" value="FSDF TWG Models"/>
+										<UML:TaggedValue tag="package_name" value="Foundation Spatial Data Framework Models "/>
 										<UML:TaggedValue tag="phase" value="1.0"/>
 										<UML:TaggedValue tag="author" value="mroy"/>
 										<UML:TaggedValue tag="complexity" value="1"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
 										<UML:TaggedValue tag="tpos" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="4117"/>
+										<UML:TaggedValue tag="ea_localid" value="1777"/>
 										<UML:TaggedValue tag="ea_eleType" value="package"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
@@ -201,13 +251,13 @@
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_7B989DCA_629D_4870_91C6_CB02506D89B8"/>
-										<UML:TaggedValue tag="package_name" value="FSDF TWG Models"/>
+										<UML:TaggedValue tag="package_name" value="Foundation Spatial Data Framework Models "/>
 										<UML:TaggedValue tag="phase" value="1.0"/>
 										<UML:TaggedValue tag="author" value="mroy"/>
 										<UML:TaggedValue tag="complexity" value="1"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
 										<UML:TaggedValue tag="tpos" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="4102"/>
+										<UML:TaggedValue tag="ea_localid" value="1771"/>
 										<UML:TaggedValue tag="ea_eleType" value="package"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
@@ -226,13 +276,13 @@
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_9145AC9C_2C6E_443f_9D2C_EF884F46B774"/>
-										<UML:TaggedValue tag="package_name" value="FSDF TWG Models"/>
+										<UML:TaggedValue tag="package_name" value="Foundation Spatial Data Framework Models "/>
 										<UML:TaggedValue tag="phase" value="1.0"/>
 										<UML:TaggedValue tag="author" value="mroy"/>
 										<UML:TaggedValue tag="complexity" value="1"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
 										<UML:TaggedValue tag="tpos" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="4115"/>
+										<UML:TaggedValue tag="ea_localid" value="1776"/>
 										<UML:TaggedValue tag="ea_eleType" value="package"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
@@ -251,13 +301,13 @@
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_988AF3B1_275B_45a4_A1E8_47E1D341FC05"/>
-										<UML:TaggedValue tag="package_name" value="FSDF TWG Models"/>
+										<UML:TaggedValue tag="package_name" value="Foundation Spatial Data Framework Models "/>
 										<UML:TaggedValue tag="phase" value="1.0"/>
 										<UML:TaggedValue tag="author" value="mroy"/>
 										<UML:TaggedValue tag="complexity" value="1"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
 										<UML:TaggedValue tag="tpos" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="4110"/>
+										<UML:TaggedValue tag="ea_localid" value="1774"/>
 										<UML:TaggedValue tag="ea_eleType" value="package"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
@@ -276,19 +326,20 @@
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_C8A38625_C22C_46eb_8174_42B636F4DD39"/>
-										<UML:TaggedValue tag="package_name" value="FSDF TWG Models"/>
+										<UML:TaggedValue tag="package_name" value="Foundation Spatial Data Framework Models "/>
 										<UML:TaggedValue tag="phase" value="1.0"/>
 										<UML:TaggedValue tag="author" value="mroy"/>
 										<UML:TaggedValue tag="complexity" value="1"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
 										<UML:TaggedValue tag="tpos" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="4108"/>
+										<UML:TaggedValue tag="ea_localid" value="1773"/>
 										<UML:TaggedValue tag="ea_eleType" value="package"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
 								</UML:ClassifierRole>
 								<UML:ClassifierRole name="TWG Place Names" xmi.id="EAID_E6746D67_B30F_409d_AB09_5DD0C648FFE5" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="FSDF Place Names Thematic Working Group Models "/>
 										<UML:TaggedValue tag="isAbstract" value="false"/>
 										<UML:TaggedValue tag="isSpecification" value="false"/>
 										<UML:TaggedValue tag="ea_stype" value="Package"/>
@@ -297,17 +348,17 @@
 										<UML:TaggedValue tag="isActive" value="false"/>
 										<UML:TaggedValue tag="package" value="EAPK_A86CC6F9_6BC9_4e6d_BC78_E99C923271B0"/>
 										<UML:TaggedValue tag="date_created" value="2013-05-29 15:18:25"/>
-										<UML:TaggedValue tag="date_modified" value="2013-05-29 15:18:31"/>
+										<UML:TaggedValue tag="date_modified" value="2014-07-25 15:26:02"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_E6746D67_B30F_409d_AB09_5DD0C648FFE5"/>
-										<UML:TaggedValue tag="package_name" value="FSDF TWG Models"/>
+										<UML:TaggedValue tag="package_name" value="Foundation Spatial Data Framework Models "/>
 										<UML:TaggedValue tag="phase" value="1.0"/>
 										<UML:TaggedValue tag="author" value="mroy"/>
 										<UML:TaggedValue tag="complexity" value="1"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
 										<UML:TaggedValue tag="tpos" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="4344"/>
+										<UML:TaggedValue tag="ea_localid" value="1895"/>
 										<UML:TaggedValue tag="ea_eleType" value="package"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
@@ -315,6 +366,58 @@
 							</UML:Namespace.ownedElement>
 							<UML:Collaboration.interaction/>
 						</UML:Collaboration>
+						<UML:Comment xmi.id="EAID_44D6D5B3_1ECA_4304_BE9F_02C1FD8CD9C7" visibility="public" namespace="EAPK_A86CC6F9_6BC9_4e6d_BC78_E99C923271B0">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="These packages contain initial published versions of the FSDF models for Thematic Working Groups: &#xA;- FSDF Administrative Boundary Theme&#xA;- FSDF Place Names Them "/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Text"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_A86CC6F9_6BC9_4e6d_BC78_E99C923271B0"/>
+								<UML:TaggedValue tag="date_created" value="2014-07-25 16:09:48"/>
+								<UML:TaggedValue tag="date_modified" value="2014-07-25 16:11:13"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Foundation Spatial Data Framework Models "/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="box019"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="11754"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
+						<UML:Class name="TWG Admin Boundaries Model" xmi.id="EAID_455D7B50_A5A4_40a3_BC7F_A687D7254888" visibility="public" namespace="EAPK_A86CC6F9_6BC9_4e6d_BC78_E99C923271B0" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="EAReportSpecification"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Artifact"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_A86CC6F9_6BC9_4e6d_BC78_E99C923271B0"/>
+								<UML:TaggedValue tag="date_created" value="2014-07-25 14:33:31"/>
+								<UML:TaggedValue tag="date_modified" value="2014-07-25 14:33:31"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Foundation Spatial Data Framework Models "/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="box019"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="stereotype" value="EAReportSpecification"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="11644"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={D793B0E2-79CB-4de3-9C78-062B7B479CDD}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=EAReportSpecification;FQName=EAUML::EAReportSpecification;@ENDSTEREO;$DES;$CLT={455D7B50-A5A4-40a3-BC7F-A687D7254888}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Class>
 						<UML:Association xmi.id="EAID_5174DDF0_3B86_43ef_A378_986DC5E47256" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="style" value="3"/>
@@ -326,13 +429,13 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="33338"/>
+								<UML:TaggedValue tag="ea_localid" value="13935"/>
 								<UML:TaggedValue tag="ea_sourceName" value="TWG Geocoded Addressing"/>
-								<UML:TaggedValue tag="ea_targetName" value="FSDF TWG Models"/>
+								<UML:TaggedValue tag="ea_targetName" value="Foundation Spatial Data Framework Models "/>
 								<UML:TaggedValue tag="ea_sourceType" value="Package"/>
 								<UML:TaggedValue tag="ea_targetType" value="Package"/>
-								<UML:TaggedValue tag="ea_sourceID" value="33388"/>
-								<UML:TaggedValue tag="ea_targetID" value="33914"/>
+								<UML:TaggedValue tag="ea_sourceID" value="10936"/>
+								<UML:TaggedValue tag="ea_targetID" value="10942"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -363,13 +466,13 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="33348"/>
+								<UML:TaggedValue tag="ea_localid" value="13944"/>
 								<UML:TaggedValue tag="ea_sourceName" value="TWG Transport"/>
-								<UML:TaggedValue tag="ea_targetName" value="FSDF TWG Models"/>
+								<UML:TaggedValue tag="ea_targetName" value="Foundation Spatial Data Framework Models "/>
 								<UML:TaggedValue tag="ea_sourceType" value="Package"/>
 								<UML:TaggedValue tag="ea_targetType" value="Package"/>
-								<UML:TaggedValue tag="ea_sourceID" value="33412"/>
-								<UML:TaggedValue tag="ea_targetID" value="33914"/>
+								<UML:TaggedValue tag="ea_sourceID" value="10946"/>
+								<UML:TaggedValue tag="ea_targetID" value="10942"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -389,6 +492,30 @@
 								</UML:AssociationEnd>
 							</UML:Association.connection>
 						</UML:Association>
+						<UML:Comment xmi.id="EAID_B82C3728_8B49_4b51_A945_63E201BB4375" visibility="public" namespace="EAPK_A86CC6F9_6BC9_4e6d_BC78_E99C923271B0">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Common models describe key aspects of the FSDF. Key packages are:&#xA;&lt;b&gt;Context Models&lt;/b&gt;&#xA;- FSDF Core Conceptual Model - a high level description of the FSDF core model&#xA;- FSDF Domain Model - key FSDF concepts&#xA;- FSDF Modelling - process and use case models for the modelling initiative&#xA;- FSDF Governance - initial draft of proposed FSDF governance structure and roles.&#xA;&lt;b&gt;Core Definition Model&lt;/b&gt;&#xA;Design patterns that can be used across FSDF themes "/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Text"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_A86CC6F9_6BC9_4e6d_BC78_E99C923271B0"/>
+								<UML:TaggedValue tag="date_created" value="2014-07-25 16:02:26"/>
+								<UML:TaggedValue tag="date_modified" value="2014-07-25 16:12:41"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Foundation Spatial Data Framework Models "/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="box019"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="11753"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
 						<UML:Package name="Common Definition Models" xmi.id="EAPK_04E88FC4_E20B_4c6f_BC03_2370B9EE54CF" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="parent" value="EAPK_A86CC6F9_6BC9_4e6d_BC78_E99C923271B0"/>
@@ -396,7 +523,7 @@
 								<UML:TaggedValue tag="modified" value="2014-02-05 10:20:41"/>
 								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 								<UML:TaggedValue tag="xmlpath" value="_Common\Common_Definition_Models.xml"/>
-								<UML:TaggedValue tag="lastloaddate" value="2014-05-30 10:03:05"/>
+								<UML:TaggedValue tag="lastloaddate" value="2014-07-25 11:40:08"/>
 								<UML:TaggedValue tag="lastsavedate" value="2014-03-12 13:02:04"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="isprotected" value="FALSE"/>
@@ -417,12 +544,13 @@
 						</UML:Package>
 						<UML:Package name="TWG Admin Boundaries Model" xmi.id="EAPK_66BEEE65_5244_4641_ABA9_72D056ED0EEB" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="FSDF Administrative Boundary Thematic Working Group Models "/>
 								<UML:TaggedValue tag="parent" value="EAPK_A86CC6F9_6BC9_4e6d_BC78_E99C923271B0"/>
 								<UML:TaggedValue tag="created" value="2013-05-22 17:01:39"/>
-								<UML:TaggedValue tag="modified" value="2013-07-05 14:33:08"/>
+								<UML:TaggedValue tag="modified" value="2014-07-25 15:26:59"/>
 								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 								<UML:TaggedValue tag="xmlpath" value="AdminBoundary\TWG_Admin_Boundaries_Model.xml"/>
-								<UML:TaggedValue tag="lastloaddate" value="2014-05-30 10:03:08"/>
+								<UML:TaggedValue tag="lastloaddate" value="2014-07-25 14:36:32"/>
 								<UML:TaggedValue tag="lastsavedate" value="2013-06-04 18:08:55"/>
 								<UML:TaggedValue tag="version" value="1.0.0"/>
 								<UML:TaggedValue tag="isprotected" value="FALSE"/>
@@ -448,7 +576,7 @@
 								<UML:TaggedValue tag="modified" value="2013-05-29 15:19:56"/>
 								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 								<UML:TaggedValue tag="xmlpath" value="ElevationDepth\TWG_Elevation_and_Depth.xml"/>
-								<UML:TaggedValue tag="lastloaddate" value="2014-04-22 14:41:23"/>
+								<UML:TaggedValue tag="lastloaddate" value="2014-06-18 10:34:43"/>
 								<UML:TaggedValue tag="lastsavedate" value="2013-06-04 18:08:58"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="isprotected" value="FALSE"/>
@@ -474,7 +602,7 @@
 								<UML:TaggedValue tag="modified" value="2013-05-29 15:14:26"/>
 								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 								<UML:TaggedValue tag="xmlpath" value="Geocode\TWG_Geocoded_Addressing.xml"/>
-								<UML:TaggedValue tag="lastloaddate" value="2014-04-22 14:41:24"/>
+								<UML:TaggedValue tag="lastloaddate" value="2014-06-18 10:34:45"/>
 								<UML:TaggedValue tag="lastsavedate" value="2013-06-04 18:08:58"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="isprotected" value="FALSE"/>
@@ -500,7 +628,7 @@
 								<UML:TaggedValue tag="modified" value="2013-05-29 15:19:26"/>
 								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 								<UML:TaggedValue tag="xmlpath" value="Imagery\TWG_Imagery.xml"/>
-								<UML:TaggedValue tag="lastloaddate" value="2014-04-22 14:41:24"/>
+								<UML:TaggedValue tag="lastloaddate" value="2014-06-18 10:35:06"/>
 								<UML:TaggedValue tag="lastsavedate" value="2013-06-04 18:08:58"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="isprotected" value="FALSE"/>
@@ -526,7 +654,7 @@
 								<UML:TaggedValue tag="modified" value="2013-05-29 15:20:09"/>
 								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 								<UML:TaggedValue tag="xmlpath" value="LandCover\TWG_Land_Cover.xml"/>
-								<UML:TaggedValue tag="lastloaddate" value="2014-04-22 14:41:25"/>
+								<UML:TaggedValue tag="lastloaddate" value="2014-06-18 10:34:46"/>
 								<UML:TaggedValue tag="lastsavedate" value="2013-06-04 18:08:58"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="isprotected" value="FALSE"/>
@@ -552,7 +680,7 @@
 								<UML:TaggedValue tag="modified" value="2013-05-29 15:19:13"/>
 								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 								<UML:TaggedValue tag="xmlpath" value="LandParcel\TWG_Land_Parcel_and_Property.xml"/>
-								<UML:TaggedValue tag="lastloaddate" value="2014-04-22 14:41:33"/>
+								<UML:TaggedValue tag="lastloaddate" value="2014-06-18 10:34:47"/>
 								<UML:TaggedValue tag="lastsavedate" value="2013-06-04 18:08:58"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="isprotected" value="FALSE"/>
@@ -573,12 +701,13 @@
 						</UML:Package>
 						<UML:Package name="TWG Place Names" xmi.id="EAPK_E6746D67_B30F_409d_AB09_5DD0C648FFE5" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="FSDF Place Names Thematic Working Group Models "/>
 								<UML:TaggedValue tag="parent" value="EAPK_A86CC6F9_6BC9_4e6d_BC78_E99C923271B0"/>
 								<UML:TaggedValue tag="created" value="2013-05-29 15:18:25"/>
-								<UML:TaggedValue tag="modified" value="2013-05-29 15:18:31"/>
+								<UML:TaggedValue tag="modified" value="2014-07-25 15:26:02"/>
 								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 								<UML:TaggedValue tag="xmlpath" value="PlaceName\TWG_Place_Names.xml"/>
-								<UML:TaggedValue tag="lastloaddate" value="2014-05-30 10:04:32"/>
+								<UML:TaggedValue tag="lastloaddate" value="2014-06-18 12:46:36"/>
 								<UML:TaggedValue tag="lastsavedate" value="2013-06-04 18:08:58"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="isprotected" value="FALSE"/>
@@ -588,7 +717,7 @@
 								<UML:TaggedValue tag="tpos" value="0"/>
 								<UML:TaggedValue tag="batchsave" value="0"/>
 								<UML:TaggedValue tag="batchload" value="0"/>
-								<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=FSDF;CheckedOutTo=sim28v;"/>
+								<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=FSDF;"/>
 								<UML:TaggedValue tag="savedasstub" value="true"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
 								<UML:TaggedValue tag="status" value="Proposed"/>
@@ -604,7 +733,7 @@
 								<UML:TaggedValue tag="modified" value="2013-05-29 15:18:36"/>
 								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 								<UML:TaggedValue tag="xmlpath" value="Positioning\TWG Positioning.xml"/>
-								<UML:TaggedValue tag="lastloaddate" value="2014-04-22 14:41:36"/>
+								<UML:TaggedValue tag="lastloaddate" value="2014-06-18 10:34:51"/>
 								<UML:TaggedValue tag="lastsavedate" value="2013-06-04 18:08:58"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="isprotected" value="FALSE"/>
@@ -625,12 +754,13 @@
 						</UML:Package>
 						<UML:Package name="TWG Transport" xmi.id="EAPK_7287372F_113C_4b02_9AA9_30382B523933" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Initial draft models for Transport Theme"/>
 								<UML:TaggedValue tag="parent" value="EAPK_A86CC6F9_6BC9_4e6d_BC78_E99C923271B0"/>
 								<UML:TaggedValue tag="created" value="2013-05-29 13:19:42"/>
-								<UML:TaggedValue tag="modified" value="2013-05-29 13:19:42"/>
+								<UML:TaggedValue tag="modified" value="2014-07-25 15:57:47"/>
 								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 								<UML:TaggedValue tag="xmlpath" value="Transport\TWG_Transport.xml"/>
-								<UML:TaggedValue tag="lastloaddate" value="2014-04-22 14:41:37"/>
+								<UML:TaggedValue tag="lastloaddate" value="2014-06-18 10:34:53"/>
 								<UML:TaggedValue tag="lastsavedate" value="2013-06-04 18:08:58"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="isprotected" value="FALSE"/>
@@ -656,7 +786,7 @@
 								<UML:TaggedValue tag="modified" value="2013-05-29 15:19:37"/>
 								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 								<UML:TaggedValue tag="xmlpath" value="Water\TWG_Water.xml"/>
-								<UML:TaggedValue tag="lastloaddate" value="2014-04-22 14:41:37"/>
+								<UML:TaggedValue tag="lastloaddate" value="2014-06-18 10:34:54"/>
 								<UML:TaggedValue tag="lastsavedate" value="2013-06-04 18:08:58"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="isprotected" value="FALSE"/>
@@ -679,6 +809,32 @@
 				</UML:Package>
 			</UML:Namespace.ownedElement>
 		</UML:Model>
+		<UML:TaggedValue tag="DocumentOptions" xmi.id="EAID_73DC5CAB_0F6A_d10f_8EFD_1E381B358142" value="&lt;memo&gt;#NOTES#&lt;DocumentOptions&gt;&#xA;	&lt;DefaultProperties sourceguid=&quot;{66BEEE65-5244-4641-ABA9-72D056ED0EEB}&quot; doctype=&quot;0&quot; template=&quot;&quot; targetguid=&quot;{455D7B50-A5A4-40a3-BC7F-A687D7254888}&quot; toc=&quot;&quot; stylesheet=&quot;&quot; coverpage=&quot;&quot;/&gt;&#xA;	&lt;SSDocument.Options modcreate=&quot;-1&quot; statuslike=&quot;-1&quot; phaselike=&quot;-1&quot; beforeafter=&quot;-1&quot; pkgorder=&quot;1&quot; elemorder=&quot;1&quot; featorder=&quot;1&quot; dgmorder=&quot;1&quot; pkgasc=&quot;0&quot; elemasc=&quot;0&quot; featasc=&quot;0&quot; dgmasc=&quot;0&quot; imagefmt=&quot;0&quot; hindent=&quot;9&quot; noteless=&quot;0&quot; skiproot=&quot;0&quot; statuslist=&quot;&quot; phase=&quot;All&quot; exdetails=&quot;&quot; wordsubst=&quot;0&quot; nobookmarks=&quot;0&quot; hideanonymous=&quot;0&quot; htmlformating=&quot;0&quot; exconndetails=&quot;&quot; exdiagdetails=&quot;&quot; conndirfilter=&quot;0&quot; childelements=&quot;0&quot; notelessconn=&quot;0&quot; fragment=&quot;0&quot; fragment_type=&quot;0&quot; script_guid=&quot;&quot; packageexclude_type=&quot;-1&quot; packageexclude_guid=&quot;ArcGIS0&quot;/&gt;&#xA;&lt;/DocumentOptions&gt;&#xA;" modelElement="EAID_455D7B50_A5A4_40a3_BC7F_A687D7254888"/>
+		<UML:Diagram name="FSDF Models" xmi.id="EAID_1F1DC550_C127_4272_BF06_074FEC06F5A1" diagramType="ClassDiagram" owner="EAPK_A86CC6F9_6BC9_4e6d_BC78_E99C923271B0" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="box019"/>
+				<UML:TaggedValue tag="created_date" value="2014-07-25 15:58:16"/>
+				<UML:TaggedValue tag="modified_date" value="2014-07-25 16:13:17"/>
+				<UML:TaggedValue tag="package" value="EAPK_A86CC6F9_6BC9_4e6d_BC78_E99C923271B0"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;hl=1;cls=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;"/>
+				<UML:TaggedValue tag="ea_localid" value="5342"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=827;DocSize.cy=1169;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=EBD11800;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=146;Top=699;Right=542;Bottom=773;" subject="EAID_44D6D5B3_1ECA_4304_BE9F_02C1FD8CD9C7" seqno="1" style="DUID=FA4D2707;font=Arial Narrow;fontsz=100;bold=0;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=146;Top=358;Right=667;Bottom=496;" subject="EAID_B82C3728_8B49_4b51_A945_63E201BB4375" seqno="2" style="DUID=A961326A;font=Arial Narrow;fontsz=100;bold=0;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=524;Top=177;Right=680;Bottom=334;" subject="EAID_56927824_526C_4643_B637_B4159E230394" seqno="3" style=" DUID=FDF1ECF2;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="Left=171;Top=241;Right=366;Bottom=334;" subject="EAID_742A46FC_1B60_4777_97FF_38BDE8CB23A1" seqno="4" style=" DUID=1EA66E37;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="Left=482;Top=573;Right=660;Bottom=666;" subject="EAID_66BEEE65_5244_4641_ABA9_72D056ED0EEB" seqno="5" style=" DUID=2935E559;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="Left=145;Top=575;Right=309;Bottom=668;" subject="EAID_E6746D67_B30F_409d_AB09_5DD0C648FFE5" seqno="6" style=" DUID=8409D099;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="Left=116;Top=136;Right=708;Bottom=513;" subject="EAID_5C5FBA8F_FAAD_4514_B23A_B19DC3942AB7" seqno="7" style="DUID=6F3EDA18;font=Arial;fontsz=100;bold=1;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=116;Top=526;Right=704;Bottom=809;" subject="EAID_4F1D7911_44A3_4eb6_B6BF_BB2EA116DA91" seqno="8" style="DUID=835C4D98;font=Arial;fontsz=100;bold=1;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
 	</XMI.content>
 	<XMI.difference/>
 	<XMI.extensions xmi.extender="Enterprise Architect 2.5"/>
