@@ -390,34 +390,6 @@
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Comment>
-						<UML:Class name="TWG Admin Boundaries Model" xmi.id="EAID_455D7B50_A5A4_40a3_BC7F_A687D7254888" visibility="public" namespace="EAPK_A86CC6F9_6BC9_4e6d_BC78_E99C923271B0" isRoot="false" isLeaf="false" isAbstract="false">
-							<UML:ModelElement.stereotype>
-								<UML:Stereotype name="EAReportSpecification"/>
-							</UML:ModelElement.stereotype>
-							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="isSpecification" value="false"/>
-								<UML:TaggedValue tag="ea_stype" value="Artifact"/>
-								<UML:TaggedValue tag="ea_ntype" value="0"/>
-								<UML:TaggedValue tag="version" value="1.0"/>
-								<UML:TaggedValue tag="isActive" value="false"/>
-								<UML:TaggedValue tag="package" value="EAPK_A86CC6F9_6BC9_4e6d_BC78_E99C923271B0"/>
-								<UML:TaggedValue tag="date_created" value="2014-07-25 14:33:31"/>
-								<UML:TaggedValue tag="date_modified" value="2014-07-25 14:33:31"/>
-								<UML:TaggedValue tag="gentype" value="Java"/>
-								<UML:TaggedValue tag="tagged" value="0"/>
-								<UML:TaggedValue tag="package_name" value="Foundation Spatial Data Framework Models "/>
-								<UML:TaggedValue tag="phase" value="1.0"/>
-								<UML:TaggedValue tag="author" value="box019"/>
-								<UML:TaggedValue tag="complexity" value="1"/>
-								<UML:TaggedValue tag="status" value="Proposed"/>
-								<UML:TaggedValue tag="stereotype" value="EAReportSpecification"/>
-								<UML:TaggedValue tag="tpos" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="11644"/>
-								<UML:TaggedValue tag="ea_eleType" value="element"/>
-								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
-								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={D793B0E2-79CB-4de3-9C78-062B7B479CDD}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=EAReportSpecification;FQName=EAUML::EAReportSpecification;@ENDSTEREO;$DES;$CLT={455D7B50-A5A4-40a3-BC7F-A687D7254888}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-							</UML:ModelElement.taggedValue>
-						</UML:Class>
 						<UML:Association xmi.id="EAID_5174DDF0_3B86_43ef_A378_986DC5E47256" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="style" value="3"/>
@@ -809,7 +781,6 @@
 				</UML:Package>
 			</UML:Namespace.ownedElement>
 		</UML:Model>
-		<UML:TaggedValue tag="DocumentOptions" xmi.id="EAID_73DC5CAB_0F6A_d10f_8EFD_1E381B358142" value="&lt;memo&gt;#NOTES#&lt;DocumentOptions&gt;&#xA;	&lt;DefaultProperties sourceguid=&quot;{66BEEE65-5244-4641-ABA9-72D056ED0EEB}&quot; doctype=&quot;0&quot; template=&quot;&quot; targetguid=&quot;{455D7B50-A5A4-40a3-BC7F-A687D7254888}&quot; toc=&quot;&quot; stylesheet=&quot;&quot; coverpage=&quot;&quot;/&gt;&#xA;	&lt;SSDocument.Options modcreate=&quot;-1&quot; statuslike=&quot;-1&quot; phaselike=&quot;-1&quot; beforeafter=&quot;-1&quot; pkgorder=&quot;1&quot; elemorder=&quot;1&quot; featorder=&quot;1&quot; dgmorder=&quot;1&quot; pkgasc=&quot;0&quot; elemasc=&quot;0&quot; featasc=&quot;0&quot; dgmasc=&quot;0&quot; imagefmt=&quot;0&quot; hindent=&quot;9&quot; noteless=&quot;0&quot; skiproot=&quot;0&quot; statuslist=&quot;&quot; phase=&quot;All&quot; exdetails=&quot;&quot; wordsubst=&quot;0&quot; nobookmarks=&quot;0&quot; hideanonymous=&quot;0&quot; htmlformating=&quot;0&quot; exconndetails=&quot;&quot; exdiagdetails=&quot;&quot; conndirfilter=&quot;0&quot; childelements=&quot;0&quot; notelessconn=&quot;0&quot; fragment=&quot;0&quot; fragment_type=&quot;0&quot; script_guid=&quot;&quot; packageexclude_type=&quot;-1&quot; packageexclude_guid=&quot;ArcGIS0&quot;/&gt;&#xA;&lt;/DocumentOptions&gt;&#xA;" modelElement="EAID_455D7B50_A5A4_40a3_BC7F_A687D7254888"/>
 		<UML:Diagram name="FSDF Models" xmi.id="EAID_1F1DC550_C127_4272_BF06_074FEC06F5A1" diagramType="ClassDiagram" owner="EAPK_A86CC6F9_6BC9_4e6d_BC78_E99C923271B0" toolName="Enterprise Architect 2.5">
 			<UML:ModelElement.taggedValue>
 				<UML:TaggedValue tag="version" value="1.0"/>
