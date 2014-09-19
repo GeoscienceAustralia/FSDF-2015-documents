@@ -229,6 +229,7 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="privatedata5" value="EDGE=3;SX=0;SY=-7;EX=0;EY=-7;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -599,7 +600,7 @@
 										</UML:Comment>
 										<UML:Comment xmi.id="EAID_56439CCA_91C4_44c8_847A_EA1BD0A9F534" visibility="public" namespace="EAPK_D83C080D_F81F_4f43_BD1A_524B4937884C">
 											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="documentation" value="&lt;b&gt;User story 3 - &lt;/b&gt;&lt;b&gt;&lt;u&gt;Finding &lt;/u&gt;&lt;/b&gt;&lt;b&gt;authoritative and appropriately scaled data for analysis &lt;/b&gt;&#xA;&#xA;BHP Bilton is  doing a desktop exercise  to find out if a proposed mine site is within a particular jurisdiction to:&#xA;- determine appropriate planning regulations and constraints  (State/LGA interaction)&#xA;- determine who has authority to grant mine licence (State interaction)&#xA;&#xA;In BHP GIS environment, a user zooms into the proposed mine site location to determine if the site is in State/Territory A or B. The user determines  that the representation of the State Boundary data set she is using is too generalized a line. &#xA;&#xA;She therefore goes online to find a better representation.&#xA;1. The user searches for State Boundaries in the NSII and finds x data sets returned.&#xA;2. She filters out results based on custodian (looking for authoritative data sets)&#xA;3. For an authoritative data source she discovers that representations at 1:1m and 1:50K are available. &#xA;4. She selects the 25k version, checks the licence of the data to ensure it is appropriatre for her use and downloads it.&#xA;"/>
+												<UML:TaggedValue tag="documentation" value="&lt;b&gt;User story 3 - &lt;/b&gt;&lt;b&gt;&lt;u&gt;Finding &lt;/u&gt;&lt;/b&gt;&lt;b&gt;authoritative and appropriately scaled data for analysis &lt;/b&gt;&#xA;&#xA;BHP Bilton is  doing a desktop exercise  to find out if a proposed mine site is within a particular jurisdiction to:&#xA;- determine appropriate planning regulations and constraints  (State/LGA interaction)&#xA;- determine who has authority to grant mine licence (State interaction)&#xA;&#xA;In BHP GIS environment, a user zooms into the proposed mine site location to determine if the site is in State/Territory A or B. The user determines  that the representation of the State Boundary data set she is using is too generalized a line. &#xA;&#xA;She therefore goes online to find a better representation.&#xA;1. The user searches for State Boundaries in the NSII and finds x data sets returned.&#xA;2. She filters out results based on custodian (looking for authoritative data sets)&#xA;3. For an authoritative data source she discovers that representations at 1:1m and 1:50K are available. &#xA;4. She selects the 25k version, checks the licence of the data to ensure it is appropriate for her use and downloads it.&#xA;"/>
 												<UML:TaggedValue tag="isSpecification" value="false"/>
 												<UML:TaggedValue tag="ea_stype" value="Note"/>
 												<UML:TaggedValue tag="ea_ntype" value="0"/>
@@ -623,7 +624,7 @@
 										</UML:Comment>
 										<UML:Comment xmi.id="EAID_DA7C9B1F_D7FA_40ec_BB82_D622095DAA5E" visibility="public" namespace="EAPK_D83C080D_F81F_4f43_BD1A_524B4937884C">
 											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="documentation" value="&lt;b&gt;User story 2  &lt;/b&gt;  - &lt;b&gt;Flood risk reduction response&lt;/b&gt; &lt;b&gt;and recovery (filter and link)&lt;/b&gt;&#xA;&#xA;A policy officer in a disaster management agency has been asked to provide the following information about a current flood event:&#xA;- number of people affected by the flood&#xA;- Which electorates are affected (state and Federal)&#xA;- which jurisdictions are affected  (and reponsible officers at each level) to commence the process of determining disaster grants&#xA;&#xA;A flood polygon has been defined. &#xA;Overlay flood polygon on admin unit layers &lt;b&gt;(filter data)&lt;/b&gt;&#xA;- identify affected LGAs and electorates &lt;b&gt;(discover data set by admin unit code)&lt;/b&gt;&#xA;- with the identifiers of affected LGAs: query statistical data (ABS) to calculate required stats &lt;b&gt;(link thematic data)&lt;/b&gt;&#xA;- with the identifiers of affected LGAs: query relevant data sources to identify contact officers &lt;b&gt;(link thematic data)&lt;/b&gt;&#xA;- find SOP/policy legislation across jurisdiction "/>
+												<UML:TaggedValue tag="documentation" value="&lt;b&gt;User story 2  &lt;/b&gt;  - &lt;b&gt;Flood risk reduction response&lt;/b&gt; &lt;b&gt;and recovery (filter and link)&lt;/b&gt;&#xA;&#xA;A policy officer in a disaster management agency has been asked to provide the following information about a current flood event:&#xA;- number of people affected by the flood&#xA;- Which electorates are affected (state and Federal)&#xA;- which jurisdictions are affected  (and responsible officers at each level) to commence the process of determining disaster grants&#xA;&#xA;A flood polygon has been defined. &#xA;Overlay flood polygon on admin unit layers &lt;b&gt;(filter data)&lt;/b&gt;&#xA;- identify affected LGAs and electorates &lt;b&gt;(discover data set by admin unit code)&lt;/b&gt;&#xA;- with the identifiers of affected LGAs: query statistical data (ABS) to calculate required stats &lt;b&gt;(link thematic data)&lt;/b&gt;&#xA;- with the identifiers of affected LGAs: query relevant data sources to identify contact officers &lt;b&gt;(link thematic data)&lt;/b&gt;&#xA;- find SOP/policy legislation across jurisdiction "/>
 												<UML:TaggedValue tag="isSpecification" value="false"/>
 												<UML:TaggedValue tag="ea_stype" value="Note"/>
 												<UML:TaggedValue tag="ea_ntype" value="0"/>
@@ -1529,7 +1530,7 @@
 												</UML:Dependency>
 												<UML:UseCase name="Analyse trends for admin unit over time " xmi.id="EAID_306BDE3B_542A_4424_BDB6_B65A9D02B59A" visibility="public" namespace="EAPK_DC1ED8AC_6A6B_437b_A96C_A8DC54320A0A" isRoot="false" isLeaf="false" isAbstract="false">
 													<UML:ModelElement.taggedValue>
-														<UML:TaggedValue tag="documentation" value="I want to identify and analyse trends and practices using a consistent geography, consistency of input and output measurements over time."/>
+														<UML:TaggedValue tag="documentation" value="I want to identify and analyze trends and practices using a consistent geography, consistency of input and output measurements over time."/>
 														<UML:TaggedValue tag="isSpecification" value="false"/>
 														<UML:TaggedValue tag="ea_stype" value="UseCase"/>
 														<UML:TaggedValue tag="ea_ntype" value="0"/>
@@ -3235,7 +3236,7 @@
 										<UML:TaggedValue tag="ea_sourceType" value="Package"/>
 										<UML:TaggedValue tag="ea_targetType" value="Package"/>
 										<UML:TaggedValue tag="ea_sourceID" value="10077"/>
-										<UML:TaggedValue tag="ea_targetID" value="10053"/>
+										<UML:TaggedValue tag="ea_targetID" value="11882"/>
 										<UML:TaggedValue tag="src_visibility" value="Public"/>
 										<UML:TaggedValue tag="src_aggregation" value="0"/>
 										<UML:TaggedValue tag="src_isOrdered" value="false"/>
@@ -3280,7 +3281,7 @@
 										<UML:TaggedValue tag="ea_sourceType" value="Package"/>
 										<UML:TaggedValue tag="ea_targetType" value="Package"/>
 										<UML:TaggedValue tag="ea_sourceID" value="10157"/>
-										<UML:TaggedValue tag="ea_targetID" value="10053"/>
+										<UML:TaggedValue tag="ea_targetID" value="11882"/>
 										<UML:TaggedValue tag="src_visibility" value="Public"/>
 										<UML:TaggedValue tag="src_aggregation" value="0"/>
 										<UML:TaggedValue tag="src_isOrdered" value="false"/>
@@ -3325,7 +3326,7 @@
 										<UML:TaggedValue tag="ea_sourceType" value="Package"/>
 										<UML:TaggedValue tag="ea_targetType" value="Package"/>
 										<UML:TaggedValue tag="ea_sourceID" value="10991"/>
-										<UML:TaggedValue tag="ea_targetID" value="10053"/>
+										<UML:TaggedValue tag="ea_targetID" value="11882"/>
 										<UML:TaggedValue tag="src_visibility" value="Public"/>
 										<UML:TaggedValue tag="src_aggregation" value="0"/>
 										<UML:TaggedValue tag="src_isOrdered" value="false"/>
@@ -3370,7 +3371,7 @@
 										<UML:TaggedValue tag="ea_sourceType" value="Package"/>
 										<UML:TaggedValue tag="ea_targetType" value="Package"/>
 										<UML:TaggedValue tag="ea_sourceID" value="10987"/>
-										<UML:TaggedValue tag="ea_targetID" value="10053"/>
+										<UML:TaggedValue tag="ea_targetID" value="11882"/>
 										<UML:TaggedValue tag="src_visibility" value="Public"/>
 										<UML:TaggedValue tag="src_aggregation" value="0"/>
 										<UML:TaggedValue tag="src_isOrdered" value="false"/>
@@ -3421,7 +3422,7 @@
 								</UML:Package>
 								<UML:Package name="ElectoralUnit" xmi.id="EAPK_D23A598A_3FE2_4eee_89B2_C6114D9EB4AA" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_1C933070_17A6_4db7_B87E_08367E84951C"/>
+										<UML:Stereotype xmi.idref="EAID_365D1C14_E401_4a5d_BC4B_E4F761482EBC"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="The application Schema for electoral units."/>
@@ -3440,7 +3441,7 @@
 										<UML:TaggedValue tag="tpos" value="2"/>
 										<UML:TaggedValue tag="batchsave" value="0"/>
 										<UML:TaggedValue tag="batchload" value="0"/>
-										<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=FSDF;"/>
+										<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=FSDF;CheckedOutTo=box019;"/>
 										<UML:TaggedValue tag="savedasstub" value="true"/>
 										<UML:TaggedValue tag="phase" value="1.0"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
@@ -3452,7 +3453,7 @@
 								</UML:Package>
 								<UML:Package name="GovernmentUnit" xmi.id="EAPK_AA0088C3_55D7_4667_A690_07D2C0CB9C39" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_1C933070_17A6_4db7_B87E_08367E84951C"/>
+										<UML:Stereotype xmi.idref="EAID_365D1C14_E401_4a5d_BC4B_E4F761482EBC"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="Application schema for governance units, &#xA;i.e. federal, state, and local government units (LGAs). &#xA;&#xA;LGAs are known variously as  &#xA;Cities (C)&#xA;Areas (A)&#xA;Rural Cities (RC)&#xA;Boroughs (B) &#xA;Shires (S)&#xA;Towns (T) &#xA;Regional Councils (R)&#xA;Municipalities/Municipal Councils (M)&#xA;District Councils (DC)&#xA;Regional Councils (RegC) &#xA;Aboriginal Councils (AC)"/>
@@ -3471,7 +3472,7 @@
 										<UML:TaggedValue tag="tpos" value="3"/>
 										<UML:TaggedValue tag="batchsave" value="0"/>
 										<UML:TaggedValue tag="batchload" value="0"/>
-										<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=FSDF;"/>
+										<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=FSDF;CheckedOutTo=box019;"/>
 										<UML:TaggedValue tag="savedasstub" value="true"/>
 										<UML:TaggedValue tag="phase" value="1.0"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
@@ -3483,7 +3484,7 @@
 								</UML:Package>
 								<UML:Package name="MaritimeUnit" xmi.id="EAPK_613E54F1_5732_49b3_ABFC_6D4AA4C1E827" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_1C933070_17A6_4db7_B87E_08367E84951C"/>
+										<UML:Stereotype xmi.idref="EAID_365D1C14_E401_4a5d_BC4B_E4F761482EBC"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="The definition of the maritime unit application schema."/>
@@ -3502,7 +3503,7 @@
 										<UML:TaggedValue tag="tpos" value="4"/>
 										<UML:TaggedValue tag="batchsave" value="0"/>
 										<UML:TaggedValue tag="batchload" value="0"/>
-										<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=FSDF;"/>
+										<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=FSDF;CheckedOutTo=box019;"/>
 										<UML:TaggedValue tag="savedasstub" value="true"/>
 										<UML:TaggedValue tag="phase" value="1.0"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
@@ -3514,7 +3515,7 @@
 								</UML:Package>
 								<UML:Package name="OtherAdminstrativeUnit" xmi.id="EAPK_2283EB18_BD0D_4ebf_AB74_D6A7B48AEBF1" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_1C933070_17A6_4db7_B87E_08367E84951C"/>
+										<UML:Stereotype xmi.idref="EAID_365D1C14_E401_4a5d_BC4B_E4F761482EBC"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="The generic administrative unit application schema. &#xA;This includes administrative unit types that are not modeled in a more specialized schema. In many cases these manage specific administrative functions as delegated by a government unit, such as&#xA;- catchment management authorities&#xA;- school zones&#xA;- police and law enforcement&#xA;- fire and emergency services&#xA;In other cases, the administrative unit, through still formally gazetted, is primarily ceremonial or informative with few or no administrative functions, such as &#xA;- city, area, rural city, borough, town, &#xA;- locality&#xA;- shire, parish, hundred, division&#xA;For any particular function it is expected that administrative units do not intersect or overlap. There will be a relationship with the government unit that is responsible for delegating the specific function, and there may be relationships with other administrative units. &#xA;&#xA;Examples: &#xA;&lt;a href=&quot;http://www.dtpli.vic.gov.au/__data/assets/pdf_file/0013/111316/Melbourne_v47.pdf&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;http://www.dtpli.vic.gov.au/__data/assets/pdf_file/0013/111316/Melbourne_v47.pdf&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; &lt;a href=&quot;http://www.health.vic.gov.au/regions/&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;http://www.health.vic.gov.au/regions/&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; &lt;a href=&quot;http://www.mfb.vic.gov.au/About-Us/StationMap.html&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;http://www.mfb.vic.gov.au/About-Us/StationMap.html&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; and select ‘districts’ &lt;a href=&quot;http://www.cfa.vic.gov.au/warnings-restrictions/find-your-fire-district/&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;http://www.cfa.vic.gov.au/warnings-restrictions/find-your-fire-district/&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; &lt;a href=&quot;http://vicwater.org.au/victorian-water-industry/catchment-management-authorities&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;http://vicwater.org.au/victorian-water-industry/catchment-management-authorities&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; &lt;a href=&quot;http://www.police.vic.gov.au/content.asp?Document_ID=7&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;http://www.police.vic.gov.au/content.asp?Document_ID=7&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; &lt;a href=&quot;http://melbourneschoolzones.com/&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;http://melbourneschoolzones.com/&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; &#xA;See also: &lt;a href=&quot;http://en.wikipedia.org/wiki/Cadastral_divisions_of_Australia&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;http://en.wikipedia.org/wiki/Cadastral_divisions_of_Australia&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; &#xA;&#xA;&#xA;&#xA;&#xA;"/>
@@ -3533,7 +3534,7 @@
 										<UML:TaggedValue tag="tpos" value="5"/>
 										<UML:TaggedValue tag="batchsave" value="0"/>
 										<UML:TaggedValue tag="batchload" value="0"/>
-										<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=FSDF;"/>
+										<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=FSDF;CheckedOutTo=box019;"/>
 										<UML:TaggedValue tag="savedasstub" value="true"/>
 										<UML:TaggedValue tag="phase" value="1.0"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
@@ -3545,7 +3546,7 @@
 								</UML:Package>
 								<UML:Package name="PostalCodeUnit" xmi.id="EAPK_DF72D360_F2A7_43cf_9B38_20784FA929FA" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_1C933070_17A6_4db7_B87E_08367E84951C"/>
+										<UML:Stereotype xmi.idref="EAID_365D1C14_E401_4a5d_BC4B_E4F761482EBC"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="The definition of the postal code application schema."/>
@@ -3564,7 +3565,7 @@
 										<UML:TaggedValue tag="tpos" value="6"/>
 										<UML:TaggedValue tag="batchsave" value="0"/>
 										<UML:TaggedValue tag="batchload" value="0"/>
-										<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=FSDF;"/>
+										<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=FSDF;CheckedOutTo=box019;"/>
 										<UML:TaggedValue tag="savedasstub" value="true"/>
 										<UML:TaggedValue tag="phase" value="1.0"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
@@ -3576,7 +3577,7 @@
 								</UML:Package>
 								<UML:Package name="StatisticalUnit" xmi.id="EAPK_DE8F2ACE_912A_4e24_9277_18900AA0AF01" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 									<UML:ModelElement.stereotype>
-										<UML:Stereotype xmi.idref="EAID_1C933070_17A6_4db7_B87E_08367E84951C"/>
+										<UML:Stereotype xmi.idref="EAID_365D1C14_E401_4a5d_BC4B_E4F761482EBC"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="documentation" value="The definition of the statistical unit application schema."/>
@@ -3595,7 +3596,7 @@
 										<UML:TaggedValue tag="tpos" value="7"/>
 										<UML:TaggedValue tag="batchsave" value="0"/>
 										<UML:TaggedValue tag="batchload" value="0"/>
-										<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=FSDF;"/>
+										<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=FSDF;CheckedOutTo=box019;"/>
 										<UML:TaggedValue tag="savedasstub" value="true"/>
 										<UML:TaggedValue tag="phase" value="1.0"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
@@ -3725,7 +3726,7 @@
 										</UML:Collaboration>
 										<UML:Package name="AdminBoundaryTopology" xmi.id="EAPK_3B8E9AC3_51B5_4132_8B60_3851B82BA633" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 											<UML:ModelElement.stereotype>
-												<UML:Stereotype xmi.idref="EAID_1C933070_17A6_4db7_B87E_08367E84951C"/>
+												<UML:Stereotype xmi.idref="EAID_365D1C14_E401_4a5d_BC4B_E4F761482EBC"/>
 											</UML:ModelElement.stereotype>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="documentation" value="The AreaHierarchy (AH) package contains common behavior model for any nested hierarchy of areas.  The model addresses issues of navigation and cross referencing between hierarchies and the scoping of topology to versions of hierarchies.&#xA;The hierarchy describes the topological relationships, not the (potentially multiple) alternative geometric descriptions of objects (see package AreaRepresentation)."/>
@@ -3744,7 +3745,7 @@
 												<UML:TaggedValue tag="tpos" value="0"/>
 												<UML:TaggedValue tag="batchsave" value="0"/>
 												<UML:TaggedValue tag="batchload" value="0"/>
-												<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=FSDF;"/>
+												<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=FSDF;CheckedOutTo=box019;"/>
 												<UML:TaggedValue tag="savedasstub" value="true"/>
 												<UML:TaggedValue tag="phase" value="1.0"/>
 												<UML:TaggedValue tag="status" value="Proposed"/>
@@ -3760,7 +3761,7 @@
 						</UML:Package>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
-				<UML:Stereotype xmi.id="EAID_1C933070_17A6_4db7_B87E_08367E84951C" name="ApplicationSchema" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_365D1C14_E401_4a5d_BC4B_E4F761482EBC" name="ApplicationSchema" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
 			</UML:Namespace.ownedElement>
@@ -4025,9 +4026,9 @@
 		<UML:TaggedValue tag="xmlns" xmi.id="EAID_08B91BD2_1FDF_fc1f_9C88_5B55ACE58EB0" value="fsdf-abt#NOTES#Description: Namespace prefix (or) the abbreviated short form  of the target namespace&#xA;" modelElement="EAID_3B8E9AC3_51B5_4132_8B60_3851B82BA633"/>
 		<UML:TaggedValue tag="xsdDocument" xmi.id="EAID_6E79370E_B4BB_69b4_872E_C8642CD0F88D" value="AdminBoundaryTopology.xsd#NOTES#Description: Valid file name or relative file name of the XSD file to create for representing the contents of the package&#xA;" modelElement="EAID_3B8E9AC3_51B5_4132_8B60_3851B82BA633"/>
 		<UML:TaggedValue tag="xsdEncodingRule" xmi.id="EAID_BCD3CBEE_BBA1_07bb_A97B_5CFC090C2317" value="iso19136_2007#NOTES#Values: iso19136_2007,iso19139_2007,iso19136_2007_INSPIRE_Extensions&#xA;Default: iso19136_2007&#xA;Description: XML Schema encoding rule to apply&#xA;" modelElement="EAID_3B8E9AC3_51B5_4132_8B60_3851B82BA633"/>
-		<UML:DiagramElement geometry="Left=105;Top=464;Right=283;Bottom=557;" subject="EAID_66BEEE65_5244_4641_ABA9_72D056ED0EEB" seqno="2" style=" DUID=12BF3379;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;">
+		<UML:DiagramElement geometry="Left=482;Top=509;Right=660;Bottom=602;" subject="EAID_66BEEE65_5244_4641_ABA9_72D056ED0EEB" seqno="5" style=" DUID=2935E559;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;">
 			<UML:ModelElement.taggedValue>
-				<UML:TaggedValue tag="diagram_guid" value="EAID_41776F46_4700_4607_BCCA_4E5B7EB18125"/>
+				<UML:TaggedValue tag="diagram_guid" value="EAID_1F1DC550_C127_4272_BF06_074FEC06F5A1"/>
 			</UML:ModelElement.taggedValue>
 		</UML:DiagramElement>
 		<UML:DiagramElement geometry="Left=161;Top=751;Right=320;Bottom=988;" subject="EAID_DE8F2ACE_912A_4e24_9277_18900AA0AF01" seqno="1" style="DUID=923AA7E9;">
