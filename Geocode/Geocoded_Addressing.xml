@@ -12,7 +12,7 @@
 				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
 				<UML:Package name="Geocoded Addressing" xmi.id="EAPK_38915377_B14C_47c0_8BDC_75DF43387C9B" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 					<UML:ModelElement.stereotype>
-						<UML:Stereotype xmi.idref="EAID_4F6359A1_3D40_4551_A6DF_4A91528A75F1"/>
+						<UML:Stereotype xmi.idref="EAID_622F2BE1_127B_48bf_AD9F_E4A9E6911D64"/>
 					</UML:ModelElement.stereotype>
 					<UML:ModelElement.taggedValue>
 						<UML:TaggedValue tag="parent" value="EAPK_50DB98DF_58FA_454e_8DDA_63E0C956762C"/>
@@ -20,12 +20,14 @@
 						<UML:TaggedValue tag="modified" value="2014-04-22 12:13:26"/>
 						<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 						<UML:TaggedValue tag="xmlpath" value="Geocode\Geocoded_Addressing.xml"/>
+						<UML:TaggedValue tag="lastloaddate" value="2014-06-18 10:35:30"/>
+						<UML:TaggedValue tag="lastsavedate" value="2014-06-18 10:35:29"/>
 						<UML:TaggedValue tag="version" value="1.0"/>
 						<UML:TaggedValue tag="isprotected" value="FALSE"/>
 						<UML:TaggedValue tag="usedtd" value="FALSE"/>
-						<UML:TaggedValue tag="owner" value="cox075"/>
 						<UML:TaggedValue tag="xmiver" value="Enterprise Architect XMI/UML 1.3"/>
 						<UML:TaggedValue tag="logxml" value="FALSE"/>
+						<UML:TaggedValue tag="tpos" value="0"/>
 						<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=FSDF;CRC=0;"/>
 						<UML:TaggedValue tag="batchsave" value="0"/>
 						<UML:TaggedValue tag="batchload" value="0"/>
@@ -40,7 +42,7 @@
 					</UML:ModelElement.taggedValue>
 					<UML:Namespace.ownedElement/>
 				</UML:Package>
-				<UML:Stereotype xmi.id="EAID_4F6359A1_3D40_4551_A6DF_4A91528A75F1" name="ApplicationSchema" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_622F2BE1_127B_48bf_AD9F_E4A9E6911D64" name="ApplicationSchema" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
 			</UML:Namespace.ownedElement>
