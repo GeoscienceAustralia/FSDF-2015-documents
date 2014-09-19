@@ -12,7 +12,7 @@
 				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
 				<UML:Package name="ElectoralUnit" xmi.id="EAPK_D23A598A_3FE2_4eee_89B2_C6114D9EB4AA" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 					<UML:ModelElement.stereotype>
-						<UML:Stereotype xmi.idref="EAID_6710E9D2_2B16_4886_8D23_42C154A425D6"/>
+						<UML:Stereotype xmi.idref="EAID_19D9EC68_128F_44a4_A432_72FC3808A7A2"/>
 					</UML:ModelElement.stereotype>
 					<UML:ModelElement.taggedValue>
 						<UML:TaggedValue tag="documentation" value="The application Schema for electoral units."/>
@@ -28,7 +28,7 @@
 						<UML:TaggedValue tag="usedtd" value="FALSE"/>
 						<UML:TaggedValue tag="xmiver" value="Enterprise Architect XMI/UML 1.3"/>
 						<UML:TaggedValue tag="logxml" value="FALSE"/>
-						<UML:TaggedValue tag="tpos" value="0"/>
+						<UML:TaggedValue tag="tpos" value="2"/>
 						<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=FSDF;CRC=0;"/>
 						<UML:TaggedValue tag="batchsave" value="0"/>
 						<UML:TaggedValue tag="batchload" value="0"/>
@@ -38,7 +38,7 @@
 						<UML:TaggedValue tag="complexity" value="1"/>
 						<UML:TaggedValue tag="stereotype" value="ApplicationSchema"/>
 						<UML:TaggedValue tag="ea_stype" value="Public"/>
-						<UML:TaggedValue tag="tpos" value="0"/>
+						<UML:TaggedValue tag="tpos" value="2"/>
 						<UML:TaggedValue tag="gentype" value="Java"/>
 					</UML:ModelElement.taggedValue>
 					<UML:Namespace.ownedElement>
@@ -47,7 +47,7 @@
 								<UML:Stereotype name="FeatureType"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="documentation" value="-- Definition -- &#xA;&#xA;Definition of an electoral unit.&#xA;&#xA;The attribute 'unitType', inherited from from UnitDefinition, hereby refers to state and federal electorates among others"/>
+								<UML:TaggedValue tag="documentation" value="-- Definition -- &#xA;&#xA;Definition of an electoral unit.&#xA;&#xA;The attribute 'unitType', inherited from UnitDefinition, hereby refers to state and federal electorates among others"/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
@@ -113,7 +113,7 @@
 								<UML:Stereotype name="FeatureType"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="documentation" value="-- Definition -- &#xA;&#xA;Definition of an electoral unit.&#xA;&#xA;The attribute 'unitType', inherited from from UnitDefinition, hereby refers to state and federal electorates among others"/>
+								<UML:TaggedValue tag="documentation" value="-- Definition -- &#xA;&#xA;Definition of an electoral unit.&#xA;&#xA;The attribute 'unitType', inherited from UnitDefinition, hereby refers to state and federal electorates among others"/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
@@ -179,7 +179,7 @@
 								<UML:Stereotype name="FeatureType"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="documentation" value="-- Definition -- &#xA;&#xA;Definition of an electoral unit.&#xA;&#xA;The attribute 'unitType', inherited from from UnitDefinition, hereby refers to state and federal electorates among others"/>
+								<UML:TaggedValue tag="documentation" value="-- Definition -- &#xA;&#xA;Definition of an electoral unit.&#xA;&#xA;The attribute 'unitType', inherited from UnitDefinition, hereby refers to state and federal electorates among others"/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
@@ -263,7 +263,7 @@
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="10160"/>
-								<UML:TaggedValue tag="ea_targetID" value="10073"/>
+								<UML:TaggedValue tag="ea_targetID" value="11902"/>
 								<UML:TaggedValue tag="src_visibility" value="Public"/>
 								<UML:TaggedValue tag="src_aggregation" value="0"/>
 								<UML:TaggedValue tag="src_isOrdered" value="false"/>
@@ -306,7 +306,7 @@
 								<UML:TaggedValue tag="ea_sourceType" value="Package"/>
 								<UML:TaggedValue tag="ea_targetType" value="Package"/>
 								<UML:TaggedValue tag="ea_sourceID" value="10157"/>
-								<UML:TaggedValue tag="ea_targetID" value="10053"/>
+								<UML:TaggedValue tag="ea_targetID" value="11882"/>
 								<UML:TaggedValue tag="src_visibility" value="Public"/>
 								<UML:TaggedValue tag="src_aggregation" value="0"/>
 								<UML:TaggedValue tag="src_isOrdered" value="false"/>
@@ -331,7 +331,7 @@
 						</UML:Dependency>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
-				<UML:Stereotype xmi.id="EAID_6710E9D2_2B16_4886_8D23_42C154A425D6" name="ApplicationSchema" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_19D9EC68_128F_44a4_A432_72FC3808A7A2" name="ApplicationSchema" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
 				<UML:DataType xmi.id="eaxmiid0" name="Date" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
@@ -379,7 +379,7 @@
 				<UML:DiagramElement geometry="Left=452;Top=205;Right=731;Bottom=328;" subject="EAID_B9627D46_C4BF_45ca_84CE_02C32E5EE337" seqno="3" style="DUID=E6D24631;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;"/>
 				<UML:DiagramElement geometry="Left=449;Top=458;Right=718;Bottom=564;" subject="EAID_C940BDAD_D3BE_434c_BD23_8AD194DBABA8" seqno="4" style="NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;AttCustom=0;OpCustom=0;PType=0;RzO=1;DUID=4CB814C1;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_0667C6D5_7D88_4bbe_853B_E4FD6DB80AE0" style="Mode=2;EOID=E6D24631;SOID=4CB814C1;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SCTR=1;SCME=1;SX=0;SY=0;EX=0;EY=0;EDGE=2;SCTR.LEFT=730;SCTR.TOP=-305;SCTR.RIGHT=839;SCTR.BOTTOM=-231;$LLB=;LLT=CX=95:CY=13:OX=28:OY=32:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=CX=117:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMB=;LRT=CX=102:CY=13:OX=107:OY=-3:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=;IRHS=;ILHS=;Path=731:-305$839:-305$839:-231$731:-231$;" subject="EAID_C087FAB1_BD30_4b3a_9073_8D2A328E2BE1" style="Mode=3;EOID=E6D24631;SOID=E6D24631;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SCTR=1;SCME=1;SX=0;SY=0;EX=0;EY=0;EDGE=2;SCTR.LEFT=730;SCTR.TOP=-305;SCTR.RIGHT=839;SCTR.BOTTOM=-231;$LLB=;LLT=CX=95:CY=13:OX=28:OY=32:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=CX=117:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMB=;LRT=CX=102:CY=13:OX=107:OY=-3:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=;IRHS=;ILHS=;Path=731:-305$839:-305$839:-231$731:-231$;Path=731:-305$839:-305$839:-231$731:-231$;" subject="EAID_C087FAB1_BD30_4b3a_9073_8D2A328E2BE1" style="Mode=3;EOID=E6D24631;SOID=E6D24631;Color=-1;LWidth=0;Hidden=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_5F178C62_51C5_4ebb_91F8_73A1E9E44A0F" style="Mode=2;EOID=4CB814C1;SOID=2F9F40C3;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=-2;SY=-1;EX=-2;EY=-1;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_77800240_3D3D_40e4_8E73_34BE96A88E19" style="Mode=2;EOID=4CB814C1;SOID=3224186A;Color=-1;LWidth=0;Hidden=0;"/>
 			</UML:Diagram.element>
