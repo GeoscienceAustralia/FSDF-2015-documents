@@ -10,15 +10,15 @@
 		<UML:Model name="EA Model" xmi.id="MX_EAID_2283EB18_BD0D_4ebf_AB74_D6A7B48AEBF1">
 			<UML:Namespace.ownedElement>
 				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
-				<UML:Package name="FSDFAdminstrativeUnit" xmi.id="EAPK_2283EB18_BD0D_4ebf_AB74_D6A7B48AEBF1" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+				<UML:Package name="FSDF AdministrativeUnit" xmi.id="EAPK_2283EB18_BD0D_4ebf_AB74_D6A7B48AEBF1" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 					<UML:ModelElement.stereotype>
-						<UML:Stereotype xmi.idref="EAID_D247B93B_9211_4fa2_B553_72DF2A4AAF88"/>
+						<UML:Stereotype xmi.idref="EAID_28B5EEF3_76B5_438f_A6CF_0A8B50647381"/>
 					</UML:ModelElement.stereotype>
 					<UML:ModelElement.taggedValue>
-						<UML:TaggedValue tag="documentation" value="The generic administrative unit application schema. &#xA;This includes administrative unit types that are not modeled in a more specialized schema. In many cases these manage specific administrative functions as delegated by a government unit, such as&#xA;- catchment management authorities&#xA;- school zones&#xA;- police and law enforcement&#xA;- fire and emergency services&#xA;In other cases, the administrative unit, through still formally gazetted, is primarily ceremonial or informative with few or no administrative functions, such as &#xA;- city, area, rural city, borough, town, &#xA;- locality&#xA;- shire, parish, hundred, division&#xA;For any particular function it is expected that administrative units do not intersect or overlap. There will be a relationship with the government unit that is responsible for delegating the specific function, and there may be relationships with other administrative units. &#xA;&#xA;Examples: &#xA;&lt;a href=&quot;http://www.dtpli.vic.gov.au/__data/assets/pdf_file/0013/111316/Melbourne_v47.pdf&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;http://www.dtpli.vic.gov.au/__data/assets/pdf_file/0013/111316/Melbourne_v47.pdf&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; &lt;a href=&quot;http://www.health.vic.gov.au/regions/&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;http://www.health.vic.gov.au/regions/&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; &lt;a href=&quot;http://www.mfb.vic.gov.au/About-Us/StationMap.html&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;http://www.mfb.vic.gov.au/About-Us/StationMap.html&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; and select ‘districts’ &lt;a href=&quot;http://www.cfa.vic.gov.au/warnings-restrictions/find-your-fire-district/&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;http://www.cfa.vic.gov.au/warnings-restrictions/find-your-fire-district/&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; &lt;a href=&quot;http://vicwater.org.au/victorian-water-industry/catchment-management-authorities&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;http://vicwater.org.au/victorian-water-industry/catchment-management-authorities&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; &lt;a href=&quot;http://www.police.vic.gov.au/content.asp?Document_ID=7&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;http://www.police.vic.gov.au/content.asp?Document_ID=7&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; &lt;a href=&quot;http://melbourneschoolzones.com/&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;http://melbourneschoolzones.com/&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; &#xA;See also: &lt;a href=&quot;http://en.wikipedia.org/wiki/Cadastral_divisions_of_Australia&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;http://en.wikipedia.org/wiki/Cadastral_divisions_of_Australia&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; &#xA;&#xA;&#xA;&#xA;"/>
+						<UML:TaggedValue tag="documentation" value="The generic administrative unit application schema. &#xA;This includes administrative unit types that are not modeled in a more specialized schema. In many cases these manage specific administrative functions as delegated by a government unit, such as&#xA;- catchment management authorities&#xA;- school zones&#xA;- police and law enforcement&#xA;- fire and emergency services&#xA;In other cases, the administrative unit, through still formally gazetted, is primarily ceremonial or informative with few or no administrative functions, such as &#xA;- city, area, rural city, borough, town, &#xA;- locality&#xA;- shire, parish, hundred, division&#xA;For any particular function it is expected that administrative units do not intersect or overlap. There will be a relationship with the government unit that is responsible for delegating the specific function, and there may be relationships with other administrative units. &#xA;&#xA;Examples: &#xA;&lt;a href=&quot;http://www.dtpli.vic.gov.au/__data/assets/pdf_file/0013/111316/Melbourne_v47.pdf&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;http://www.dtpli.vic.gov.au/__data/assets/pdf_file/0013/111316/Melbourne_v47.pdf&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; &lt;a href=&quot;http://www.health.vic.gov.au/regions/&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;http://www.health.vic.gov.au/regions/&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; &lt;a href=&quot;http://www.mfb.vic.gov.au/About-Us/StationMap.html&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;http://www.mfb.vic.gov.au/About-Us/StationMap.html&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; and select ‘districts’ &lt;a href=&quot;http://www.cfa.vic.gov.au/warnings-restrictions/find-your-fire-district/&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;http://www.cfa.vic.gov.au/warnings-restrictions/find-your-fire-district/&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; &lt;a href=&quot;http://vicwater.org.au/victorian-water-industry/catchment-management-authorities&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;http://vicwater.org.au/victorian-water-industry/catchment-management-authorities&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; &lt;a href=&quot;http://www.police.vic.gov.au/content.asp?Document_ID=7&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;http://www.police.vic.gov.au/content.asp?Document_ID=7&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; &lt;a href=&quot;http://melbourneschoolzones.com/&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;http://melbourneschoolzones.com/&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; &#xA;See also: &lt;a href=&quot;http://en.wikipedia.org/wiki/Cadastral_divisions_of_Australia&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;http://en.wikipedia.org/wiki/Cadastral_divisions_of_Australia&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; &#xA;&#xA;&#xA;"/>
 						<UML:TaggedValue tag="parent" value="EAPK_9D6FEBE6_4BFB_42dc_9102_01A642590773"/>
 						<UML:TaggedValue tag="created" value="2013-05-28 10:34:15"/>
-						<UML:TaggedValue tag="modified" value="2014-11-03 08:29:51"/>
+						<UML:TaggedValue tag="modified" value="2014-11-03 08:33:36"/>
 						<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 						<UML:TaggedValue tag="xmlpath" value="AdminBoundary\OtherAdminstrativeUnit.xml"/>
 						<UML:TaggedValue tag="lastloaddate" value="2014-11-03 08:12:20"/>
@@ -55,7 +55,7 @@
 								<UML:TaggedValue tag="date_modified" value="2013-07-26 11:04:01"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
-								<UML:TaggedValue tag="package_name" value="FSDFAdminstrativeUnit"/>
+								<UML:TaggedValue tag="package_name" value="FSDF AdministrativeUnit"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
 								<UML:TaggedValue tag="author" value="mroy"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
@@ -79,7 +79,7 @@
 								<UML:TaggedValue tag="date_modified" value="2014-04-22 11:26:47"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
-								<UML:TaggedValue tag="package_name" value="FSDFAdminstrativeUnit"/>
+								<UML:TaggedValue tag="package_name" value="FSDF AdministrativeUnit"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
 								<UML:TaggedValue tag="author" value="cox075"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
@@ -104,7 +104,7 @@
 								<UML:TaggedValue tag="date_modified" value="2014-04-17 17:10:26"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
-								<UML:TaggedValue tag="package_name" value="FSDFAdminstrativeUnit"/>
+								<UML:TaggedValue tag="package_name" value="FSDF AdministrativeUnit"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
 								<UML:TaggedValue tag="author" value="Bruce Simons"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
@@ -128,7 +128,7 @@
 								<UML:TaggedValue tag="date_modified" value="2014-04-22 11:22:35"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
-								<UML:TaggedValue tag="package_name" value="FSDFAdminstrativeUnit"/>
+								<UML:TaggedValue tag="package_name" value="FSDF AdministrativeUnit"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
 								<UML:TaggedValue tag="author" value="cox075"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
@@ -152,7 +152,7 @@
 								<UML:TaggedValue tag="date_modified" value="2014-04-22 11:18:55"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
-								<UML:TaggedValue tag="package_name" value="FSDFAdminstrativeUnit"/>
+								<UML:TaggedValue tag="package_name" value="FSDF AdministrativeUnit"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
 								<UML:TaggedValue tag="author" value="cox075"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
@@ -176,7 +176,7 @@
 								<UML:TaggedValue tag="date_modified" value="2014-04-22 11:15:01"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
-								<UML:TaggedValue tag="package_name" value="FSDFAdminstrativeUnit"/>
+								<UML:TaggedValue tag="package_name" value="FSDF AdministrativeUnit"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
 								<UML:TaggedValue tag="author" value="cox075"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
@@ -203,7 +203,7 @@
 								<UML:TaggedValue tag="date_modified" value="2014-04-22 11:10:59"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
-								<UML:TaggedValue tag="package_name" value="FSDFAdminstrativeUnit"/>
+								<UML:TaggedValue tag="package_name" value="FSDF AdministrativeUnit"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
 								<UML:TaggedValue tag="author" value="mroy"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
@@ -268,7 +268,7 @@
 								<UML:TaggedValue tag="date_modified" value="2014-04-22 11:12:11"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
-								<UML:TaggedValue tag="package_name" value="FSDFAdminstrativeUnit"/>
+								<UML:TaggedValue tag="package_name" value="FSDF AdministrativeUnit"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
 								<UML:TaggedValue tag="author" value="mroy"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
@@ -386,7 +386,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="conditional" value=" &#xA;«import»"/>
 								<UML:TaggedValue tag="ea_localid" value="38441"/>
-								<UML:TaggedValue tag="ea_sourceName" value="FSDFAdminstrativeUnit"/>
+								<UML:TaggedValue tag="ea_sourceName" value="FSDF AdministrativeUnit"/>
 								<UML:TaggedValue tag="ea_targetName" value="FSDF GovernmentUnit"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Package"/>
 								<UML:TaggedValue tag="ea_targetType" value="Package"/>
@@ -431,7 +431,7 @@
 								<UML:TaggedValue tag="conditional" value=" &#xA;«import»"/>
 								<UML:TaggedValue tag="ea_localid" value="38467"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Unit Approximations"/>
-								<UML:TaggedValue tag="ea_targetName" value="FSDFAdminstrativeUnit"/>
+								<UML:TaggedValue tag="ea_targetName" value="FSDF AdministrativeUnit"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Package"/>
 								<UML:TaggedValue tag="ea_targetType" value="Package"/>
 								<UML:TaggedValue tag="ea_sourceID" value="38307"/>
@@ -459,7 +459,7 @@
 						</UML:Dependency>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
-				<UML:Stereotype xmi.id="EAID_D247B93B_9211_4fa2_B553_72DF2A4AAF88" name="ApplicationSchema" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_28B5EEF3_76B5_438f_A6CF_0A8B50647381" name="ApplicationSchema" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
 			</UML:Namespace.ownedElement>
