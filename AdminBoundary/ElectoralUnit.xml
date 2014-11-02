@@ -10,20 +10,20 @@
 		<UML:Model name="EA Model" xmi.id="MX_EAID_D23A598A_3FE2_4eee_89B2_C6114D9EB4AA">
 			<UML:Namespace.ownedElement>
 				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
-				<UML:Package name="ElectoralUnit" xmi.id="EAPK_D23A598A_3FE2_4eee_89B2_C6114D9EB4AA" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+				<UML:Package name="FSDF ElectoralUnit" xmi.id="EAPK_D23A598A_3FE2_4eee_89B2_C6114D9EB4AA" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 					<UML:ModelElement.stereotype>
-						<UML:Stereotype xmi.idref="EAID_7E57ABB2_B2F4_4d75_83C3_05F87AD50F5D"/>
+						<UML:Stereotype xmi.idref="EAID_E92D7A14_3138_44f8_8B75_98691E3BC3C6"/>
 					</UML:ModelElement.stereotype>
 					<UML:ModelElement.taggedValue>
 						<UML:TaggedValue tag="documentation" value="The application Schema for electoral units."/>
 						<UML:TaggedValue tag="parent" value="EAPK_9D6FEBE6_4BFB_42dc_9102_01A642590773"/>
 						<UML:TaggedValue tag="created" value="2013-05-28 10:34:15"/>
-						<UML:TaggedValue tag="modified" value="2014-04-22 13:47:41"/>
+						<UML:TaggedValue tag="modified" value="2014-11-03 08:25:05"/>
 						<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 						<UML:TaggedValue tag="xmlpath" value="AdminBoundary\ElectoralUnit.xml"/>
 						<UML:TaggedValue tag="lastloaddate" value="2014-11-03 08:12:14"/>
 						<UML:TaggedValue tag="lastsavedate" value="2014-04-22 09:41:58"/>
-						<UML:TaggedValue tag="version" value="1.0.2"/>
+						<UML:TaggedValue tag="version" value="1.0.3"/>
 						<UML:TaggedValue tag="isprotected" value="FALSE"/>
 						<UML:TaggedValue tag="usedtd" value="FALSE"/>
 						<UML:TaggedValue tag="xmiver" value="Enterprise Architect XMI/UML 1.3"/>
@@ -57,7 +57,7 @@
 								<UML:TaggedValue tag="date_modified" value="2014-03-14 10:12:23"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
-								<UML:TaggedValue tag="package_name" value="ElectoralUnit"/>
+								<UML:TaggedValue tag="package_name" value="FSDF ElectoralUnit"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
 								<UML:TaggedValue tag="author" value="mroy"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
@@ -122,7 +122,7 @@
 								<UML:TaggedValue tag="date_modified" value="2014-03-14 10:12:53"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
-								<UML:TaggedValue tag="package_name" value="ElectoralUnit"/>
+								<UML:TaggedValue tag="package_name" value="FSDF ElectoralUnit"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
 								<UML:TaggedValue tag="author" value="mroy"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
@@ -187,7 +187,7 @@
 								<UML:TaggedValue tag="date_modified" value="2014-03-12 14:26:47"/>
 								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
-								<UML:TaggedValue tag="package_name" value="ElectoralUnit"/>
+								<UML:TaggedValue tag="package_name" value="FSDF ElectoralUnit"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
 								<UML:TaggedValue tag="author" value="mroy"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
@@ -298,7 +298,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="conditional" value=" &#xA;«import»"/>
 								<UML:TaggedValue tag="ea_localid" value="38330"/>
-								<UML:TaggedValue tag="ea_sourceName" value="ElectoralUnit"/>
+								<UML:TaggedValue tag="ea_sourceName" value="FSDF ElectoralUnit"/>
 								<UML:TaggedValue tag="ea_targetName" value="FSDF Core Definition Model"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Package"/>
 								<UML:TaggedValue tag="ea_targetType" value="Package"/>
@@ -327,7 +327,7 @@
 						</UML:Dependency>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
-				<UML:Stereotype xmi.id="EAID_7E57ABB2_B2F4_4d75_83C3_05F87AD50F5D" name="ApplicationSchema" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_E92D7A14_3138_44f8_8B75_98691E3BC3C6" name="ApplicationSchema" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
 				<UML:DataType xmi.id="eaxmiid0" name="Date" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
@@ -339,7 +339,7 @@
 		<UML:TaggedValue tag="licence" xmi.id="EAID_2CD4A1E8_3831_4fb7_86D0_0A9586210EB2" value="this work is licensed under a Creative Commons Attribution 3.0 Australia licence (http://creativecommons.org/licenses/by/3.0/au/)." modelElement="MX_EAID_D23A598A_3FE2_4eee_89B2_C6114D9EB4AA"/>
 		<UML:TaggedValue tag="ownedBy" xmi.id="EAID_182176B8_26DC_406a_BB25_22FD86E0C223" value="ANZLIC - the Spatial Information Council;  Office of Spatial Policy, Department of Communications, " modelElement="MX_EAID_D23A598A_3FE2_4eee_89B2_C6114D9EB4AA"/>
 		<UML:TaggedValue tag="targetNamespace" xmi.id="EAID_393CD814_F041_3bf0_8F18_96A707E96C95" value="http://anzlic.fsdf/def/schema/source/admin/eu#NOTES#Description: Target namespace URI of the Application Schema&#xA;" modelElement="MX_EAID_D23A598A_3FE2_4eee_89B2_C6114D9EB4AA"/>
-		<UML:TaggedValue tag="version" xmi.id="EAID_6F40CEE6_0A33_550a_A121_1F05E5AF8BB9" value="1.0.2#NOTES#Description: Version of the Application Schema&#xA;" modelElement="MX_EAID_D23A598A_3FE2_4eee_89B2_C6114D9EB4AA"/>
+		<UML:TaggedValue tag="version" xmi.id="EAID_6F40CEE6_0A33_550a_A121_1F05E5AF8BB9" value="1.0.3#NOTES#Description: Version of the Application Schema&#xA;" modelElement="MX_EAID_D23A598A_3FE2_4eee_89B2_C6114D9EB4AA"/>
 		<UML:TaggedValue tag="xmlns" xmi.id="EAID_08B91BD2_1FDF_fc1f_986C_5264404DFA5A" value="fsdf-ab-eu#NOTES#Description: Namespace prefix (or) the abbreviated short form  of the target namespace&#xA;" modelElement="MX_EAID_D23A598A_3FE2_4eee_89B2_C6114D9EB4AA"/>
 		<UML:TaggedValue tag="xsdDocument" xmi.id="EAID_6E79370E_B4BB_69b4_87B3_F4FE15217D64" value="ElectoralUnit.xsd#NOTES#Description: Valid file name or relative file name of the XSD file to create for representing the contents of the package&#xA;" modelElement="MX_EAID_D23A598A_3FE2_4eee_89B2_C6114D9EB4AA"/>
 		<UML:TaggedValue tag="xsdEncodingRule" xmi.id="EAID_BCD3CBEE_41AC_b741_B6EF_BB767916D09A" value="iso19136_2007#NOTES#Values: iso19136_2007 | iso19139_2007 | iso19136_2007_INSPIRE_Extensions&#xA;Default: iso19136_2007&#xA;Description: XML Schema encoding rule to apply&#xA;" modelElement="MX_EAID_D23A598A_3FE2_4eee_89B2_C6114D9EB4AA"/>
