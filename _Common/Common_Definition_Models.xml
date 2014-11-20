@@ -10,12 +10,12 @@
 		<UML:Model name="EA Model" xmi.id="MX_EAID_04E88FC4_E20B_4c6f_BC03_2370B9EE54CF">
 			<UML:Namespace.ownedElement>
 				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
-				<UML:Package name="Common Definition Models" xmi.id="EAPK_04E88FC4_E20B_4c6f_BC03_2370B9EE54CF" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+				<UML:Package name="FSDF Core Common Definition Models" xmi.id="EAPK_04E88FC4_E20B_4c6f_BC03_2370B9EE54CF" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 					<UML:ModelElement.taggedValue>
 						<UML:TaggedValue tag="documentation" value="Common Definition Models contains the core application schema (FSDF Core Definition Model) used by other FSDF application schema.&#xA;&#xA;It also contains the Context Models, namely:&#xA;- the FSDF concepts (FSDF Domain Model package);&#xA;- the FSDF use cases, and  process  (FSDF Modelling package); &#xA;- the FSDF governance (FSDF Governance Model)."/>
 						<UML:TaggedValue tag="parent" value="EAPK_A86CC6F9_6BC9_4e6d_BC78_E99C923271B0"/>
 						<UML:TaggedValue tag="created" value="2014-02-05 10:17:49"/>
-						<UML:TaggedValue tag="modified" value="2014-11-20 15:17:52"/>
+						<UML:TaggedValue tag="modified" value="2014-11-20 15:50:36"/>
 						<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 						<UML:TaggedValue tag="xmlpath" value="_Common\Common_Definition_Models.xml"/>
 						<UML:TaggedValue tag="lastloaddate" value="2014-11-03 08:11:38"/>
@@ -58,7 +58,7 @@
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_56927824_526C_4643_B637_B4159E230394"/>
-										<UML:TaggedValue tag="package_name" value="Common Definition Models"/>
+										<UML:TaggedValue tag="package_name" value="FSDF Core Common Definition Models"/>
 										<UML:TaggedValue tag="phase" value="1.0"/>
 										<UML:TaggedValue tag="author" value="mroy"/>
 										<UML:TaggedValue tag="complexity" value="1"/>
@@ -71,7 +71,7 @@
 										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={96CCB048-E5C8-4c5d-80DB-797F376F8485}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=ApplicationSchema;FQName=GML::ApplicationSchema;@ENDSTEREO;$DES;$CLT={56927824-526C-4643-B637-B4159E230394}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 									</UML:ModelElement.taggedValue>
 								</UML:ClassifierRole>
-								<UML:ClassifierRole name="Context Models" xmi.id="EAID_742A46FC_1B60_4777_97FF_38BDE8CB23A1" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+								<UML:ClassifierRole name="FSDF Core Context Models" xmi.id="EAID_742A46FC_1B60_4777_97FF_38BDE8CB23A1" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="isAbstract" value="false"/>
 										<UML:TaggedValue tag="isSpecification" value="false"/>
@@ -81,11 +81,11 @@
 										<UML:TaggedValue tag="isActive" value="false"/>
 										<UML:TaggedValue tag="package" value="EAPK_04E88FC4_E20B_4c6f_BC03_2370B9EE54CF"/>
 										<UML:TaggedValue tag="date_created" value="2014-05-28 13:13:07"/>
-										<UML:TaggedValue tag="date_modified" value="2014-05-28 13:13:07"/>
+										<UML:TaggedValue tag="date_modified" value="2014-11-20 15:50:28"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_742A46FC_1B60_4777_97FF_38BDE8CB23A1"/>
-										<UML:TaggedValue tag="package_name" value="Common Definition Models"/>
+										<UML:TaggedValue tag="package_name" value="FSDF Core Common Definition Models"/>
 										<UML:TaggedValue tag="phase" value="1.0"/>
 										<UML:TaggedValue tag="author" value="box019"/>
 										<UML:TaggedValue tag="complexity" value="1"/>
@@ -139,7 +139,6 @@
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={702C5ABC-21A4-4940-BF5C-8DA5C9A4E9D5}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=import;GUID={D8551285-A63A-4460-BCB6-C5B009FFF07D};FQName=EAUML::import;@ENDSTEREO;$DES;$CLT={0718A39E-2181-4999-8D14-CE4FBDA6F370}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="privatedata5" value="EDGE=2;SX=0;SY=0;EX=0;EY=0;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="mb" value=" &#xA;쳃mport�"/>
 							</UML:ModelElement.taggedValue>
@@ -193,10 +192,10 @@
 								<UML:Stereotype name="import"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="2"/>
+								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Package"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-								<UML:TaggedValue tag="linemode" value="2"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
 								<UML:TaggedValue tag="linecolor" value="-1"/>
 								<UML:TaggedValue tag="linewidth" value="0"/>
 								<UML:TaggedValue tag="seqno" value="0"/>
@@ -228,7 +227,6 @@
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={89422A6B-48BE-471a-B752-4BF688F33CA6}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=import;GUID={EF0CFDAD-7CE8-4816-BA85-AA101FCC3E40};FQName=EAUML::import;@ENDSTEREO;$DES;$CLT={80A85026-1975-445d-8818-93E10DF9821C}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-103;SY=15;EX=49;EY=-67;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="mb" value=" &#xA;쳃mport�"/>
 							</UML:ModelElement.taggedValue>
@@ -238,10 +236,10 @@
 								<UML:Stereotype name="import"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="2"/>
+								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Package"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-								<UML:TaggedValue tag="linemode" value="2"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
 								<UML:TaggedValue tag="linecolor" value="-1"/>
 								<UML:TaggedValue tag="linewidth" value="0"/>
 								<UML:TaggedValue tag="seqno" value="0"/>
@@ -273,7 +271,6 @@
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={24B951A5-01FA-4ba3-BB58-F99DE7566E2A}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=import;GUID={EF0CFDAD-7CE8-4816-BA85-AA101FCC3E40};FQName=EAUML::import;@ENDSTEREO;$DES;$CLT={AE8552DE-7F7C-45be-905B-2590B9ED7F56}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-112;SY=-62;EX=0;EY=-10;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="mb" value=" &#xA;쳃mport�"/>
 							</UML:ModelElement.taggedValue>
@@ -283,10 +280,10 @@
 								<UML:Stereotype name="import"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="2"/>
+								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Package"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-								<UML:TaggedValue tag="linemode" value="2"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
 								<UML:TaggedValue tag="linecolor" value="-1"/>
 								<UML:TaggedValue tag="linewidth" value="0"/>
 								<UML:TaggedValue tag="seqno" value="0"/>
@@ -318,7 +315,6 @@
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={37BD4E55-50AB-4dea-8417-B0738E680CC8}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=import;GUID={EF0CFDAD-7CE8-4816-BA85-AA101FCC3E40};FQName=EAUML::import;@ENDSTEREO;$DES;$CLT={C05A0DDB-9D92-482e-9D77-5DA753479D41}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=-20;SY=-39;EX=-20;EY=-39;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="mb" value=" &#xA;쳃mport�"/>
 							</UML:ModelElement.taggedValue>
@@ -363,16 +359,15 @@
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={1F99ED17-3199-49ba-BA69-08524C75FAF1}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=import;GUID={EF0CFDAD-7CE8-4816-BA85-AA101FCC3E40};FQName=EAUML::import;@ENDSTEREO;$DES;$CLT={FF99BFD7-CB6B-463f-BABA-A0AD62BED0D0}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="mb" value=" &#xA;쳃mport�"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
-						<UML:Package name="Context Models" xmi.id="EAPK_742A46FC_1B60_4777_97FF_38BDE8CB23A1" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+						<UML:Package name="FSDF Core Context Models" xmi.id="EAPK_742A46FC_1B60_4777_97FF_38BDE8CB23A1" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="parent" value="EAPK_04E88FC4_E20B_4c6f_BC03_2370B9EE54CF"/>
 								<UML:TaggedValue tag="created" value="2014-05-28 13:13:07"/>
-								<UML:TaggedValue tag="modified" value="2014-05-28 13:13:07"/>
+								<UML:TaggedValue tag="modified" value="2014-11-20 15:50:28"/>
 								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 								<UML:TaggedValue tag="xmlpath" value="_Common\Context Models.xml"/>
 								<UML:TaggedValue tag="lastloaddate" value="2014-11-03 08:11:44"/>
@@ -396,7 +391,7 @@
 						</UML:Package>
 						<UML:Package name="FSDF Core Definition Model" xmi.id="EAPK_56927824_526C_4643_B637_B4159E230394" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_33D78788_5B0C_452d_8A59_2C0017734E4E"/>
+								<UML:Stereotype xmi.idref="EAID_AC233410_AB66_42d8_86B6_0221FC5F6D6E"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="documentation" value="The AreaHierarchy (AH) package contains common behavior model for any nested hierarchy of areas.  The model addresses issues of navigation and cross referencing between hierarchies and the scoping of topology to versions of hierarchies.&#xA;The hierarchy describes the topological relationships, not the (potentially multiple) alternative geometric descriptions of objects (see package AreaRepresentation)."/>
@@ -427,7 +422,7 @@
 						</UML:Package>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
-				<UML:Stereotype xmi.id="EAID_33D78788_5B0C_452d_8A59_2C0017734E4E" name="ApplicationSchema" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_AC233410_AB66_42d8_86B6_0221FC5F6D6E" name="ApplicationSchema" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
 			</UML:Namespace.ownedElement>
