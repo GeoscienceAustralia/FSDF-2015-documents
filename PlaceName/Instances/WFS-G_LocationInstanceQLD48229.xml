@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wfs:FeatureCollection xmlns:wfs="http://www.opengis.net/wfs/2.0" xmlns:gmdsf1="http://www.isotc211.org/2005/gmdsf1" xmlns:gml32="http://www.opengis.net/gml/3.2" xmlns:iso19112="http://www.isotc211.org/19112" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" numberMatched="unknown" numberReturned="1" timeStamp="2014-06-10T05:31:02.286Z" xsi:schemaLocation="http://www.isotc211.org/19112 http://bp.schemas.opengis.net/11-122r1/gazetter/1.0.0/gmlsf1/full/iso19112.xsd http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd">
+	<wfs:boundedBy>
+		<gml32:Envelope>
+			<gml32:lowerCorner>152.459289550781 -24.9515991210938</gml32:lowerCorner>
+			<gml32:upperCorner>152.459289550781 -24.9515991210938</gml32:upperCorner>
+		</gml32:Envelope>
+	</wfs:boundedBy>
+	<wfs:member>
+		<iso19112:SI_LocationInstance gml32:id="QLD48229">
+			<null:name xmlns:null="http://www.opengis.net/gml">FALLONS ROCKS</null:name>
+			<iso19112:geographicIdentifier>QLD48229</iso19112:geographicIdentifier>
+			<iso19112:alternativeGeographicIdentifiers>
+				<iso19112:alternativeGeographicIdentifier>
+					<iso19112:name xml:lang="eng">FALLONS ROCKS</iso19112:name>
+					<iso19112:type>official</iso19112:type>
+					<iso19112:primary>true</iso19112:primary>
+				</iso19112:alternativeGeographicIdentifier>
+			</iso19112:alternativeGeographicIdentifiers>
+			<iso19112:position/>
+			<iso19112:administrator>
+				<gmdsf1:CI_ResponsibleParty>
+					<gmdsf1:individualName>Senior Spatial Information Officer</gmdsf1:individualName>
+					<gmdsf1:organizationName>Department of Natural Resources and Mines</gmdsf1:organizationName>
+					<gmdsf1:voice>+61 7 3896 3222</gmdsf1:voice>
+					<gmdsf1:facsimile>+61 7 3896 3165</gmdsf1:facsimile>
+					<gmdsf1:deliveryPoint>GPO Box 2454</gmdsf1:deliveryPoint>
+					<gmdsf1:city>Brisbane</gmdsf1:city>
+					<gmdsf1:administrativeArea>QLD</gmdsf1:administrativeArea>
+					<gmdsf1:postalCode>4001</gmdsf1:postalCode>
+					<gmdsf1:country>Australia</gmdsf1:country>
+					<gmdsf1:role>custodian</gmdsf1:role>
+				</gmdsf1:CI_ResponsibleParty>
+			</iso19112:administrator>
+			<iso19112:designation codeSpace="urn:ogc:def:locationType:GA:mapNumber.9348">The 100k Map Number for this feature is 9348</iso19112:designation>
+			<iso19112:parent href="urn:ogc:def:locationType:GA:QLD"/>
+			<iso19112:locationType codeSpace="urn:ogc:def:locationType:GA:ROCK" href="http://www.ga.gov.au/gazetteer-australia-wfsg-gws/wfs?typeName=iso19112%3ASI_LocationType&amp;version=1.1.0&amp;service=WFS&amp;request=GetFeature&amp;FILTER=%3CFilter%3E%3CPropertyIsEqualTo%3E%3CPropertyName%3Egml%3Aname%3C%2FPropertyName%3E%3CLiteral%3EROCK%3C%2FLiteral%3E%3C%2FPropertyIsEqualTo%3E%3C%2FFilter%3E" label="ROCK"/>
+		</iso19112:SI_LocationInstance>
+	</wfs:member>
+</wfs:FeatureCollection>

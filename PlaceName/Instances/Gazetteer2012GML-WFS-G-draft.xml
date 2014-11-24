@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wfs:FeatureCollection xmlns="http://www.w3.org/2001/XMLSchema" xmlns:fsdf-pn-g="http://communications.data.gov.au/standards/fsdf/placename" xmlns:fsdf-abt="http://anzlic.com.au/themes/ab/abt" xmlns:wfs="http://www.opengis.net/wfs/2.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmlexr="http://www.opengis.net/gml/3.3/exr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sam="http://www.opengis.net/sampling/2.0" xmlns:sams="http://www.opengis.net/samplingSpatial/2.0" timeStamp="2014-01-28T09:07:14.313+10:00" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd
+                http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd
+                 http://communications.data.gov.au/standards/fsdf/placename C://Repos/FSDF2/FDSF/PlaceName/Schema/placename.xsd" numberMatched="unknown" numberReturned="1">
+                 <!--http://communications.data.gov.au/standards/fsdf/placename http://communications.data.gov.au/standards/fsdf/placename.xsd -->
+	<!-- the first gazetteer. -->
+	<wfs:member>
+		<!-- ############### -->
+		<!-- Using the FSDFGazetteer Conceptual Model as a GML Application Schema Product Model results in a number of properties specified in the Conceptual Model being duplicated due to their already being present in the GML application schema (e.g. description, name, bounding box).
+A specific FSDF Gazetteer Product Model could be created to remove these duplicates or they could be removed as part of the UML to GML schema generation. -->
+		<!-- ############### -->
+		<fsdf-pn-g:Gazetteer gml:id="AustralianAntarcticDivisionGazetteer">
+			<!-- No descriptions, identifiers or names are available in Geoscience Australia's WFS-G service for the Australian Antarctic Division gazetteer
+			<gml:description></gml:description>
+			<gml:identifier></gml:identifier>
+			<gml:name></gml:name> -->
+			<!-- Bounding box should reflect extent of gazetteer -->
+			<gml:boundedBy>
+				<gml:Envelope srsName="EPSG:3112" srsDimension="2">
+					<gml:lowerCorner>45.2921142578125 -80.2166748046875</gml:lowerCorner>
+					<gml:upperCorner>169.000122070313 -9.14251708984375</gml:upperCorner>
+				</gml:Envelope>
+			</gml:boundedBy>
+			<!-- duplicates gml:boundedBy -->
+			<fsdf-pn-g:boundingBox>
+				<gml:Envelope srsName="EPSG:3112" srsDimension="2">
+					<gml:lowerCorner>45.2921142578125 -80.2166748046875</gml:lowerCorner>
+					<gml:upperCorner>169.000122070313 -9.14251708984375</gml:upperCorner>
+				</gml:Envelope>
+			</fsdf-pn-g:boundingBox>
+			<fsdf-pn-g:custodian>
+				<gmd:CI_ResponsibleParty>
+					<gmd:organisationName>
+						<gco:CharacterString>Australian Antarctic Division</gco:CharacterString>
+					</gmd:organisationName>
+					<gmd:positionName>
+						<gco:CharacterString>Mapping Officer</gco:CharacterString>
+					</gmd:positionName>
+					<gmd:contactInfo>
+						<gmd:CI_Contact>
+							<gmd:phone>
+								<gmd:CI_Telephone>
+									<gmd:voice>
+										<gco:CharacterString>+61 2 6232 3528</gco:CharacterString>
+									</gmd:voice>
+									<gmd:facsimile>
+										<gco:CharacterString>+61 2 6232 3351</gco:CharacterString>
+									</gmd:facsimile>
+								</gmd:CI_Telephone>
+							</gmd:phone>
+							<gmd:address>
+								<gmd:CI_Address>
+									<gmd:deliveryPoint>
+										<gco:CharacterString>Channel Highway</gco:CharacterString>
+									</gmd:deliveryPoint>
+									<gmd:city>
+										<gco:CharacterString>Kingston</gco:CharacterString>
+									</gmd:city>
+									<gmd:administrativeArea>
+										<gco:CharacterString>TAS</gco:CharacterString>
+									</gmd:administrativeArea>
+									<gmd:postalCode>
+										<gco:CharacterString>7050</gco:CharacterString>
+									</gmd:postalCode>
+									<gmd:country>
+										<gco:CharacterString>Australia</gco:CharacterString>
+									</gmd:country>
+								</gmd:CI_Address>
+							</gmd:address>
+						</gmd:CI_Contact>
+					</gmd:contactInfo>
+					<gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml" codeSpace="ISOTC211/19115" codeListValue="CI_RoleCode_custodian">custodian</gmd:CI_RoleCode>
+					</gmd:role>
+				</gmd:CI_ResponsibleParty>
+			</fsdf-pn-g:custodian>
+			<!-- duplicates gml:description -->
+			<!-- No description is available for the Australian Antarctic Division gazetteer -->
+			<!--<fsdf-pn-g:description></fsdf-pn-g:description> -->
+			<!-- The Australian Antarctic Division gazetteer contains multiple gazetteer entry types -->
+			<fsdf-pn-g:locationType xsi:nil="true" nilReason="inapplicable"/>
+			<!-- No name is available for the Australian Antarctic Division gazetteer -->
+			<!-- duplicates gml:name -->
+			<!-- <fsdf-pn-g:name>GazetteerOfAustralia2012</fsdf-pn-g:name> -->
+			<!-- no information about the status of the Australian Antarctic Division gazetteer is available -->
+			<fsdf-pn-g:status>Published</fsdf-pn-g:status>
+			<fsdf-pn-g:unitCount>1</fsdf-pn-g:unitCount>
+			<!-- The Australian Antarctic Division gazetteer is not a sub-register of any other gazetteer-->
+			<fsdf-pn-g:subRegisterOf xsi:nil="true" nilReason="inapplicable"/>
+			<!-- Need to replace the territoryOfUse property link with one for Antarctica -->
+			<fsdf-pn-g:territoryOfUse xlink:href="http://demo.sirf.net/siset/AUS-FSDF/admin/1"/>
+			<!-- Individual gazetteer entry from the Australian Antarctic Division gazetteer -->
+			<fsdf-pn-g:record>
+				<fsdf-pn-g:GazetteerEntry gml:id="AAD10">
+					<!-- No description of the gazetteer entry is available -->
+					<gml:identifier codeSpace="http://demo.sirf.net/siset/CGNA">AAD10</gml:identifier>
+					<gml:name>Mt Abbs</gml:name>
+					<!--  Need to fix location bounding box EPSG for Antarctica -->
+					<gml:boundedBy>
+						<gml:Envelope srsName="EPSG:3112" srsDimension="2">
+							<gml:lowerCorner>66.6228 -70.60</gml:lowerCorner>
+							<gml:upperCorner>66.6227 -70.59</gml:upperCorner>
+						</gml:Envelope>
+					</gml:boundedBy>
+					<!-- duplicates gml:boundedBy -->
+					<fsdf-pn-g:boundingBox>
+						<gml:Envelope srsName="EPSG:3112" srsDimension="2">
+							<gml:lowerCorner>66.6228 -70.60</gml:lowerCorner>
+							<gml:upperCorner>66.6227 -70.59</gml:upperCorner>
+						</gml:Envelope>
+					</fsdf-pn-g:boundingBox>
+					<fsdf-pn-g:geographicIdentifier>AAD10</fsdf-pn-g:geographicIdentifier>
+					<fsdf-pn-g:locationType xlink:href="http://www.ga.gov.au/gazetteer-australia-wfsg-gws/wfs?typeName=iso19112%3ASI_LocationType&amp;version=1.1.0&amp;service=WFS&amp;request=GetFeature&amp;FILTER=%3CFilter%3E%3CPropertyIsEqualTo%3E%3CPropertyName%3Egml%3Aname%3C%2FPropertyName%3E%3CLiteral%3EMT%3C%2FLiteral%3E%3C%2FPropertyIsEqualTo%3E%3C%2FFilter%3E" xlink:title="MT"/>
+					<!-- Missing <iso19112:parent xlink:href="urn:ogc:def:locationType:GA:AAT"/> property -->
+					<fsdf-pn-g:position>
+						<gml:Point gml:id="AAD10-position" srsName="EPSG:3112" srsDimension="2">
+							<gml:pos>66.62277778 -70.59166667</gml:pos>
+						</gml:Point>
+					</fsdf-pn-g:position>
+					<fsdf-pn-g:recordStatus xlink:href="http://www.ga.gov.au/darwin-gazetteer/Status/O" xlink:title="Official"/>
+					<fsdf-pn-g:sourceUnit nilReason="missing"/>
+					<fsdf-pn-g:alternativeName>
+						<fsdf-pn-g:Name>
+							<fsdf-pn-g:language>English</fsdf-pn-g:language>
+							<fsdf-pn-g:status xlink:title="variant"/>
+							<fsdf-pn-g:label>Mount Abbs</fsdf-pn-g:label>
+							<fsdf-pn-g:type>Unknown</fsdf-pn-g:type>
+						</fsdf-pn-g:Name>
+					</fsdf-pn-g:alternativeName>
+					<fsdf-pn-g:preferredName>
+						<fsdf-pn-g:Name>
+							<fsdf-pn-g:language>English</fsdf-pn-g:language>
+							<fsdf-pn-g:status xlink:title="official"/>
+							<fsdf-pn-g:label>Mount Abbs</fsdf-pn-g:label>
+							<fsdf-pn-g:type>Unknown</fsdf-pn-g:type>
+						</fsdf-pn-g:Name>
+					</fsdf-pn-g:preferredName>
+					<!-- No Code required for this entry
+					<fsdf-pn-g:featureCode>
+						<fsdf-pn-g:Code>
+							<fsdf-pn-g:value/>
+							<fsdf-pn-g:codeSpace/>
+						</fsdf-pn-g:Code>
+					</fsdf-pn-g:featureCode> -->
+				</fsdf-pn-g:GazetteerEntry>
+			</fsdf-pn-g:record>
+		</fsdf-pn-g:Gazetteer>
+	</wfs:member>
+	<wfs:member>
+		<fsdf-pn-g:Gazetteer gml:id="QueenslandGazetteer">
+			<!-- No descriptions, identifiers or names are available in Geoscience Australia's WFS-G service for the Australian Antarctic Division gazetteer
+			<gml:description></gml:description>
+			<gml:identifier></gml:identifier>
+			<gml:name></gml:name> -->
+			<!-- Bounding box should reflect extent of gazetteer -->
+			<gml:boundedBy>
+				<gml:Envelope srsName="EPSG:3112" srsDimension="2">
+					<gml:lowerCorner>45.2921142578125 -80.2166748046875</gml:lowerCorner>
+					<gml:upperCorner>169.000122070313 -9.14251708984375</gml:upperCorner>
+				</gml:Envelope>
+			</gml:boundedBy>
+			<!-- duplicates gml:boundedBy -->
+			<fsdf-pn-g:boundingBox>
+				<gml:Envelope srsName="EPSG:3112" srsDimension="2">
+					<gml:lowerCorner>45.2921142578125 -80.2166748046875</gml:lowerCorner>
+					<gml:upperCorner>169.000122070313 -9.14251708984375</gml:upperCorner>
+				</gml:Envelope>
+			</fsdf-pn-g:boundingBox>
+			<fsdf-pn-g:custodian>
+				<gmd:CI_ResponsibleParty>
+					<gmd:organisationName>
+						<gco:CharacterString>Department of Natural Resources and Mines</gco:CharacterString>
+					</gmd:organisationName>
+					<gmd:positionName>
+						<gco:CharacterString>Senior Spatial Information Officer</gco:CharacterString>
+					</gmd:positionName>
+					<gmd:contactInfo>
+						<gmd:CI_Contact>
+							<gmd:phone>
+								<gmd:CI_Telephone>
+									<gmd:voice>
+										<gco:CharacterString>+61 7 3896 3222</gco:CharacterString>
+									</gmd:voice>
+									<gmd:facsimile>
+										<gco:CharacterString>+61 7 3896 3165</gco:CharacterString>
+									</gmd:facsimile>
+								</gmd:CI_Telephone>
+							</gmd:phone>
+							<gmd:address>
+								<gmd:CI_Address>
+									<gmd:deliveryPoint>
+										<gco:CharacterString>GPO Box 2454</gco:CharacterString>
+									</gmd:deliveryPoint>
+									<gmd:city>
+										<gco:CharacterString>Brisbane</gco:CharacterString>
+									</gmd:city>
+									<gmd:administrativeArea>
+										<gco:CharacterString>QLD</gco:CharacterString>
+									</gmd:administrativeArea>
+									<gmd:postalCode>
+										<gco:CharacterString>4001</gco:CharacterString>
+									</gmd:postalCode>
+									<gmd:country>
+										<gco:CharacterString>Australia</gco:CharacterString>
+									</gmd:country>
+								</gmd:CI_Address>
+							</gmd:address>
+						</gmd:CI_Contact>
+					</gmd:contactInfo>
+					<gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml" codeSpace="ISOTC211/19115" codeListValue="CI_RoleCode_custodian">custodian</gmd:CI_RoleCode>
+					</gmd:role>
+				</gmd:CI_ResponsibleParty>
+			</fsdf-pn-g:custodian>
+			<!-- duplicates gml:description -->
+			<!-- No description is available for the Australian Antarctic Division gazetteer -->
+			<!--<fsdf-pn-g:description></fsdf-pn-g:description> -->
+			<!-- The Australian Antarctic Division gazetteer contains multiple gazetteer entry types -->
+			<fsdf-pn-g:locationType xsi:nil="true" nilReason="inapplicable"/>
+			<!-- No name is available for the Queensland gazetteer -->
+			<!-- duplicates gml:name -->
+			<!-- <fsdf-pn-g:name></fsdf-pn-g:name> -->
+			<!-- no information about the status of the Queensland gazetteer is available -->
+			<fsdf-pn-g:status>Published</fsdf-pn-g:status>
+			<fsdf-pn-g:unitCount>1</fsdf-pn-g:unitCount>
+			<!-- The Queensland gazetteer is not a sub-register of any other gazetteer-->
+			<fsdf-pn-g:subRegisterOf xsi:nil="true" nilReason="inapplicable"/>
+			<!-- Need to replace the territoryOfUse property link with one for Queensland -->
+			<fsdf-pn-g:territoryOfUse xlink:href="http://demo.sirf.net/siset/AUS-FSDF/admin/1"/>
+			<!-- Individual gazetteer entry from the Queensland gazetteer -->
+			<fsdf-pn-g:record>
+				<fsdf-pn-g:GazetteerEntry gml:id="QLD48229">
+					<gml:description/>
+					<gml:identifier codeSpace="http://demo.sirf.net/siset/CGNA">QLD48229</gml:identifier>
+					<gml:name>FALLONS ROCKS</gml:name>
+					<gml:boundedBy>
+						<gml:Envelope srsName="EPSG:3112" srsDimension="2">
+							<gml:lowerCorner>152.4592 -24.95168</gml:lowerCorner>
+							<gml:upperCorner>152.4591 -24.95166</gml:upperCorner>
+						</gml:Envelope>
+					</gml:boundedBy>
+					<!-- duplicates gml:boundedBy -->
+					<fsdf-pn-g:boundingBox>
+						<gml:Envelope srsName="EPSG:3112" srsDimension="2">
+							<gml:lowerCorner>152.4592 -24.95168</gml:lowerCorner>
+							<gml:upperCorner>152.4591 -24.95166</gml:upperCorner>
+						</gml:Envelope>
+					</fsdf-pn-g:boundingBox>
+					<!-- No description is provided for this entry. Property is not mandatory
+<fsdf-pn-g:description></fsdf-pn-g:description> -->
+					<!-- fsdf-pn-g:geographicIdentifier duplicate of gml:Point gml:id? -->
+					<fsdf-pn-g:geographicIdentifier>QLD48234</fsdf-pn-g:geographicIdentifier>
+					<fsdf-pn-g:locationType xlink:href="http://www.ga.gov.au/darwin-gazetteer/Feat_Code/PT" xlink:title="PT"/>
+					<fsdf-pn-g:position>
+						<gml:Point gml:id="QLD48229position" srsName="EPSG:3112" srsDimension="2">
+							<gml:pos>141.625915527344 -12.5836181640625</gml:pos>
+						</gml:Point>
+					</fsdf-pn-g:position>
+					<fsdf-pn-g:recordStatus xlink:href="http://www.ga.gov.au/darwin-gazetteer/Status/U" xlink:title="unauthorised"/>
+					<fsdf-pn-g:sourceUnit nilReason="missing"/>
+					<!-- No alternative names are available -->
+					<!--<fsdf-pn-g:alternativeName></fsdf-pn-g:alternativeName> -->
+					<fsdf-pn-g:preferredName>
+						<fsdf-pn-g:Name>
+							<fsdf-pn-g:language>English</fsdf-pn-g:language>
+							<fsdf-pn-g:status xlink:title="official"/>
+							<fsdf-pn-g:label>FALLONS ROCKS</fsdf-pn-g:label>
+							<fsdf-pn-g:type>Unknown</fsdf-pn-g:type>
+						</fsdf-pn-g:Name>
+					</fsdf-pn-g:preferredName>
+					<!-- No Code required for this entry
+					<fsdf-pn-g:featureCode>
+						<fsdf-pn-g:Code>
+							<fsdf-pn-g:value/>
+							<fsdf-pn-g:codeSpace/>
+						</fsdf-pn-g:Code>
+					</fsdf-pn-g:featureCode> -->
+				</fsdf-pn-g:GazetteerEntry>
+			</fsdf-pn-g:record>
+		</fsdf-pn-g:Gazetteer>
+	</wfs:member>
+	<wfs:member>
+		<fsdf-pn-g:Gazetteer gml:id="GazetteerOfAustralia2012">
+			<gml:description>The Gazetteer of Australia provides map-makers and the public with authoritative information on the location and spelling of approved place names. The 2012 release of the Gazetteer is the 11th edition with information held by the relevant State, Territory and Commonwealth naming authorities.
+The place names in this Gazetteer are a subset of the complete information sets held by each of the relevant agencies. For example, the full dataset held by the Geographical Names Board of NSW contains information on the history of a name and its derivation. Also, some features such as the names of roads, which may not be held uniformly by the naming authorities, have not been supplied.
+The State and Territory agencies are the relevant authorities responsible for place names in their respective States and Territories. The Australian Hydrographic Service is the authority for maritime place name features, while the Australian Antarctic Division provides additional information on Heard Island and McDonald Island. Geoscience Australia provides additional information for Norfolk Island, populated place names and unofficial homestead names for NSW, Queensland, Victoria and Tasmania.</gml:description>
+			<gml:identifier codeSpace="http://www.ga.gov.au/darwin-gazetteer">http://www.ga.gov.au/darwin-gazetteer/GazetteerOfAustralia2012</gml:identifier>
+			<gml:name codeSpace="http://www.ga.gov.au/darwin-gazetteer">GazetteerOfAustralia2012</gml:name>
+			<gml:boundedBy>
+				<gml:Envelope srsName="EPSG:3112" srsDimension="2">
+					<gml:lowerCorner>45.2921142578125 -80.2166748046875</gml:lowerCorner>
+					<gml:upperCorner>169.000122070313 -9.14251708984375</gml:upperCorner>
+				</gml:Envelope>
+			</gml:boundedBy>
+			<!-- duplicates gml:boundedBy -->
+			<fsdf-pn-g:boundingBox>
+				<gml:Envelope srsName="EPSG:3112" srsDimension="2">
+					<gml:lowerCorner>45.2921142578125 -80.2166748046875</gml:lowerCorner>
+					<gml:upperCorner>169.000122070313 -9.14251708984375</gml:upperCorner>
+				</gml:Envelope>
+			</fsdf-pn-g:boundingBox>
+			<!-- <fsdf-pn-g:custodian xsi:nil="true" nilReason="unknown"/> -->
+			<fsdf-pn-g:custodian>
+				<gmd:CI_ResponsibleParty>
+					<gmd:organisationName>
+						<gco:CharacterString>Geoscience Australia</gco:CharacterString>
+					</gmd:organisationName>
+					<gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml" codeSpace="ISOTC211/19115" codeListValue="CI_RoleCode_custodian">custodian</gmd:CI_RoleCode>
+					</gmd:role>
+				</gmd:CI_ResponsibleParty>
+			</fsdf-pn-g:custodian>
+			<!-- duplicates gml:description -->
+			<fsdf-pn-g:description>The Gazetteer of Australia provides map-makers and the public with authoritative information on the location and spelling of approved place names. The 2012 release of the Gazetteer is the 11th edition with information held by the relevant State, Territory and Commonwealth naming authorities.
+The place names in this Gazetteer are a subset of the complete information sets held by each of the relevant agencies. For example, the full dataset held by the Geographical Names Board of NSW contains information on the history of a name and its derivation. Also, some features such as the names of roads, which may not be held uniformly by the naming authorities, have not been supplied.
+The State and Territory agencies are the relevant authorities responsible for place names in their respective States and Territories. The Australian Hydrographic Service is the authority for maritime place name features, while the Australian Antarctic Division provides additional information on Heard Island and McDonald Island. Geoscience Australia provides additional information for Norfolk Island, populated place names and unofficial homestead names for NSW, Queensland, Victoria and Tasmania.</fsdf-pn-g:description>
+			<fsdf-pn-g:locationType xsi:nil="true" nilReason="unknown"/>
+			<!-- duplicates gml:name -->
+			<fsdf-pn-g:name>GazetteerOfAustralia2012</fsdf-pn-g:name>
+			<fsdf-pn-g:status>Published</fsdf-pn-g:status>
+			<fsdf-pn-g:unitCount>1</fsdf-pn-g:unitCount>
+			<fsdf-pn-g:subRegisterOf xsi:nil="true" nilReason="inapplicable"/>
+			<fsdf-pn-g:territoryOfUse xlink:href="http://demo.sirf.net/siset/AUS-FSDF/admin/1"/>
+			<fsdf-pn-g:record>
+				<!-- ############# Need a GazetteerEntry example from GA -->
+			</fsdf-pn-g:record>
+		</fsdf-pn-g:Gazetteer>
+	</wfs:member>
+</wfs:FeatureCollection>

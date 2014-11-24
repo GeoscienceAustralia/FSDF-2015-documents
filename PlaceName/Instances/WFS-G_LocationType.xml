@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wfs:FeatureCollection xmlns:wfs="http://www.opengis.net/wfs/2.0" xmlns:gmdsf1="http://www.isotc211.org/2005/gmdsf1" xmlns:gml32="http://www.opengis.net/gml/3.2" xmlns:iso19112="http://www.isotc211.org/19112" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" numberMatched="unknown" numberReturned="124" timeStamp="2014-06-10T01:52:08.404Z" xsi:schemaLocation="http://www.isotc211.org/19112 http://bp.schemas.opengis.net/11-122r1/gazetter/1.0.0/gmlsf1/full/iso19112.xsd http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd">
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="AF">
+			<null:name xmlns:null="http://www.opengis.net/gml">AF</null:name>
+			<iso19112:identification>AF</iso19112:identification>
+			<iso19112:definition>Aerodrome, Airfield, Airport, Landing ground, Airstrip</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="ANCH">
+			<null:name xmlns:null="http://www.opengis.net/gml">ANCH</null:name>
+			<iso19112:identification>ANCH</iso19112:identification>
+			<iso19112:definition>Anchorage</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="ARCH">
+			<null:name xmlns:null="http://www.opengis.net/gml">ARCH</null:name>
+			<iso19112:identification>ARCH</iso19112:identification>
+			<iso19112:definition>Archipelago</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="BANK">
+			<null:name xmlns:null="http://www.opengis.net/gml">BANK</null:name>
+			<iso19112:identification>BANK</iso19112:identification>
+			<iso19112:definition>Bank, Bar, Sandbar</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="BATH">
+			<null:name xmlns:null="http://www.opengis.net/gml">BATH</null:name>
+			<iso19112:identification>BATH</iso19112:identification>
+			<iso19112:definition>Bank, Basin, Canyon, Discordance, Escarpment, Fracture zone, Gap, Guyot, Knoll, Plain, Reef, Ridge, Rise, Saddle, Seamount, Shelf, Shoal, Spur, Terrace, Trench, Trough</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="BAY">
+			<null:name xmlns:null="http://www.opengis.net/gml">BAY</null:name>
+			<iso19112:identification>BAY</iso19112:identification>
+			<iso19112:definition>Bay</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="BCH">
+			<null:name xmlns:null="http://www.opengis.net/gml">BCH</null:name>
+			<iso19112:identification>BCH</iso19112:identification>
+			<iso19112:definition>Beach</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="BCST">
+			<null:name xmlns:null="http://www.opengis.net/gml">BCST</null:name>
+			<iso19112:identification>BCST</iso19112:identification>
+			<iso19112:definition>Broadcasting station (radio and television)</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="BEND">
+			<null:name xmlns:null="http://www.opengis.net/gml">BEND</null:name>
+			<iso19112:identification>BEND</iso19112:identification>
+			<iso19112:definition>Bend, Loop, Meander</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="BGHT">
+			<null:name xmlns:null="http://www.opengis.net/gml">BGHT</null:name>
+			<iso19112:identification>BGHT</iso19112:identification>
+			<iso19112:definition>Bight</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="BLDG">
+			<null:name xmlns:null="http://www.opengis.net/gml">BLDG</null:name>
+			<iso19112:identification>BLDG</iso19112:identification>
+			<iso19112:definition>Agricultural est, Asylum, Barn, Chalet, Coal depot, Guard house, Hotel, Inn, Institute, Museum, Observatory, Rest house, Sanatorium, Shelter, Tavern, Tel. exchange, Tower, Town hall, Warehouse, Abbey, Hut, Bell tower, Chapel, Church, Convent</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="BORE">
+			<null:name xmlns:null="http://www.opengis.net/gml">BORE</null:name>
+			<iso19112:identification>BORE</iso19112:identification>
+			<iso19112:definition>Bore, Well</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="BRDG">
+			<null:name xmlns:null="http://www.opengis.net/gml">BRDG</null:name>
+			<iso19112:identification>BRDG</iso19112:identification>
+			<iso19112:definition>Bridge, Culvert</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="BRK">
+			<null:name xmlns:null="http://www.opengis.net/gml">BRK</null:name>
+			<iso19112:identification>BRK</iso19112:identification>
+			<iso19112:definition>Breaker</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="BRKW">
+			<null:name xmlns:null="http://www.opengis.net/gml">BRKW</null:name>
+			<iso19112:identification>BRKW</iso19112:identification>
+			<iso19112:definition>Breakwater, Groyne, Levee, Mole</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="CAPE">
+			<null:name xmlns:null="http://www.opengis.net/gml">CAPE</null:name>
+			<iso19112:identification>CAPE</iso19112:identification>
+			<iso19112:definition>Cape</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="CAVE">
+			<null:name xmlns:null="http://www.opengis.net/gml">CAVE</null:name>
+			<iso19112:identification>CAVE</iso19112:identification>
+			<iso19112:definition>Cave, Blowhole, Cavern , Grotto</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="CEM">
+			<null:name xmlns:null="http://www.opengis.net/gml">CEM</null:name>
+			<iso19112:identification>CEM</iso19112:identification>
+			<iso19112:definition>Cemetery</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="CHAN">
+			<null:name xmlns:null="http://www.opengis.net/gml">CHAN</null:name>
+			<iso19112:identification>CHAN</iso19112:identification>
+			<iso19112:definition>Offshore Channel</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="CLAY">
+			<null:name xmlns:null="http://www.opengis.net/gml">CLAY</null:name>
+			<iso19112:identification>CLAY</iso19112:identification>
+			<iso19112:definition>Claypan, Clayhole, Clay pit, Clay flat</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="CLIF">
+			<null:name xmlns:null="http://www.opengis.net/gml">CLIF</null:name>
+			<iso19112:identification>CLIF</iso19112:identification>
+			<iso19112:definition>Bluff, Cliff, Breakaway, Escarpment, Jumpup, Precipice, Buttress</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="CNAL">
+			<null:name xmlns:null="http://www.opengis.net/gml">CNAL</null:name>
+			<iso19112:identification>CNAL</iso19112:identification>
+			<iso19112:definition>Canal, Waterway, Aqueduct, Bore drain</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="CNTY">
+			<null:name xmlns:null="http://www.opengis.net/gml">CNTY</null:name>
+			<iso19112:identification>CNTY</iso19112:identification>
+			<iso19112:definition>County</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="COMM">
+			<null:name xmlns:null="http://www.opengis.net/gml">COMM</null:name>
+			<iso19112:identification>COMM</iso19112:identification>
+			<iso19112:definition>Commune, Community centre</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="CONT">
+			<null:name xmlns:null="http://www.opengis.net/gml">CONT</null:name>
+			<iso19112:identification>CONT</iso19112:identification>
+			<iso19112:definition>Continent</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="COVE">
+			<null:name xmlns:null="http://www.opengis.net/gml">COVE</null:name>
+			<iso19112:identification>COVE</iso19112:identification>
+			<iso19112:definition>Cove, Inlet</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="CP">
+			<null:name xmlns:null="http://www.opengis.net/gml">CP</null:name>
+			<iso19112:identification>CP</iso19112:identification>
+			<iso19112:definition>Campsite, Camp</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="CRTR">
+			<null:name xmlns:null="http://www.opengis.net/gml">CRTR</null:name>
+			<iso19112:identification>CRTR</iso19112:identification>
+			<iso19112:definition>Crater</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="DAM">
+			<null:name xmlns:null="http://www.opengis.net/gml">DAM</null:name>
+			<iso19112:identification>DAM</iso19112:identification>
+			<iso19112:definition>Dam, Weir , Catchment, Barrage</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="DEPR">
+			<null:name xmlns:null="http://www.opengis.net/gml">DEPR</null:name>
+			<iso19112:identification>DEPR</iso19112:identification>
+			<iso19112:definition>Depression, Basin , Donga</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="DI">
+			<null:name xmlns:null="http://www.opengis.net/gml">DI</null:name>
+			<iso19112:identification>DI</iso19112:identification>
+			<iso19112:definition>Agricultural area, County, District, Local government area, Parish, Region</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="DOCK">
+			<null:name xmlns:null="http://www.opengis.net/gml">DOCK</null:name>
+			<iso19112:identification>DOCK</iso19112:identification>
+			<iso19112:definition>Dock, Basin, Wetdock, Dry dock</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="DRN">
+			<null:name xmlns:null="http://www.opengis.net/gml">DRN</null:name>
+			<iso19112:identification>DRN</iso19112:identification>
+			<iso19112:definition>Drain</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="DSRT">
+			<null:name xmlns:null="http://www.opengis.net/gml">DSRT</null:name>
+			<iso19112:identification>DSRT</iso19112:identification>
+			<iso19112:definition>Desert</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="DUNE">
+			<null:name xmlns:null="http://www.opengis.net/gml">DUNE</null:name>
+			<iso19112:identification>DUNE</iso19112:identification>
+			<iso19112:definition>Dunes</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="ENTR">
+			<null:name xmlns:null="http://www.opengis.net/gml">ENTR</null:name>
+			<iso19112:identification>ENTR</iso19112:identification>
+			<iso19112:definition>Entrance</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="ESTY">
+			<null:name xmlns:null="http://www.opengis.net/gml">ESTY</null:name>
+			<iso19112:identification>ESTY</iso19112:identification>
+			<iso19112:definition>Estuary</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="FARM">
+			<null:name xmlns:null="http://www.opengis.net/gml">FARM</null:name>
+			<iso19112:identification>FARM</iso19112:identification>
+			<iso19112:definition>Special purpose farm, Research establishment</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="FORD">
+			<null:name xmlns:null="http://www.opengis.net/gml">FORD</null:name>
+			<iso19112:identification>FORD</iso19112:identification>
+			<iso19112:definition>Ford, Crossing</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="FRNG">
+			<null:name xmlns:null="http://www.opengis.net/gml">FRNG</null:name>
+			<iso19112:identification>FRNG</iso19112:identification>
+			<iso19112:definition>Rifle range, Rocket range, Bombing range</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="FRST">
+			<null:name xmlns:null="http://www.opengis.net/gml">FRST</null:name>
+			<iso19112:identification>FRST</iso19112:identification>
+			<iso19112:definition>Forest, Wood, Thicket, Scrub, Copse, Brushwood, Glade, Grove</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="GASF">
+			<null:name xmlns:null="http://www.opengis.net/gml">GASF</null:name>
+			<iso19112:identification>GASF</iso19112:identification>
+			<iso19112:definition>Gasfield (Well), Oil well</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="GATE">
+			<null:name xmlns:null="http://www.opengis.net/gml">GATE</null:name>
+			<iso19112:identification>GATE</iso19112:identification>
+			<iso19112:definition>Gate, City exit</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="GLCR">
+			<null:name xmlns:null="http://www.opengis.net/gml">GLCR</null:name>
+			<iso19112:identification>GLCR</iso19112:identification>
+			<iso19112:definition>Glacier</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="GOLF">
+			<null:name xmlns:null="http://www.opengis.net/gml">GOLF</null:name>
+			<iso19112:identification>GOLF</iso19112:identification>
+			<iso19112:definition>Golf Course</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="GORG">
+			<null:name xmlns:null="http://www.opengis.net/gml">GORG</null:name>
+			<iso19112:identification>GORG</iso19112:identification>
+			<iso19112:definition>Gorge, Ravine, Canyon, Glen, Chasm</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="GRDN">
+			<null:name xmlns:null="http://www.opengis.net/gml">GRDN</null:name>
+			<iso19112:identification>GRDN</iso19112:identification>
+			<iso19112:definition>Garden, Vineyards</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="GULF">
+			<null:name xmlns:null="http://www.opengis.net/gml">GULF</null:name>
+			<iso19112:identification>GULF</iso19112:identification>
+			<iso19112:definition>Gulf</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="HBR">
+			<null:name xmlns:null="http://www.opengis.net/gml">HBR</null:name>
+			<iso19112:identification>HBR</iso19112:identification>
+			<iso19112:definition>Harbour, Haven, Roadstead, Marina</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="HILL">
+			<null:name xmlns:null="http://www.opengis.net/gml">HILL</null:name>
+			<iso19112:identification>HILL</iso19112:identification>
+			<iso19112:definition>Hill, Knoll, Knob, Mesa, Sugarloaf, Lookout, Butte, Hillock, Kopje</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="HMSD">
+			<null:name xmlns:null="http://www.opengis.net/gml">HMSD</null:name>
+			<iso19112:identification>HMSD</iso19112:identification>
+			<iso19112:definition>Homestead, Outstation, Outcamp, Woolshed, Aboriginal outstation</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="HWY">
+			<null:name xmlns:null="http://www.opengis.net/gml">HWY</null:name>
+			<iso19112:identification>HWY</iso19112:identification>
+			<iso19112:definition>Highway</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="INTL">
+			<null:name xmlns:null="http://www.opengis.net/gml">INTL</null:name>
+			<iso19112:identification>INTL</iso19112:identification>
+			<iso19112:definition>Intermittent lake</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="IRRA">
+			<null:name xmlns:null="http://www.opengis.net/gml">IRRA</null:name>
+			<iso19112:identification>IRRA</iso19112:identification>
+			<iso19112:definition>Irrigation Area</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="IS">
+			<null:name xmlns:null="http://www.opengis.net/gml">IS</null:name>
+			<iso19112:identification>IS</iso19112:identification>
+			<iso19112:definition>Island, Island group, Cay, Isle, Islet, Clumps</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="ISTH">
+			<null:name xmlns:null="http://www.opengis.net/gml">ISTH</null:name>
+			<iso19112:identification>ISTH</iso19112:identification>
+			<iso19112:definition>Isthmus, Neck</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="LAGN">
+			<null:name xmlns:null="http://www.opengis.net/gml">LAGN</null:name>
+			<iso19112:identification>LAGN</iso19112:identification>
+			<iso19112:definition>Lagoon</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="LAKE">
+			<null:name xmlns:null="http://www.opengis.net/gml">LAKE</null:name>
+			<iso19112:identification>LAKE</iso19112:identification>
+			<iso19112:definition>Lake, Tarn, Loch, Lough</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="LDGE">
+			<null:name xmlns:null="http://www.opengis.net/gml">LDGE</null:name>
+			<iso19112:identification>LDGE</iso19112:identification>
+			<iso19112:definition>Ledge</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="LH">
+			<null:name xmlns:null="http://www.opengis.net/gml">LH</null:name>
+			<iso19112:identification>LH</iso19112:identification>
+			<iso19112:definition>Lighthouse</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="LOCB">
+			<null:name xmlns:null="http://www.opengis.net/gml">LOCB</null:name>
+			<iso19112:identification>LOCB</iso19112:identification>
+			<iso19112:definition>Locality (bounded), Town, Village, Populated place, Local government town, Town site (no population)</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="LOCK">
+			<null:name xmlns:null="http://www.opengis.net/gml">LOCK</null:name>
+			<iso19112:identification>LOCK</iso19112:identification>
+			<iso19112:definition>Lock</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="LOCU">
+			<null:name xmlns:null="http://www.opengis.net/gml">LOCU</null:name>
+			<iso19112:identification>LOCU</iso19112:identification>
+			<iso19112:definition>Locality (unbounded), Place name, Road corner,  Road bend, Corner, Meteorological station, Ocean place name, Surfing spot, Junction</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="MINE">
+			<null:name xmlns:null="http://www.opengis.net/gml">MINE</null:name>
+			<iso19112:identification>MINE</iso19112:identification>
+			<iso19112:definition>Mine, Goldfield, Opalfield, Shaft, Mining centre</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="MONU">
+			<null:name xmlns:null="http://www.opengis.net/gml">MONU</null:name>
+			<iso19112:identification>MONU</iso19112:identification>
+			<iso19112:definition>Bench mark, Cairn, Column, Marker, Monument, Obelisk</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="MT">
+			<null:name xmlns:null="http://www.opengis.net/gml">MT</null:name>
+			<iso19112:identification>MT</iso19112:identification>
+			<iso19112:definition>Mountain, Peak</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="NAVB">
+			<null:name xmlns:null="http://www.opengis.net/gml">NAVB</null:name>
+			<iso19112:identification>NAVB</iso19112:identification>
+			<iso19112:definition>Beacon, Light, Buoy</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="OCEN">
+			<null:name xmlns:null="http://www.opengis.net/gml">OCEN</null:name>
+			<iso19112:identification>OCEN</iso19112:identification>
+			<iso19112:definition>Ocean</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="PASS">
+			<null:name xmlns:null="http://www.opengis.net/gml">PASS</null:name>
+			<iso19112:identification>PASS</iso19112:identification>
+			<iso19112:definition>Pass, Passage, Gap, Col</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="PEAK">
+			<null:name xmlns:null="http://www.opengis.net/gml">PEAK</null:name>
+			<iso19112:identification>PEAK</iso19112:identification>
+			<iso19112:definition>Mountain peak, Summit, Point (inland), Rock column, Butte</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="PEN">
+			<null:name xmlns:null="http://www.opengis.net/gml">PEN</null:name>
+			<iso19112:identification>PEN</iso19112:identification>
+			<iso19112:definition>Peninsula</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="PIER">
+			<null:name xmlns:null="http://www.opengis.net/gml">PIER</null:name>
+			<iso19112:identification>PIER</iso19112:identification>
+			<iso19112:definition>Pier, Wharf, Landing, Quay</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="PIPE">
+			<null:name xmlns:null="http://www.opengis.net/gml">PIPE</null:name>
+			<iso19112:identification>PIPE</iso19112:identification>
+			<iso19112:definition>Pipeline</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="PL">
+			<null:name xmlns:null="http://www.opengis.net/gml">PL</null:name>
+			<iso19112:identification>PL</iso19112:identification>
+			<iso19112:definition>Plateau, Tableland</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="PLAN">
+			<null:name xmlns:null="http://www.opengis.net/gml">PLAN</null:name>
+			<iso19112:identification>PLAN</iso19112:identification>
+			<iso19112:definition>Plantation</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="PLCE">
+			<null:name xmlns:null="http://www.opengis.net/gml">PLCE</null:name>
+			<iso19112:identification>PLCE</iso19112:identification>
+			<iso19112:definition>Mapped Placename GEODATA 250K</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="PLN">
+			<null:name xmlns:null="http://www.opengis.net/gml">PLN</null:name>
+			<iso19112:identification>PLN</iso19112:identification>
+			<iso19112:definition>Plain, Downs, Prairie, Flat , Heath, Field</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="POPL">
+			<null:name xmlns:null="http://www.opengis.net/gml">POPL</null:name>
+			<iso19112:identification>POPL</iso19112:identification>
+			<iso19112:definition>Mapped Populated Place GEODATA 250K</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="PORT">
+			<null:name xmlns:null="http://www.opengis.net/gml">PORT</null:name>
+			<iso19112:identification>PORT</iso19112:identification>
+			<iso19112:definition>Port</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="PRSH">
+			<null:name xmlns:null="http://www.opengis.net/gml">PRSH</null:name>
+			<iso19112:identification>PRSH</iso19112:identification>
+			<iso19112:definition>Parish</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="PT">
+			<null:name xmlns:null="http://www.opengis.net/gml">PT</null:name>
+			<iso19112:identification>PT</iso19112:identification>
+			<iso19112:definition>Point, Head, Headland, Spit, Ness, Promontory, Bill</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="QUAR">
+			<null:name xmlns:null="http://www.opengis.net/gml">QUAR</null:name>
+			<iso19112:identification>QUAR</iso19112:identification>
+			<iso19112:definition>Quarry</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="RCH">
+			<null:name xmlns:null="http://www.opengis.net/gml">RCH</null:name>
+			<iso19112:identification>RCH</iso19112:identification>
+			<iso19112:definition>Reach, Arm</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="RDGE">
+			<null:name xmlns:null="http://www.opengis.net/gml">RDGE</null:name>
+			<iso19112:identification>RDGE</iso19112:identification>
+			<iso19112:definition>Ridge</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="REEF">
+			<null:name xmlns:null="http://www.opengis.net/gml">REEF</null:name>
+			<iso19112:identification>REEF</iso19112:identification>
+			<iso19112:definition>Reef</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="RES">
+			<null:name xmlns:null="http://www.opengis.net/gml">RES</null:name>
+			<iso19112:identification>RES</iso19112:identification>
+			<iso19112:definition>Reservoir, Pondage, Pond, Artificial lake</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="RESV">
+			<null:name xmlns:null="http://www.opengis.net/gml">RESV</null:name>
+			<iso19112:identification>RESV</iso19112:identification>
+			<iso19112:definition>Reserve, Park, National park, Conservation park, Common</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="RH">
+			<null:name xmlns:null="http://www.opengis.net/gml">RH</null:name>
+			<iso19112:identification>RH</iso19112:identification>
+			<iso19112:definition>Rockhole, Gnamma hole</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="RLWY">
+			<null:name xmlns:null="http://www.opengis.net/gml">RLWY</null:name>
+			<iso19112:identification>RLWY</iso19112:identification>
+			<iso19112:definition>Railway</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="RNGE">
+			<null:name xmlns:null="http://www.opengis.net/gml">RNGE</null:name>
+			<iso19112:identification>RNGE</iso19112:identification>
+			<iso19112:definition>Range, Mountain range, Hills, Mountains</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="ROAD">
+			<null:name xmlns:null="http://www.opengis.net/gml">ROAD</null:name>
+			<iso19112:identification>ROAD</iso19112:identification>
+			<iso19112:definition>Road</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="ROCK">
+			<null:name xmlns:null="http://www.opengis.net/gml">ROCK</null:name>
+			<iso19112:identification>ROCK</iso19112:identification>
+			<iso19112:definition>Rock, Boulder, Pinnacle, Crag, Needle, Pillar, Rock formation, Tor, Rocks (on land), Rocks (offshore)</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="RSTA">
+			<null:name xmlns:null="http://www.opengis.net/gml">RSTA</null:name>
+			<iso19112:identification>RSTA</iso19112:identification>
+			<iso19112:definition>Railway station</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="RTRK">
+			<null:name xmlns:null="http://www.opengis.net/gml">RTRK</null:name>
+			<iso19112:identification>RTRK</iso19112:identification>
+			<iso19112:definition>Racetrack, Auto track, Cycle racing track, Velodrome</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="RUIN">
+			<null:name xmlns:null="http://www.opengis.net/gml">RUIN</null:name>
+			<iso19112:identification>RUIN</iso19112:identification>
+			<iso19112:definition>Ruin</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="SCHL">
+			<null:name xmlns:null="http://www.opengis.net/gml">SCHL</null:name>
+			<iso19112:identification>SCHL</iso19112:identification>
+			<iso19112:definition>School, College</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="SEA">
+			<null:name xmlns:null="http://www.opengis.net/gml">SEA</null:name>
+			<iso19112:identification>SEA</iso19112:identification>
+			<iso19112:definition>Sea</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="SHOL">
+			<null:name xmlns:null="http://www.opengis.net/gml">SHOL</null:name>
+			<iso19112:identification>SHOL</iso19112:identification>
+			<iso19112:definition>Shoal, Shallows, Patches</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="SITE">
+			<null:name xmlns:null="http://www.opengis.net/gml">SITE</null:name>
+			<iso19112:identification>SITE</iso19112:identification>
+			<iso19112:definition>Historical site</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="SLP">
+			<null:name xmlns:null="http://www.opengis.net/gml">SLP</null:name>
+			<iso19112:identification>SLP</iso19112:identification>
+			<iso19112:definition>Slope, Hillside, Terrace</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="SND">
+			<null:name xmlns:null="http://www.opengis.net/gml">SND</null:name>
+			<iso19112:identification>SND</iso19112:identification>
+			<iso19112:definition>Sound</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="SOAK">
+			<null:name xmlns:null="http://www.opengis.net/gml">SOAK</null:name>
+			<iso19112:identification>SOAK</iso19112:identification>
+			<iso19112:definition>Native well, Soak, Soakage</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="SPAN">
+			<null:name xmlns:null="http://www.opengis.net/gml">SPAN</null:name>
+			<iso19112:identification>SPAN</iso19112:identification>
+			<iso19112:definition>Salt pan</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="SPIT">
+			<null:name xmlns:null="http://www.opengis.net/gml">SPIT</null:name>
+			<iso19112:identification>SPIT</iso19112:identification>
+			<iso19112:definition>Sandspit</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="SPRG">
+			<null:name xmlns:null="http://www.opengis.net/gml">SPRG</null:name>
+			<iso19112:identification>SPRG</iso19112:identification>
+			<iso19112:definition>Spring, Pool spring, Hot springs, Mineral spring</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="STAT">
+			<null:name xmlns:null="http://www.opengis.net/gml">STAT</null:name>
+			<iso19112:identification>STAT</iso19112:identification>
+			<iso19112:definition>State</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="STOK">
+			<null:name xmlns:null="http://www.opengis.net/gml">STOK</null:name>
+			<iso19112:identification>STOK</iso19112:identification>
+			<iso19112:definition>Stock Route</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="STR">
+			<null:name xmlns:null="http://www.opengis.net/gml">STR</null:name>
+			<iso19112:identification>STR</iso19112:identification>
+			<iso19112:definition>Strait</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="STRM">
+			<null:name xmlns:null="http://www.opengis.net/gml">STRM</null:name>
+			<iso19112:identification>STRM</iso19112:identification>
+			<iso19112:definition>Stream, Brook, Watercourse, Anabranch, Backwash, Backwater, Run, Creek, River, Gully, Rivulet, Beck, Backwater, Burn</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="SUB">
+			<null:name xmlns:null="http://www.opengis.net/gml">SUB</null:name>
+			<iso19112:identification>SUB</iso19112:identification>
+			<iso19112:definition>Suburb</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="SWP">
+			<null:name xmlns:null="http://www.opengis.net/gml">SWP</null:name>
+			<iso19112:identification>SWP</iso19112:identification>
+			<iso19112:definition>Swamp, Marsh, Morass, Saltmarsh, Wetland</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="TANK">
+			<null:name xmlns:null="http://www.opengis.net/gml">TANK</null:name>
+			<iso19112:identification>TANK</iso19112:identification>
+			<iso19112:definition>Tank</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="TOWR">
+			<null:name xmlns:null="http://www.opengis.net/gml">TOWR</null:name>
+			<iso19112:identification>TOWR</iso19112:identification>
+			<iso19112:definition>Tower</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="TREE">
+			<null:name xmlns:null="http://www.opengis.net/gml">TREE</null:name>
+			<iso19112:identification>TREE</iso19112:identification>
+			<iso19112:definition>Tree</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="TRIG">
+			<null:name xmlns:null="http://www.opengis.net/gml">TRIG</null:name>
+			<iso19112:identification>TRIG</iso19112:identification>
+			<iso19112:definition>Trig station</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="TRK">
+			<null:name xmlns:null="http://www.opengis.net/gml">TRK</null:name>
+			<iso19112:identification>TRK</iso19112:identification>
+			<iso19112:definition>Track (walking), Path (bridle), Trail</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="TUNN">
+			<null:name xmlns:null="http://www.opengis.net/gml">TUNN</null:name>
+			<iso19112:identification>TUNN</iso19112:identification>
+			<iso19112:definition>Tunnel</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="UNKN">
+			<null:name xmlns:null="http://www.opengis.net/gml">UNKN</null:name>
+			<iso19112:identification>UNKN</iso19112:identification>
+			<iso19112:definition>Feature type details not available</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="URBN">
+			<null:name xmlns:null="http://www.opengis.net/gml">URBN</null:name>
+			<iso19112:identification>URBN</iso19112:identification>
+			<iso19112:definition>Urban area, City</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="VAL">
+			<null:name xmlns:null="http://www.opengis.net/gml">VAL</null:name>
+			<iso19112:identification>VAL</iso19112:identification>
+			<iso19112:definition>Valley, Dale, Dell, Vale</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="WRCK">
+			<null:name xmlns:null="http://www.opengis.net/gml">WRCK</null:name>
+			<iso19112:identification>WRCK</iso19112:identification>
+			<iso19112:definition>Wreck</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="WRFL">
+			<null:name xmlns:null="http://www.opengis.net/gml">WRFL</null:name>
+			<iso19112:identification>WRFL</iso19112:identification>
+			<iso19112:definition>Waterfall, Cascade, Cataract, Falls, Rapids</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="WTRH">
+			<null:name xmlns:null="http://www.opengis.net/gml">WTRH</null:name>
+			<iso19112:identification>WTRH</iso19112:identification>
+			<iso19112:definition>Waterhole, Lagoon, Hole, Pool, Billabong, Oxbow, Washpool</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+	<wfs:member>
+		<iso19112:SI_LocationType gml32:id="YD">
+			<null:name xmlns:null="http://www.opengis.net/gml">YD</null:name>
+			<iso19112:identification>YD</iso19112:identification>
+			<iso19112:definition>Yard</iso19112:definition>
+		</iso19112:SI_LocationType>
+	</wfs:member>
+</wfs:FeatureCollection>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gml:Dictionary xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/gml/3.2 gml.xsd" gml:id="CodeList_WE_AgentTypeTerm">
+	<gml:identifier codeSpace="http://wescml.org/schemas/wescml/CodeList_WE_AgentTypeTerm.xml">CodeList_WE_AgentTypeTerm</gml:identifier>
+	<gml:dictionaryEntry>
+		<gml:Dictionary gml:id="WE_AgentTypeTerm">
+			<gml:identifier codeSpace="http://wescml.org/schemas/wescml/CodeList_WE_AgentTypeTerm.xml">WE_AgentTypeTerm</gml:identifier>
+			<gml:dictionaryEntry>
+				<gml:Definition gml:id="WE_AgentTypeTerm_12">
+					<gml:description>residential</gml:description>
+				</gml:Definition>
+			</gml:dictionaryEntry>
+			<gml:dictionaryEntry>
+				<gml:Definition gml:id="WE_AgentTypeTerm_11">
+					<gml:description>other</gml:description>
+				</gml:Definition>
+			</gml:dictionaryEntry>
+			<gml:dictionaryEntry>
+				<gml:Definition gml:id="WE_AgentTypeTerm_10">
+					<gml:description>on-site</gml:description>
+				</gml:Definition>
+			</gml:dictionaryEntry>
+			<gml:dictionaryEntry>
+				<gml:Definition gml:id="WE_AgentTypeTerm_9">
+					<gml:description>non-residential</gml:description>
+				</gml:Definition>
+			</gml:dictionaryEntry>
+			<gml:dictionaryEntry>
+				<gml:Definition gml:id="WE_AgentTypeTerm_8">
+					<gml:description>municipal</gml:description>
+				</gml:Definition>
+			</gml:dictionaryEntry>
+			<gml:dictionaryEntry>
+				<gml:Definition gml:id="WE_AgentTypeTerm_7">
+					<gml:description>irrigator</gml:description>
+				</gml:Definition>
+			</gml:dictionaryEntry>
+			<gml:dictionaryEntry>
+				<gml:Definition gml:id="WE_AgentTypeTerm_6">
+					<gml:description>infrastructure operator</gml:description>
+				</gml:Definition>
+			</gml:dictionaryEntry>
+			<gml:dictionaryEntry>
+				<gml:Definition gml:id="WE_AgentTypeTerm_5">
+					<gml:description>industrial</gml:description>
+				</gml:Definition>
+			</gml:dictionaryEntry>
+			<gml:dictionaryEntry>
+				<gml:Definition gml:id="WE_AgentTypeTerm_4">
+					<gml:description>environment</gml:description>
+				</gml:Definition>
+			</gml:dictionaryEntry>
+			<gml:dictionaryEntry>
+				<gml:Definition gml:id="WE_AgentTypeTerm_3">
+					<gml:description>commercial</gml:description>
+				</gml:Definition>
+			</gml:dictionaryEntry>
+			<gml:dictionaryEntry>
+				<gml:Definition gml:id="WE_AgentTypeTerm_2">
+					<gml:description>aquifer</gml:description>
+				</gml:Definition>
+			</gml:dictionaryEntry>
+			<gml:dictionaryEntry>
+				<gml:Definition gml:id="WE_AgentTypeTerm_1">
+					<gml:description>agriculture</gml:description>
+				</gml:Definition>
+			</gml:dictionaryEntry>
+		</gml:Dictionary>
+	</gml:dictionaryEntry>
+</gml:Dictionary>

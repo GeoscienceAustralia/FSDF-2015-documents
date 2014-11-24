@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fsdf-abt="http://anzlic.com.au/themes/ab/abt" xmlns:gml="http://www.opengis.net/gml/3.2" targetNamespace="http://anzlic.com.au/themes/ab/abt" elementFormDefault="qualified" version="1.0.0">
+	<xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+	<xs:annotation>
+		<xs:documentation>The AreaHierarchy (AH) package contains common behavior model for any nested hierarchy of areas.  The model addresses issues of navigation and cross referencing between hierarchies and the scoping of topology to versions of hierarchies.
+The hierarchy describes the topological relationships, not the (potentially multiple) alternative geometric descriptions of objects (see package AreaRepresentation).</xs:documentation>
+	</xs:annotation>
+	<xs:element name="AreaDefinition" type="fsdf-abt:AreaDefinitionType" substitutionGroup="gml:AbstractFeature">
+		<xs:annotation>
+			<xs:documentation>-- Definition --
+Area definition refers to a gazetted area defined by a nominated process; it handles changes in the boundary definition with reference to temporal data of the creation, change, deletion or redistribution of a defined area. 
+
+An area definition can belong to one or more defined units and only refers to a maximum of one geometrical representation. </xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="AreaDefinitionType">
+		<xs:complexContent>
+			<xs:extension base="gml:AbstractFeatureType">
+				<xs:sequence>
+					<xs:element name="definitionType">
+						<xs:annotation>
+							<xs:documentation>Specifies how this version of geometry was created in the versioning evolution</xs:documentation>
+							<xs:appinfo>
+								<gml:defaultCodeSpace>http://anzlic.com.au/themes/ab/abt/CodeList_EvolutionType.xml#EvolutionType</gml:defaultCodeSpace>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="hasRepresentation" type="fsdf-abt:AreaRepresentationPropertyType" minOccurs="0" maxOccurs="1"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="AreaDefinitionPropertyType">
+		<xs:sequence>
+			<xs:element ref="fsdf-abt:AreaDefinition"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+		<xs:attributeGroup ref="gml:OwnershipAttributeGroup"/>
+	</xs:complexType>
+	<xs:element name="AreaRepresentation" type="fsdf-abt:AreaRepresentationType" substitutionGroup="gml:AbstractFeature">
+		<xs:annotation>
+			<xs:documentation>-- Definition -- 
+The area definition feature refers to the geometrical data of the area of a defined unit. 
+
+Using ISO 19125 (Simple Feature Geometry), an area representation is described by a 'MultiSurface' object, which represents a collection of one or more polygons. each polygon is described by a collection of 'Curves', e.g., a 'LinearRing' describing a polygon.. 
+
+-- ISO 19125 vs ISO 19107--
+Individual SF geometry types correspond to one or more goemetry types of spatial schema, e.g., SF geometry collection (e.g., MultiSurface) corresponds to the GM_Aggregate of the spatial schema.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="AreaRepresentationType">
+		<xs:complexContent>
+			<xs:extension base="gml:AbstractFeatureType">
+				<xs:sequence>
+					<xs:element name="geometryRepresentation" type="gml:GeometryPropertyType">
+						<xs:annotation>
+							<xs:documentation>The actual geometry of the Unit</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="AreaRepresentationPropertyType">
+		<xs:sequence>
+			<xs:element ref="fsdf-abt:AreaRepresentation"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+		<xs:attributeGroup ref="gml:OwnershipAttributeGroup"/>
+	</xs:complexType>
+	<xs:element name="GovernanceUnit" type="fsdf-abt:GovernanceUnitType" substitutionGroup="fsdf-abt:HierarchicalUnit"/>
+	<xs:complexType name="GovernanceUnitType">
+		<xs:complexContent>
+			<xs:extension base="fsdf-abt:HierarchicalUnitType">
+				<xs:sequence/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="GovernanceUnitPropertyType">
+		<xs:sequence>
+			<xs:element ref="fsdf-abt:GovernanceUnit"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+		<xs:attributeGroup ref="gml:OwnershipAttributeGroup"/>
+	</xs:complexType>
+	<xs:element name="HierarchicalUnit" type="fsdf-abt:HierarchicalUnitType" abstract="true" substitutionGroup="fsdf-abt:UnitDefinition">
+		<xs:annotation>
+			<xs:documentation>-- Definition --
+An hierarchical unit extends the unit definition with an hierarchal structure describing the topology of units (represents an individual element of that hierarchy). </xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="HierarchicalUnitType" abstract="true">
+		<xs:complexContent>
+			<xs:extension base="fsdf-abt:UnitDefinitionType">
+				<xs:sequence>
+					<xs:element name="level" type="xs:integer">
+						<xs:annotation>
+							<xs:documentation>The level in the hierarchy</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="levelName" type="gml:CodeType">
+						<xs:annotation>
+							<xs:documentation>The level name of the hierarchy</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="lowerLevelUnit" type="fsdf-abt:HierarchicalUnitPropertyType" minOccurs="0" maxOccurs="unbounded">
+						<xs:annotation>
+							<xs:documentation>The unit that is below this unit in the hierarchy</xs:documentation>
+							<xs:appinfo>
+								<gml:reversePropertyName>fsdf-abt:higherLevelUnit</gml:reversePropertyName>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="hierarchy" type="fsdf-abt:UnitHierarchyPropertyType">
+						<xs:annotation>
+							<xs:appinfo>
+								<gml:reversePropertyName>fsdf-abt:unitDetails</gml:reversePropertyName>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="HierarchicalUnitPropertyType">
+		<xs:sequence>
+			<xs:element ref="fsdf-abt:HierarchicalUnit"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+		<xs:attributeGroup ref="gml:OwnershipAttributeGroup"/>
+	</xs:complexType>
+	<xs:element name="LGA_Approximation" type="fsdf-abt:LGA_Approximation Type" substitutionGroup="gml:AbstractFeature"/>
+	<xs:complexType name="LGA_Approximation Type">
+		<xs:complexContent>
+			<xs:extension base="gml:AbstractFeatureType">
+				<xs:sequence>
+					<xs:element name="consistsOf" type="fsdf-abt:HierarchicalUnitPropertyType" minOccurs="0" maxOccurs="unbounded"/>
+					<xs:element name="refersTo" type="fsdf-abt:HierarchicalUnitPropertyType" minOccurs="0" maxOccurs="1"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="LGA_Approximation PropertyType">
+		<xs:sequence>
+			<xs:element ref="fsdf-abt:LGA_Approximation"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+		<xs:attributeGroup ref="gml:OwnershipAttributeGroup"/>
+	</xs:complexType>
+	<xs:element name="StatisticalUnitVector" type="fsdf-abt:StatisticalUnitVectorType" substitutionGroup="fsdf-abt:HierarchicalUnit">
+		<xs:annotation>
+			<xs:documentation>-- Definition --
+A statistical unit is represented as an area representation (i.e., GM_MultiSurface) - it has a reference to area definition describing a temporal definition of the geometric representation of the statistical vector unit. </xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="StatisticalUnitVectorType">
+		<xs:complexContent>
+			<xs:extension base="fsdf-abt:HierarchicalUnitType">
+				<xs:sequence>
+					<xs:element name="statisticalUnitType">
+						<xs:annotation>
+							<xs:documentation>Specifies the type of statistical unit</xs:documentation>
+						</xs:annotation>
+						<xs:complexType>
+							<xs:complexContent>
+								<xs:extension base="gml:AbstractMemberType">
+									<xs:sequence>
+										<xs:element ref="StatisticalUnit_TypeTerm"/>
+									</xs:sequence>
+								</xs:extension>
+							</xs:complexContent>
+						</xs:complexType>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="StatisticalUnitVectorPropertyType">
+		<xs:sequence>
+			<xs:element ref="fsdf-abt:StatisticalUnitVector"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+		<xs:attributeGroup ref="gml:OwnershipAttributeGroup"/>
+	</xs:complexType>
+	<xs:element name="UnitDefinition" type="fsdf-abt:UnitDefinitionType" abstract="true" substitutionGroup="gml:AbstractFeature">
+		<xs:annotation>
+			<xs:documentation>-- Definition --
+A unit is defined as a logical entity (stand-alone or part of an hierarchy of entities) used across various themes and sub-themes/datasets. It describes the generic information and behavior shared across all entities of the data foundation, e.g., name/object identifier (e.g., using gml:name and gml:identifier) and hierarchical topology respectively. </xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="UnitDefinitionType" abstract="true">
+		<xs:complexContent>
+			<xs:extension base="gml:AbstractFeatureType">
+				<xs:sequence>
+					<xs:element name="fsdf_Identifier" type="gml:CodeType">
+						<xs:annotation>
+							<xs:documentation>A URI identifier for the feature. In GML this would be instantiated as gml:identifier</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="fsdf_Name" type="gml:CodeType" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>The name of the administrative unit. ScopedName so that in gml this would be instantiated as gml:name with a CodeSpace attribute identifying the authority for the term.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="unitType">
+						<xs:annotation>
+							<xs:documentation>Specifies the type of unit</xs:documentation>
+							<xs:appinfo>
+								<gml:defaultCodeSpace>http://anzlic.com.au/themes/ab/abt/CodeList_UnitTypeTerm.xml#UnitTypeTerm</gml:defaultCodeSpace>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="knownSpatialRelationship" type="fsdf-abt:UnitSpatialRelationshipPropertyType" minOccurs="0" maxOccurs="unbounded"/>
+					<xs:element name="currentDefinedArea" type="fsdf-abt:AreaDefinitionPropertyType" minOccurs="0" maxOccurs="1"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="UnitDefinitionPropertyType">
+		<xs:sequence>
+			<xs:element ref="fsdf-abt:UnitDefinition"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+		<xs:attributeGroup ref="gml:OwnershipAttributeGroup"/>
+	</xs:complexType>
+	<xs:element name="UnitHierarchy" type="fsdf-abt:UnitHierarchyType" substitutionGroup="gml:AbstractFeature">
+		<xs:annotation>
+			<xs:documentation>-- Definition --
+An unit hierarchical refers to the overall hierarchy of units (represents the entire hierarchy).</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="UnitHierarchyType">
+		<xs:complexContent>
+			<xs:extension base="gml:AbstractFeatureType">
+				<xs:sequence>
+					<xs:element name="fsdf_Identifier" type="gml:CodeType">
+						<xs:annotation>
+							<xs:documentation>A URI identifier for the feature. In GML this would be instantiated as gml:identifier</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="fsdf_Name" type="gml:CodeType">
+						<xs:annotation>
+							<xs:documentation>The name of the hierarchy. ScopedName so that in gml this would be instantiated as gml:name with a CodeSpace</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="unitDetails" type="fsdf-abt:HierarchicalUnitPropertyType" minOccurs="0" maxOccurs="unbounded">
+						<xs:annotation>
+							<xs:appinfo>
+								<gml:reversePropertyName>fsdf-abt:hierarchy</gml:reversePropertyName>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="UnitHierarchyPropertyType">
+		<xs:sequence>
+			<xs:element ref="fsdf-abt:UnitHierarchy"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+		<xs:attributeGroup ref="gml:OwnershipAttributeGroup"/>
+	</xs:complexType>
+	<xs:element name="UnitSpatialRelationship" type="fsdf-abt:UnitSpatialRelationshipType" substitutionGroup="gml:AbstractFeature">
+		<xs:annotation>
+			<xs:documentation>-- Definition --
+UnitSpatialRelationship describes the 'topological' spatial relationship between defined units, e.g., adjacent, subsuming, intersecting, disjunctive etc. 
+
+A spatial relationship has one or more source units and/or one or more target units. A defined unit knows about any spatial relationship they participate in. </xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="UnitSpatialRelationshipType">
+		<xs:complexContent>
+			<xs:extension base="gml:AbstractFeatureType">
+				<xs:sequence>
+					<xs:element name="fsdf_Identifier" type="gml:CodeType">
+						<xs:annotation>
+							<xs:documentation>A URI identifier for the feature. In GML this would be instantiated as gml:identifier</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="spatialRelationshipType">
+						<xs:annotation>
+							<xs:documentation>Specifies the type of spatial relationship betweeen units (e.g. adjacent, contains, intersects, disjoint</xs:documentation>
+							<xs:appinfo>
+								<gml:defaultCodeSpace>http://anzlic.com.au/themes/ab/abt/CodeList_SpatialRelationshipTypeTerm.xml#SpatialRelationshipTypeTerm</gml:defaultCodeSpace>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="sourceUnit" type="fsdf-abt:UnitDefinitionPropertyType" minOccurs="0" maxOccurs="unbounded"/>
+					<xs:element name="targetUnit" type="fsdf-abt:UnitDefinitionPropertyType" minOccurs="0" maxOccurs="unbounded"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="UnitSpatialRelationshipPropertyType">
+		<xs:sequence>
+			<xs:element ref="fsdf-abt:UnitSpatialRelationship"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+		<xs:attributeGroup ref="gml:OwnershipAttributeGroup"/>
+	</xs:complexType>
+</xs:schema>
