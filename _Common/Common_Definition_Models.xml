@@ -10,12 +10,12 @@
 		<UML:Model name="EA Model" xmi.id="MX_EAID_04E88FC4_E20B_4c6f_BC03_2370B9EE54CF">
 			<UML:Namespace.ownedElement>
 				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
-				<UML:Package name="FSDF Core Common Definition Models" xmi.id="EAPK_04E88FC4_E20B_4c6f_BC03_2370B9EE54CF" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+				<UML:Package name="FSDF Core Common Definition Model" xmi.id="EAPK_04E88FC4_E20B_4c6f_BC03_2370B9EE54CF" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 					<UML:ModelElement.taggedValue>
 						<UML:TaggedValue tag="documentation" value="Common Definition Models contains the core application schema (FSDF Core Definition Model) used by other FSDF application schema.&#xA;&#xA;It also contains the Context Models, namely:&#xA;- the FSDF concepts (FSDF Domain Model package);&#xA;- the FSDF use cases, and  process  (FSDF Modelling package); &#xA;- the FSDF governance (FSDF Governance Model)."/>
 						<UML:TaggedValue tag="parent" value="EAPK_A86CC6F9_6BC9_4e6d_BC78_E99C923271B0"/>
 						<UML:TaggedValue tag="created" value="2014-02-05 10:17:49"/>
-						<UML:TaggedValue tag="modified" value="2014-11-20 15:50:36"/>
+						<UML:TaggedValue tag="modified" value="2014-12-01 13:53:00"/>
 						<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 						<UML:TaggedValue tag="xmlpath" value="_Common\Common_Definition_Models.xml"/>
 						<UML:TaggedValue tag="lastloaddate" value="2014-12-01 13:50:37"/>
@@ -58,7 +58,7 @@
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_56927824_526C_4643_B637_B4159E230394"/>
-										<UML:TaggedValue tag="package_name" value="FSDF Core Common Definition Models"/>
+										<UML:TaggedValue tag="package_name" value="FSDF Core Common Definition Model"/>
 										<UML:TaggedValue tag="phase" value="1.0"/>
 										<UML:TaggedValue tag="author" value="mroy"/>
 										<UML:TaggedValue tag="complexity" value="1"/>
@@ -85,7 +85,7 @@
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_742A46FC_1B60_4777_97FF_38BDE8CB23A1"/>
-										<UML:TaggedValue tag="package_name" value="FSDF Core Common Definition Models"/>
+										<UML:TaggedValue tag="package_name" value="FSDF Core Common Definition Model"/>
 										<UML:TaggedValue tag="phase" value="1.0"/>
 										<UML:TaggedValue tag="author" value="box019"/>
 										<UML:TaggedValue tag="complexity" value="1"/>
@@ -391,7 +391,7 @@
 						</UML:Package>
 						<UML:Package name="FSDF Core Definition Model" xmi.id="EAPK_56927824_526C_4643_B637_B4159E230394" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_8748AB09_49C4_4f7d_B365_FA222DECB863"/>
+								<UML:Stereotype xmi.idref="EAID_7CAF2475_4600_4958_9E3D_505F38D4454B"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="documentation" value="The FSDF Core Definition Model package contains common behavior model for any unit definitions, including nested hierarchy of areas.  The model addresses issues of navigation and cross referencing between hierarchies and the scoping of topology to versions of hierarchies.&#xA;&#xA;The hierarchy describes the topological relationships, not the (potentially multiple) alternative geometric descriptions of objects (see package AreaRepresentation)."/>
@@ -422,7 +422,7 @@
 						</UML:Package>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
-				<UML:Stereotype xmi.id="EAID_8748AB09_49C4_4f7d_B365_FA222DECB863" name="ApplicationSchema" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_7CAF2475_4600_4958_9E3D_505F38D4454B" name="ApplicationSchema" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
 			</UML:Namespace.ownedElement>
