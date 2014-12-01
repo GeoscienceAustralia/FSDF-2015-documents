@@ -99,6 +99,44 @@
 							</UML:Namespace.ownedElement>
 							<UML:Collaboration.interaction/>
 						</UML:Collaboration>
+						<UML:Dependency client="EAPK_56927824_526C_4643_B637_B4159E230394" supplier="EAPK_1ECA25EF_2DD3_4181_BA29_50C1A2B4B4BA" xmi.id="EAID_00902D0D_71A8_4ec3_81E8_789C32CD1630" visibility="public">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="import"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Created by HollowWorld Plugin"/>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="import"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="10526"/>
+								<UML:TaggedValue tag="ea_sourceName" value="FSDF Core Definition Model"/>
+								<UML:TaggedValue tag="ea_targetName" value="ISO 19103:2005 Schema Language"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Package"/>
+								<UML:TaggedValue tag="ea_targetType" value="Package"/>
+								<UML:TaggedValue tag="ea_sourceID" value="8518"/>
+								<UML:TaggedValue tag="ea_targetID" value="3278"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_style" value="Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="false"/>
+								<UML:TaggedValue tag="dst_style" value="Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={B7186BDF-CEF2-4750-8D39-FEBDB7A60768}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=import;GUID={15531956-9494-449b-BEFF-58280AA01669};FQName=EAUML::import;@ENDSTEREO;$DES;$CLT={00902D0D-71A8-4ec3-81E8-789C32CD1630}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«import»"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
 						<UML:Dependency client="EAPK_4FE4B4AC_23C1_4804_8B96_0DD2A5EC0B07" supplier="EAPK_56927824_526C_4643_B637_B4159E230394" xmi.id="EAID_0718A39E_2181_4999_8D14_CE4FBDA6F370" visibility="public">
 							<UML:ModelElement.stereotype>
 								<UML:Stereotype name="import"/>
@@ -396,7 +434,7 @@
 						</UML:Package>
 						<UML:Package name="FSDF Core Definition Model" xmi.id="EAPK_56927824_526C_4643_B637_B4159E230394" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_CD63D9F9_5E9F_4d46_8876_0E4702057E3E"/>
+								<UML:Stereotype xmi.idref="EAID_41E2F151_D0C3_42f0_8C0A_CC378D62E5E3"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="documentation" value="The FSDF Core Definition Model package contains common behavior model for any unit definitions, including nested hierarchy of areas.  The model addresses issues of navigation and cross referencing between hierarchies and the scoping of topology to versions of hierarchies.&#xA;&#xA;The hierarchy describes the topological relationships, not the (potentially multiple) alternative geometric descriptions of objects (see package AreaRepresentation)."/>
@@ -427,7 +465,7 @@
 						</UML:Package>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
-				<UML:Stereotype xmi.id="EAID_CD63D9F9_5E9F_4d46_8876_0E4702057E3E" name="Application Schema" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_41E2F151_D0C3_42f0_8C0A_CC378D62E5E3" name="Application Schema" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
 			</UML:Namespace.ownedElement>
@@ -457,11 +495,6 @@
 				<UML:TaggedValue tag="diagram_guid" value="EAID_1DE45B59_C993_435d_AC28_F42D9A702541"/>
 			</UML:ModelElement.taggedValue>
 		</UML:DiagramElement>
-		<UML:DiagramElement geometry="Left=282;Top=900;Right=438;Bottom=1057;" subject="EAID_56927824_526C_4643_B637_B4159E230394" seqno="1" style="DUID=403B5011;">
-			<UML:ModelElement.taggedValue>
-				<UML:TaggedValue tag="diagram_guid" value="EAID_034A784F_B585_4e04_B865_73F76BEFE9E7"/>
-			</UML:ModelElement.taggedValue>
-		</UML:DiagramElement>
 		<UML:DiagramElement geometry="Left=562;Top=211;Right=718;Bottom=368;" subject="EAID_56927824_526C_4643_B637_B4159E230394" seqno="1" style=" DUID=AC973931;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;">
 			<UML:ModelElement.taggedValue>
 				<UML:TaggedValue tag="diagram_guid" value="EAID_DD4DB514_6145_4495_BAA4_658448DDCF07"/>
@@ -472,9 +505,20 @@
 				<UML:TaggedValue tag="diagram_guid" value="EAID_A902C822_EC73_4af6_BE4B_53D7D6DB0091"/>
 			</UML:ModelElement.taggedValue>
 		</UML:DiagramElement>
+		<UML:DiagramElement geometry="Left=58;Top=260;Right=222;Bottom=417;" subject="EAID_56927824_526C_4643_B637_B4159E230394" seqno="1" style="DUID=B0929832;">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="diagram_guid" value="EAID_132FF7C4_B1C8_4004_8FB4_E027E993BA02"/>
+			</UML:ModelElement.taggedValue>
+		</UML:DiagramElement>
 		<UML:DiagramElement geometry="Left=171;Top=162;Right=366;Bottom=270;" subject="EAID_742A46FC_1B60_4777_97FF_38BDE8CB23A1" seqno="4" style=" DUID=1EA66E37;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;">
 			<UML:ModelElement.taggedValue>
 				<UML:TaggedValue tag="diagram_guid" value="EAID_1F1DC550_C127_4272_BF06_074FEC06F5A1"/>
+			</UML:ModelElement.taggedValue>
+		</UML:DiagramElement>
+		<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=42:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;" subject="EAID_00902D0D_71A8_4ec3_81E8_789C32CD1630" style="Mode=3;EOID=FAEEE9AE;SOID=B0929832;Color=-1;LWidth=0;">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="diagram_guid" value="EAID_132FF7C4_B1C8_4004_8FB4_E027E993BA02"/>
+				<UML:TaggedValue tag="hidden" value="0"/>
 			</UML:ModelElement.taggedValue>
 		</UML:DiagramElement>
 		<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=42:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;" subject="EAID_0718A39E_2181_4999_8D14_CE4FBDA6F370" style="Mode=3;EOID=AC973931;SOID=8F8E5B17;Color=-1;LWidth=0;">
@@ -510,6 +554,12 @@
 		<UML:DiagramElement geometry="SX=-2;SY=23;EX=-2;EY=23;EDGE=4;$LLB=;LLT=;LMT=;LMB=CX=42:CY=13:OX=50:OY=5:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;" subject="EAID_FF99BFD7_CB6B_463f_BABA_A0AD62BED0D0" style="Mode=2;EOID=C599C076;SOID=2BB7EDE3;Color=-1;LWidth=0;">
 			<UML:ModelElement.taggedValue>
 				<UML:TaggedValue tag="diagram_guid" value="EAID_A902C822_EC73_4af6_BE4B_53D7D6DB0091"/>
+				<UML:TaggedValue tag="hidden" value="0"/>
+			</UML:ModelElement.taggedValue>
+		</UML:DiagramElement>
+		<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=42:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;" subject="EAID_00902D0D_71A8_4ec3_81E8_789C32CD1630" style="Mode=3;EOID=FAEEE9AE;SOID=B0929832;Color=-1;LWidth=0;">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="diagram_guid" value="EAID_132FF7C4_B1C8_4004_8FB4_E027E993BA02"/>
 				<UML:TaggedValue tag="hidden" value="0"/>
 			</UML:ModelElement.taggedValue>
 		</UML:DiagramElement>
@@ -552,6 +602,7 @@
 	</XMI.content>
 	<XMI.difference/>
 	<XMI.extensions xmi.extender="Enterprise Architect 2.5">
+		<EAStub xmi.id="EAPK_1ECA25EF_2DD3_4181_BA29_50C1A2B4B4BA" name="ISO 19103:2005 Schema Language" UMLType="Package"/>
 		<EAStub xmi.id="EAPK_4FE4B4AC_23C1_4804_8B96_0DD2A5EC0B07" name="FSDFGazetteer" UMLType="Package"/>
 		<EAStub xmi.id="EAPK_D23A598A_3FE2_4eee_89B2_C6114D9EB4AA" name="FSDF ElectoralUnit" UMLType="Package"/>
 		<EAStub xmi.id="EAPK_AA0088C3_55D7_4667_A690_07D2C0CB9C39" name="FSDF GovernmentUnit" UMLType="Package"/>
