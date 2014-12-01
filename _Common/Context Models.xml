@@ -10,11 +10,11 @@
 		<UML:Model name="EA Model" xmi.id="MX_EAID_742A46FC_1B60_4777_97FF_38BDE8CB23A1">
 			<UML:Namespace.ownedElement>
 				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
-				<UML:Package name="FSDF Core Context Models" xmi.id="EAPK_742A46FC_1B60_4777_97FF_38BDE8CB23A1" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+				<UML:Package name="FSDF Core Context Model" xmi.id="EAPK_742A46FC_1B60_4777_97FF_38BDE8CB23A1" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 					<UML:ModelElement.taggedValue>
 						<UML:TaggedValue tag="parent" value="EAPK_04E88FC4_E20B_4c6f_BC03_2370B9EE54CF"/>
 						<UML:TaggedValue tag="created" value="2014-05-28 13:13:07"/>
-						<UML:TaggedValue tag="modified" value="2014-11-20 15:50:28"/>
+						<UML:TaggedValue tag="modified" value="2014-12-01 13:53:45"/>
 						<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 						<UML:TaggedValue tag="xmlpath" value="_Common\Context Models.xml"/>
 						<UML:TaggedValue tag="lastloaddate" value="2014-12-01 13:51:38"/>
@@ -53,7 +53,7 @@
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_1D337776_AA32_4e34_A7D5_B9266CCC794D"/>
-										<UML:TaggedValue tag="package_name" value="FSDF Core Context Models"/>
+										<UML:TaggedValue tag="package_name" value="FSDF Core Context Model"/>
 										<UML:TaggedValue tag="phase" value="1.0"/>
 										<UML:TaggedValue tag="author" value="box019"/>
 										<UML:TaggedValue tag="complexity" value="1"/>
@@ -79,7 +79,7 @@
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_D13EB697_06CD_4562_A743_B05082E881BE"/>
-										<UML:TaggedValue tag="package_name" value="FSDF Core Context Models"/>
+										<UML:TaggedValue tag="package_name" value="FSDF Core Context Model"/>
 										<UML:TaggedValue tag="phase" value="1.0"/>
 										<UML:TaggedValue tag="complexity" value="1"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
@@ -105,7 +105,7 @@
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_FCB6064E_0D65_43fd_B768_B370634DB6BE"/>
-										<UML:TaggedValue tag="package_name" value="FSDF Core Context Models"/>
+										<UML:TaggedValue tag="package_name" value="FSDF Core Context Model"/>
 										<UML:TaggedValue tag="phase" value="1.0"/>
 										<UML:TaggedValue tag="author" value="box019"/>
 										<UML:TaggedValue tag="complexity" value="1"/>
@@ -128,7 +128,7 @@
 										<UML:TaggedValue tag="date_modified" value="2014-07-25 16:58:29"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_FDD40ADC_1ED7_46cc_8DBC_C3B55DBB5B05"/>
-										<UML:TaggedValue tag="package_name" value="FSDF Core Context Models"/>
+										<UML:TaggedValue tag="package_name" value="FSDF Core Context Model"/>
 										<UML:TaggedValue tag="phase" value="1.0"/>
 										<UML:TaggedValue tag="complexity" value="1"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
@@ -154,7 +154,7 @@
 								<UML:TaggedValue tag="date_modified" value="2014-07-25 16:59:02"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
-								<UML:TaggedValue tag="package_name" value="FSDF Core Context Models"/>
+								<UML:TaggedValue tag="package_name" value="FSDF Core Context Model"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
 								<UML:TaggedValue tag="author" value="box019"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
