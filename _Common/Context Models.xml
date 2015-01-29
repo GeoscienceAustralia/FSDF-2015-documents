@@ -2598,7 +2598,7 @@
 												<UML:TaggedValue tag="ea_stype" value="Public"/>
 											</UML:ModelElement.taggedValue>
 											<UML:Namespace.ownedElement>
-												<UML:UseCase name="Create FSDF register" xmi.id="EAID_0FDE514C_C0A1_4245_95BF_1D850A640811" visibility="public" namespace="EAPK_9D271675_F527_4a8f_8AD0_B5B05AEB5664" isRoot="false" isLeaf="false" isAbstract="false">
+												<UML:UseCase name="Create &amp; manage FSDF register" xmi.id="EAID_0FDE514C_C0A1_4245_95BF_1D850A640811" visibility="public" namespace="EAPK_9D271675_F527_4a8f_8AD0_B5B05AEB5664" isRoot="false" isLeaf="false" isAbstract="false">
 													<UML:ModelElement.taggedValue>
 														<UML:TaggedValue tag="isSpecification" value="false"/>
 														<UML:TaggedValue tag="ea_stype" value="UseCase"/>
@@ -2607,7 +2607,7 @@
 														<UML:TaggedValue tag="isActive" value="false"/>
 														<UML:TaggedValue tag="package" value="EAPK_9D271675_F527_4a8f_8AD0_B5B05AEB5664"/>
 														<UML:TaggedValue tag="date_created" value="2015-01-28 17:03:45"/>
-														<UML:TaggedValue tag="date_modified" value="2015-01-29 10:20:57"/>
+														<UML:TaggedValue tag="date_modified" value="2015-01-29 12:09:35"/>
 														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 														<UML:TaggedValue tag="tagged" value="0"/>
 														<UML:TaggedValue tag="package_name" value="Model framework"/>
@@ -2634,7 +2634,7 @@
 														<UML:TaggedValue tag="lineStyle" value="0"/>
 														<UML:TaggedValue tag="ea_localid" value="15938"/>
 														<UML:TaggedValue tag="ea_sourceName" value="Register Owner"/>
-														<UML:TaggedValue tag="ea_targetName" value="Create FSDF register"/>
+														<UML:TaggedValue tag="ea_targetName" value="Create &amp; manage FSDF register"/>
 														<UML:TaggedValue tag="ea_sourceType" value="Actor"/>
 														<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
 														<UML:TaggedValue tag="ea_sourceID" value="13480"/>
@@ -2671,7 +2671,7 @@
 														<UML:TaggedValue tag="lineStyle" value="0"/>
 														<UML:TaggedValue tag="ea_localid" value="15905"/>
 														<UML:TaggedValue tag="ea_sourceName" value="Registry Manager"/>
-														<UML:TaggedValue tag="ea_targetName" value="Create FSDF register"/>
+														<UML:TaggedValue tag="ea_targetName" value="Create &amp; manage FSDF register"/>
 														<UML:TaggedValue tag="ea_sourceType" value="Actor"/>
 														<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
 														<UML:TaggedValue tag="ea_sourceID" value="13481"/>
