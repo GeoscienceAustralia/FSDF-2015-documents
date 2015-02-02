@@ -12,7 +12,7 @@
 				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
 				<UML:Package name="FSDF Core Definition Model" xmi.id="EAPK_56927824_526C_4643_B637_B4159E230394" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 					<UML:ModelElement.stereotype>
-						<UML:Stereotype xmi.idref="EAID_7B04DCEF_01DF_41ae_ABFD_3F8C0BEA245B"/>
+						<UML:Stereotype xmi.idref="EAID_9CD8981B_17E3_46ac_ADF9_DF18136ED5E9"/>
 					</UML:ModelElement.stereotype>
 					<UML:ModelElement.taggedValue>
 						<UML:TaggedValue tag="documentation" value="The FSDF Core Definition Model package contains common behavior model for any unit definitions, including nested hierarchy of areas.  The model addresses issues of navigation and cross referencing between hierarchies and the scoping of topology to versions of hierarchies.&#xA;&#xA;The hierarchy describes the topological relationships, not the (potentially multiple) alternative geometric descriptions of objects (see package AreaRepresentation)."/>
@@ -948,7 +948,7 @@
 						</UML:Dependency>
 						<UML:Package name="GeometryRepresentation" xmi.id="EAPK_F921DBEF_D104_4dc1_8269_CBE1DABA0AB7" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_C733FC18_343B_4236_B152_D4A4C465B8DD"/>
+								<UML:Stereotype xmi.idref="EAID_83C94D0A_C164_420b_8DD8_D54D2BB67816"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="documentation" value="-- Definition --&#xA;The GeometryRepresentation is the geographical representation of any recorded (versioned) topological unit.  This model provides for multiple geometry representations of an area object independent of its definition, i.e., while a jurisdictional entity remains unchanged (to ensure its spatial relationship with other units), its geographical representation may change over."/>
@@ -1220,7 +1220,7 @@
 										<UML:TaggedValue tag="ea_targetID" value="8530"/>
 										<UML:TaggedValue tag="$ea_src_xref_property" value="$XREFPROP=$XID={B1B4752A-7040-498b-AF8A-7141201D2BFE}$XID;$NAM=Stereotypes$NAM;$TYP=connectorSrcEnd property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=property;FQName=ISO 19100::property;@ENDSTEREO;$DES;$CLT={DD9842F5-8455-4dcb-82CB-3EB7985AB63A}$CLT;$ENDXREF;"/>
 										<UML:TaggedValue tag="$ea_dst_xref_property" value="$XREFPROP=$XID={866EE36A-126C-43f5-9C69-0644542FE709}$XID;$NAM=Stereotypes$NAM;$TYP=connectorDestEnd property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=property;FQName=ISO 19100::property;@ENDSTEREO;$DES;$CLT={DD9842F5-8455-4dcb-82CB-3EB7985AB63A}$CLT;$ENDXREF;"/>
-										<UML:TaggedValue tag="privatedata5" value="SX=-5;SY=-10;EX=-5;EY=-10;EDGE=4;"/>
+										<UML:TaggedValue tag="privatedata5" value="SX=3;SY=-3;EX=3;EY=2;EDGE=4;"/>
 										<UML:TaggedValue tag="virtualInheritance" value="0"/>
 										<UML:TaggedValue tag="lb" value="1"/>
 										<UML:TaggedValue tag="lt" value="+definition&#xA;«property»"/>
@@ -1257,7 +1257,7 @@
 						</UML:Package>
 						<UML:Package name="SpatialRelationships" xmi.id="EAPK_8D949D61_F3E9_4bc0_82EC_010B288B22BD" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_C733FC18_343B_4236_B152_D4A4C465B8DD"/>
+								<UML:Stereotype xmi.idref="EAID_83C94D0A_C164_420b_8DD8_D54D2BB67816"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="documentation" value="This model provides a pattern for describing spatial relationships between objects whose definitions (and hence conceptual models) are not directly related.&#xA;&#xA;-- Definition --&#xA;The SpatialRelationship package realizes cross relationships between different spatial domains/packages at potentially diffrent hierarchy levels"/>
@@ -1571,7 +1571,7 @@
 										<UML:TaggedValue tag="ea_targetID" value="8536"/>
 										<UML:TaggedValue tag="$ea_src_xref_property" value="$XREFPROP=$XID={FE635552-4E26-49cc-8701-D4DA5666F0F6}$XID;$NAM=Stereotypes$NAM;$TYP=connectorSrcEnd property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=property;FQName=ISO 19100::property;@ENDSTEREO;$DES;$CLT={3B48F409-FA5D-4052-8ECE-769A17475138}$CLT;$ENDXREF;"/>
 										<UML:TaggedValue tag="$ea_dst_xref_property" value="$XREFPROP=$XID={83C772F0-7343-4f3e-AC81-063BC6EE4636}$XID;$NAM=Stereotypes$NAM;$TYP=connectorDestEnd property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=property;FQName=ISO 19100::property;@ENDSTEREO;$DES;$CLT={3B48F409-FA5D-4052-8ECE-769A17475138}$CLT;$ENDXREF;"/>
-										<UML:TaggedValue tag="privatedata5" value="SX=-90;SY=-6;EX=-90;EY=-6;EDGE=3;"/>
+										<UML:TaggedValue tag="privatedata5" value="EDGE=4;"/>
 										<UML:TaggedValue tag="virtualInheritance" value="0"/>
 										<UML:TaggedValue tag="rb" value="0..*"/>
 										<UML:TaggedValue tag="rt" value="+sourceUnit"/>
@@ -1661,7 +1661,7 @@
 										<UML:TaggedValue tag="ea_targetID" value="8533"/>
 										<UML:TaggedValue tag="$ea_src_xref_property" value="$XREFPROP=$XID={0F3FBA54-901B-4603-875A-B117CDD1797A}$XID;$NAM=Stereotypes$NAM;$TYP=connectorSrcEnd property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=property;FQName=ISO 19100::property;@ENDSTEREO;$DES;$CLT={BC67002B-D4E2-47ef-B999-49CA812344FE}$CLT;$ENDXREF;"/>
 										<UML:TaggedValue tag="$ea_dst_xref_property" value="$XREFPROP=$XID={EDA6D930-21B2-49aa-AE71-99D1AB6416E2}$XID;$NAM=Stereotypes$NAM;$TYP=connectorDestEnd property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=property;FQName=ISO 19100::property;@ENDSTEREO;$DES;$CLT={BC67002B-D4E2-47ef-B999-49CA812344FE}$CLT;$ENDXREF;"/>
-										<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
+										<UML:TaggedValue tag="privatedata5" value="SX=-4;SY=34;EX=-4;EY=34;EDGE=2;"/>
 										<UML:TaggedValue tag="virtualInheritance" value="0"/>
 										<UML:TaggedValue tag="rb" value="0..*"/>
 										<UML:TaggedValue tag="rt" value="+knownSpatialRelationship"/>
@@ -1714,7 +1714,7 @@
 						</UML:Package>
 						<UML:Package name="Unit Definition" xmi.id="EAPK_57A77AE4_7B10_48b8_8C4B_00A43434F708" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_C733FC18_343B_4236_B152_D4A4C465B8DD"/>
+								<UML:Stereotype xmi.idref="EAID_83C94D0A_C164_420b_8DD8_D54D2BB67816"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="documentation" value="-- Definition --&#xA;The UD sub-package contains logical definition and common behavior for any nested hierarchy of units  The model addresses issues of navigation and cross referencing between hierarchies and the scoping of topology to versions of hierarchies. UD describes the topological relationships, not the (potentially multiple) alternative geometric descriptions of objects (see package AD / AR)."/>
@@ -1809,10 +1809,10 @@
 								</UML:Generalization>
 								<UML:Association xmi.id="EAID_A7515B6F_271C_48ac_BEE2_E7394955A5FB" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="style" value="2"/>
 										<UML:TaggedValue tag="ea_type" value="Association"/>
 										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linemode" value="2"/>
 										<UML:TaggedValue tag="linecolor" value="-1"/>
 										<UML:TaggedValue tag="linewidth" value="0"/>
 										<UML:TaggedValue tag="seqno" value="0"/>
@@ -1826,6 +1826,7 @@
 										<UML:TaggedValue tag="ea_sourceID" value="8536"/>
 										<UML:TaggedValue tag="ea_targetID" value="8535"/>
 										<UML:TaggedValue tag="$ea_dst_xref_property" value="$XREFPROP=$XID={7CE938EA-C256-4459-9610-6C1AB415C2CD}$XID;$NAM=Stereotypes$NAM;$TYP=connectorDestEnd property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=property;FQName=ISO 19100::property;@ENDSTEREO;@STEREO;Name=voidable;GUID={945C9D67-0EFA-4fd4-A914-DAC20A318C53};@ENDSTEREO;$DES;$CLT={A7515B6F-271C-48ac-BEE2-E7394955A5FB}$CLT;$ENDXREF;"/>
+										<UML:TaggedValue tag="privatedata5" value="SX=-38;SY=-3;EX=-132;EY=10;EDGE=2;"/>
 										<UML:TaggedValue tag="virtualInheritance" value="0"/>
 										<UML:TaggedValue tag="rb" value="0..*"/>
 										<UML:TaggedValue tag="rt" value="+metadata&#xA;«property»"/>
@@ -2517,7 +2518,7 @@
 										<UML:TaggedValue tag="ea_targetType" value="Class"/>
 										<UML:TaggedValue tag="ea_sourceID" value="8536"/>
 										<UML:TaggedValue tag="ea_targetID" value="8536"/>
-										<UML:TaggedValue tag="privatedata5" value="SCTR=1;SCME=1;SX=0;SY=0;EX=0;EY=0;EDGE=1;SCTR.LEFT=805;SCTR.TOP=-45;SCTR.RIGHT=925;SCTR.BOTTOM=-6;"/>
+										<UML:TaggedValue tag="privatedata5" value="SCTR=1;SCME=1;SX=0;SY=0;EX=0;EY=0;EDGE=4;SCTR.LEFT=796;SCTR.TOP=-711;SCTR.RIGHT=943;SCTR.BOTTOM=-625;"/>
 										<UML:TaggedValue tag="virtualInheritance" value="0"/>
 										<UML:TaggedValue tag="lb" value="0..*"/>
 										<UML:TaggedValue tag="mt" value="identityRelationship"/>
@@ -2797,10 +2798,10 @@
 								</UML:Association>
 								<UML:Generalization subtype="EAID_BF5DD3DF_D295_44b3_8D9A_EB5CEB605274" supertype="EAID_573DD2CE_15B3_4ddc_B897_57A6374B4A41" name="isDefinedAs" xmi.id="EAID_FA3A38EB_B6BA_40a7_846B_AFFC8374B7E7" visibility="public">
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="style" value="2"/>
+										<UML:TaggedValue tag="style" value="3"/>
 										<UML:TaggedValue tag="ea_type" value="Generalization"/>
 										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-										<UML:TaggedValue tag="linemode" value="2"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
 										<UML:TaggedValue tag="linecolor" value="-1"/>
 										<UML:TaggedValue tag="linewidth" value="0"/>
 										<UML:TaggedValue tag="seqno" value="0"/>
@@ -2829,7 +2830,7 @@
 										<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 										<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 										<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
-										<UML:TaggedValue tag="privatedata5" value="SX=0;SY=20;EX=0;EY=20;EDGE=2;"/>
+										<UML:TaggedValue tag="privatedata5" value="SX=-45;SY=-4;EX=-56;EY=-4;EDGE=3;"/>
 										<UML:TaggedValue tag="virtualInheritance" value="0"/>
 										<UML:TaggedValue tag="mt" value="isDefinedAs"/>
 									</UML:ModelElement.taggedValue>
@@ -3237,7 +3238,7 @@
 						</UML:Package>
 						<UML:Package name="VersionDefinition" xmi.id="EAPK_755E17B1_0B4C_49cd_A3E8_BE5B91A645A9" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EAID_C733FC18_343B_4236_B152_D4A4C465B8DD"/>
+								<UML:Stereotype xmi.idref="EAID_83C94D0A_C164_420b_8DD8_D54D2BB67816"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="documentation" value="-- Definition --&#xA;VersionDefinition relates to the area model entities, which are defined by the definition process, e.g., transaction processes related to these model entities such as creation, change, deletion etc.  The VersionDefinition can be seen as a common model of metadata to support tracing object definition and source of normative geometry representation where relevant."/>
@@ -3657,10 +3658,10 @@
 						</UML:Package>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
-				<UML:Stereotype xmi.id="EAID_7B04DCEF_01DF_41ae_ABFD_3F8C0BEA245B" name="Application Schema" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_9CD8981B_17E3_46ac_ADF9_DF18136ED5E9" name="Application Schema" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
-				<UML:Stereotype xmi.id="EAID_C733FC18_343B_4236_B152_D4A4C465B8DD" name="Leaf" isRoot="false" isLeaf="false" isAbstract="false">
+				<UML:Stereotype xmi.id="EAID_83C94D0A_C164_420b_8DD8_D54D2BB67816" name="Leaf" isRoot="false" isLeaf="false" isAbstract="false">
 					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
 				</UML:Stereotype>
 				<UML:DataType xmi.id="eaxmiid0" name="GM_Object" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
