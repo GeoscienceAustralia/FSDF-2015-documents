@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Maritime Units Model</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA110.png" usemap="#EA110" border="0" />
+
+<MAP NAME="EA110">
+<area shape="rect" coords="1031,523,1226,710" href="EA117.htm" target="_self">
+<area shape="rect" coords="831,578,981,663" href="EA127.htm" target="_self">
+<area shape="rect" coords="1047,282,1183,350" href="EA113.htm" target="_self">
+<area shape="rect" coords="52,97,260,206" href="../../../EA2/EA2/EA1/EA392.htm" target="_self">
+<area shape="rect" coords="383,54,583,212" href="../../../EA2/EA2/EA4/EA407.htm" target="_self">
+<area shape="rect" coords="754,42,946,226" href="../../../EA2/EA2/EA3/EA403.htm" target="_self">
+<area shape="rect" coords="1032,49,1181,138" href="EA123.htm" target="_self">
+<area shape="rect" coords="35,10,341,89" href="EA114.htm" target="_self">
+<area shape="rect" coords="624,596,739,651" href="EA115.htm" target="_self">
+<area shape="rect" coords="59,554,323,669" href="EA119.htm" target="_self">
+<area shape="rect" coords="392,562,595,681" href="EA118.htm" target="_self">
+<area shape="rect" coords="387,340,592,445" href="EA124.htm" target="_self">
+<area shape="rect" coords="1038,161,1182,232" href="EA120.htm" target="_self">
+<area shape="rect" coords="752,329,951,461" href="EA126.htm" target="_self">
+<area shape="rect" coords="10,707,717,1119" href="EA112.htm" target="_self">
+<area shape="rect" coords="740,795,1436,1156" href="EA116.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">Maritime Units Model : Class diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">12/03/2014 1:01:54 PM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">14/03/2014 10:17:07 AM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">akmiecik</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{547BFA65-5EBF-4f1b-B393-7F2355267E0C}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>
